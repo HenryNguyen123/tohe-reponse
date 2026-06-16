@@ -35,7 +35,10 @@ const NavComponent =  () => {
                     } */}
                     <div className="top-line-pink">
                         <div className="line-pink">
-                            <span>LƯU Ý: Đây là sản phẩm giả lập của sinh viên Khoa TT&VHĐN, Học viện Ngoại giao, phục vụ cho môn học truyền thông đa phương tiện</span>
+                            <span>
+                                LƯU Ý: Đây là sản phẩm giả lập của sinh viên Khoa TT&VHĐN, Học viện Ngoại giao, phục vụ cho môn học truyền thông đa phương tiện. 
+                                Sản phẩm không phục vụ cho mục đích thương mại và không đại diện cho Tòhe
+                            </span>
                         </div>
                     </div>
                     <Navbar expand="lg" className="bg-body-tertiary" bg="" data-bs-theme="">
@@ -45,7 +48,7 @@ const NavComponent =  () => {
                                     src="/img/tohe/trang-chu/v39_39.png"
                                     width="94"
                                     height="64"
-                                    className="d-inline-block align-top"
+                                    className="d-inline-block align-top image-header"
                                     alt="React Bootstrap logo"
                                 />
                                 {/* <span className="brand-name">React-Bootstrap</span> */}

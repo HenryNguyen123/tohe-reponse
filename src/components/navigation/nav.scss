@@ -28,11 +28,11 @@
         .line-pink{
             padding: 7px;
             width: 1200px;
-            height: 49px;
+            height: 70px;
             display: flex;
             justify-content: center;
             span{
-                // text-align: center;
+                text-align: center;
                 margin-top: 5px;
                 font-size: 18px;
                 color: #C40000;
@@ -40,9 +40,12 @@
         }
     }
     .container-nav-head{
-        margin: 0px 120px 53px 120px;
+        // margin: 0px 120px 53px 120px;
         .brand-name {
             color: #61dafb !important;
+        }
+        .image-header{
+            // margin-left: 200px;
         }
         a,
         .nav-link {

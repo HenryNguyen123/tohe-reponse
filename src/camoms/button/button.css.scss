@@ -1,0 +1,15 @@
+.button-context-box{
+    .button-item{
+        background-color: #014CA4;
+        height: 50px;
+        width: 170px;
+        border: 1px solid #014CA4;
+        border-radius: 25px;
+        span{
+            color: #fff;
+        }
+        &:hover{
+            scale: 1.1;
+        }
+    }
+}

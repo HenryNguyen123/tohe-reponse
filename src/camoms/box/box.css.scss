@@ -1,0 +1,43 @@
+// box image
+.box-image-container{
+    margin: 0px 16px 100px 16px;
+    .box-image-content{
+        width: 337px;
+        .box-image-item-one{
+            width: 337px;
+            height: 337px;
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+        }
+        .box-image-context{
+            display: flex;
+            justify-content: space-between;
+            border-bottom-left-radius: 15px;
+            border-bottom-right-radius: 15px;
+            box-shadow: 0 10px 15px rgba(9, 0, 0, 0.15);
+            .box-image-context-item-two{
+                margin-left: 16px;
+                margin-top: 16px;
+                width: 70px;
+                height: 30px;
+                cursor: pointer;
+                &:hover{
+                    scale: 1.1;
+                }
+            }
+            .box-img-button{
+                margin-top: 16px;
+                margin-right: 16px;
+                margin-bottom: 16px;
+                width: 150px;
+                height: 30px;
+                border-radius: 16px;
+                border: 1px solid #000;
+                background-color: #fff;
+                &:hover{
+                    scale: 1.1;
+                }
+            }
+        }
+    }
+}

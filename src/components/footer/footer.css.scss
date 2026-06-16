@@ -1,0 +1,86 @@
+.contaier-footer{
+    display: flex;
+    justify-content: center;
+    .footer-context{
+        height: 355px;
+        width: 1189px;
+        margin: 0px 125px;
+        border-top: 1px solid #fff;
+        border-left: 1px solid #fff;
+        border-right: 1px solid #fff;
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+        box-shadow: 0px -18px 30px rgba(0, 0, 0, 0.15);
+        .context-box{
+            margin: 40px 33px;
+            display: flex;
+            justify-content: space-between;
+            .box-item-footer{
+                // margin-right: 83px;
+                .footer-logo{
+                    margin-top: 15px;
+                    img{
+                        margin-left: -30px;
+                        margin-top: -30px;
+                    }
+                }
+                .footer-logo-ft1{
+                    margin-left: -60px;
+                    margin-top: -30px;
+                }
+                .foter-logo-branch-ft1{
+                    display: flex;
+                    justify-content: space-between;
+                    .item_one-foter-logo-branch-ft1{
+                        display: flex;
+                        h4{
+                            margin-right: 15px;
+                            font-weight: 700;
+                        }
+                        .icon-ft1{
+                            display: flex;
+                            .item_icon-ft1{
+                                width: 30px;
+                                height: 30px;
+                            }
+                            .item_icon-instagram-ft1{
+                                width: 50px;
+                                height: 50px;
+                                margin-top: -10px
+                            }
+                        }
+                    }
+                    .item_two-foter-logo-branch-ft1{}
+                }
+            }
+            .title-ft1{
+                width: 400px;
+                h5{
+                    font-weight: 700;
+                }
+            }
+            .box_item-flex{
+                display: flex;
+                justify-content: space-between;
+                .item_item-box-footer{
+                    margin-top: 77px;
+                    ul{
+                        li{
+                            h4{
+                                font-weight: 700;
+                            }
+                        }
+                        li{
+                            p{
+                                &:hover{
+                                    border-bottom: 2px solid #61dafb;
+                                    cursor: pointer;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

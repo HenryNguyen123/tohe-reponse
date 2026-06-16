@@ -5,11 +5,13 @@ import ToastifyComponent from './components/toastify/ToastifyComponent'
 import _ from 'lodash'
 import AppRouter from './routers/AppRouter'
 import { Audio } from 'react-loader-spinner'
-import { useContext } from 'react'
+import { useContext, useEffect  } from 'react'
 import { UserContext } from './components/context/UserContext'
 
 function App() {
-
+  useEffect(() => {
+    document.title = 'Trang Chủ';
+  }, [])
   const {loadingAccount} = useContext(UserContext)
   if (loadingAccount) {
     return (

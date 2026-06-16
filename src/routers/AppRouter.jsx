@@ -8,6 +8,7 @@ import { useContext, useEffect } from 'react'
 import { UserContext } from '../components/context/UserContext'
 import AccountComponent from '../components/account/AccountComponent'
 import RolesComponent from '../components/roles/RolesComponent'
+import LayoutComponent from '../components/layouts/layoutComponent'
 
 
 const AppRouter = () => {
@@ -56,15 +57,17 @@ const AppRouter = () => {
     }, [user, navigate, path, loadingAccount, jwtSession, jwtLocal])
         return(
             <>
-                <Routes path='/' element={ <HomeComponent/>} >
-                    <Route path='/' element={ <HomeComponent/>} ></Route>
-                    <Route path='/login' element={ <LoginComponent/>} ></Route>
-                    <Route path='/register' element={ <RegisterComponent/>} ></Route>
-                    <Route path='/users' element={ <UsersComponent/>} ></Route>
-                    <Route path='/account' element={ <AccountComponent/>} ></Route>
-                    <Route path='/roles' element={ <RolesComponent/>} ></Route>
-    
-                    <Route path='*' element={<div>404 not found</div>}></Route>
+                <Routes>
+                    <Route path='/' element={ <LayoutComponent/>} >
+                        <Route index element={ <HomeComponent/>} ></Route>
+                        <Route path='/login' element={ <LoginComponent/>} ></Route>
+                        <Route path='/register' element={ <RegisterComponent/>} ></Route>
+                        <Route path='/users' element={ <UsersComponent/>} ></Route>
+                        <Route path='/account' element={ <AccountComponent/>} ></Route>
+                        <Route path='/roles' element={ <RolesComponent/>} ></Route>
+        
+                        <Route path='*' element={<div>404 not found</div>}></Route>
+                    </Route>
                 </Routes>
             </>
         )

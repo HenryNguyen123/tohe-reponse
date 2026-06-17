@@ -33,9 +33,10 @@
                     justify-content: space-between;
                     .item_one-foter-logo-branch-ft1{
                         display: flex;
-                        h4{
+                        .footer-box-text{
                             margin-right: 15px;
                             font-weight: 700;
+                            font-family: "UVN Van B";
                         }
                         .icon-ft1{
                             display: flex;
@@ -63,8 +64,9 @@
             }
             .title-ft1{
                 width: 400px;
-                h5{
-                    font-size: 26px;
+                .footer-box-text{
+                    // font-size: 26px;
+                    font-family: "UVN Van B";
                 }
             }
             .box_item-flex{
@@ -74,8 +76,9 @@
                     margin-top: 77px;
                     ul{
                         li{
-                            h4{
-                                // font-weight: 700;
+                            .footer-box-text{
+                                font-weight: 700;
+                                font-family: "UVN Van B";
                             }
                         }
                         li{

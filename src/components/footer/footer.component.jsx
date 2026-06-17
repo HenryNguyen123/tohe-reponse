@@ -12,7 +12,7 @@ const FooterComponent = () => {
                                     height="100" alt="logo" />
                             </div>
                             <div className='title-ft1'>
-                                <h5>Công Ty Cổ Phần Tòhe</h5>
+                                <p className='footer-box-text'>Công Ty Cổ Phần Tòhe</p>
                                 <p>Tòhe là doanh nghiệp xã hội tiên phong trong lĩnh vực sáng tạo vì trẻ em đặc biệt tại Việt Nam, kết nối nghệ thuật, giáo dục và cộng đồng để tạo nên những giá trị nhân văn bền vững.</p>
                             </div>
                             <div className="footer-logo-ft1">
@@ -22,7 +22,7 @@ const FooterComponent = () => {
                             </div>
                             <div className="foter-logo-branch-ft1">
                                 <div className='item_one-foter-logo-branch-ft1'>
-                                    <h4>Kết nối</h4>
+                                    <p className='footer-box-text'>Kết nối</p>
                                     <div className="icon-ft1">
                                         <img src="/img/tohe/trang-chu/v478_1232.png" alt="facebook" className='item_icon-ft1' />
                                         <img src="/img/tohe/trang-chu/v478_1250.png" alt="instagram" className='item_icon-instagram-ft1' />
@@ -38,7 +38,7 @@ const FooterComponent = () => {
                             <div className="box_item-flex">
                                 <div className="item_item-box-footer">
                                     <ul>
-                                        <li><h4>Giới thiệu</h4></li>
+                                        <li><p className='footer-box-text'>Giới thiệu</p></li>
                                         <li><p>Về Tòhe</p></li>
                                         <li><p>Hình thức đồng hành</p></li>
                                         <li><p>Case study</p></li>
@@ -46,7 +46,7 @@ const FooterComponent = () => {
                                 </div>
                                 <div className="item_item-box-footer">
                                     <ul>
-                                        <li><h4>Hình thức đồng hành</h4></li>
+                                        <li><p className='footer-box-text'>Hình thức đồng hành</p></li>
                                         <li><p>Đồng hành phát triển quà tặng doanh nghiệp</p></li>
                                         <li><p>Đồng hành giáo dục và sân chơi sáng tạo </p></li>
                                         <li><p>Đồng hành phát triển dự án xã hội</p></li>
@@ -54,7 +54,7 @@ const FooterComponent = () => {
                                 </div>
                                 <div className="item_item-box-footer">
                                     <ul>
-                                        <li><h4>Chính sách</h4></li>
+                                        <li><p className='footer-box-text'>Chính sách</p></li>
                                         <li><p>Chính sách bảo mật</p></li>
                                         <li><p>Chính sách bảo hành</p></li>
                                     </ul>

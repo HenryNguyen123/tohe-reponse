@@ -47,9 +47,10 @@
 .box-title-container{
     width: 387px;
     height: 569px;
-    border: 1px solid #000;
+    border: 1px solid #fff;
     border-radius: 15px;
     box-shadow: 0 10px 15px rgba(9, 0, 0, 0.15);
+    position: relative;
     .box-title-content{
         .box-title-icon{
             display: flex;
@@ -82,10 +83,13 @@
             list-style:disc;
             margin: 0px 25px;
         }
-        .button-title-box{
-            display: flex;
-            justify-content: center;
-            margin-top: 44px;
-        }
+    }
+    .button-title-box{
+        position: absolute;
+        bottom: 20px;
+        left: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
     }
 }

@@ -26,6 +26,7 @@
                 margin-top: -20px;
                 p{
                     text-align: center;
+                    font-weight: bold;
                 }
             }
             .home-context_box-background-hm1{
@@ -97,7 +98,6 @@
         flex-direction: column;
         h1{
             text-align: center;
-            font-weight: bolder;
         }
         .home-img-branch-hm1{
             display: flex;
@@ -228,6 +228,8 @@
             width: 1200px;
             display: flex;
             justify-content: space-between;
+            margin-top: 40px;
+            margin-bottom: 100px;
         }
     }
 } 
@@ -239,4 +241,11 @@
 }
 .text-pink{
     color: #EC008C;
+}
+.text-bold-height{
+    font-weight: 700;
+    text-shadow: 1px 1px 1px currentColor;
+}
+.text-bold-base{
+    
 }

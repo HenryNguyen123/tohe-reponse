@@ -44,6 +44,14 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-family: "SVN Van";
+    h1, h2, h3, h4, h5, h6{
+        font-family: "VN-Wosker";
+    }
+    p{
+        font-size: 18px;
+        line-height: 18px;
+    }
 }
 
 ul {
@@ -59,4 +67,8 @@ ul {
         margin: 0px auto;
 
     }
+}
+.text-bold-base{
+    font-weight: 600;
+    text-shadow: 0px 0px 1px currentColor;
 }

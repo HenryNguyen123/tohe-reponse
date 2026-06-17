@@ -1,26 +1,64 @@
+import { FiGift  } from "react-icons/fi";
+import { BsBook } from "react-icons/bs";
+import { TbMessageCircleStar } from "react-icons/tb";
 import BoxImage from '../../camoms/box/box-image.box'
 import BoxTitle from '../../camoms/box/box-title.box';
 import ButtonOne from '../../camoms/button/button-one.camon'
 import './home.scss'
 
 const HomeComponent = () => {
-const boxList = [
-    {
-        img: "/img/tohe/trang-chu/v72_14.png",
-        branch: "/img/tohe/trang-chu/v76_2.png",
-        title: "Xem Chi tiết"
-    },
-    {
-        img: "/img/tohe/trang-chu/v74_3.png",
-        branch: "/img/tohe/trang-chu/v76_3.png",
-        title: "Xem thêm"
-    },
-    {
-        img: "/img/tohe/trang-chu/v74_4.png",
-        branch: "/img/tohe/trang-chu/v76_4.png",
-        title: "Mua ngay"
-    }
-];
+    const boxList = [
+        {
+            img: "/img/tohe/trang-chu/v72_14.png",
+            branch: "/img/tohe/trang-chu/v76_2.png",
+            title: "Xem Chi tiết"
+        },
+        {
+            img: "/img/tohe/trang-chu/v74_3.png",
+            branch: "/img/tohe/trang-chu/v76_3.png",
+            title: "Xem thêm"
+        },
+        {
+            img: "/img/tohe/trang-chu/v74_4.png",
+            branch: "/img/tohe/trang-chu/v76_4.png",
+            title: "Mua ngay"
+        }
+    ];
+    const partnerList = [
+        {
+            Icon: FiGift,
+            title: "Đồng hành phát triển quà tặng doanh nghiệp",
+            description:
+                "Tòhe cung cấp giải pháp tư vấn, thiết kế độc bản và sản xuất trọn gói các tặng phẩm doanh nghiệp.",
+            items: [
+                "Thiết kế quà tặng ứng dụng tranh trẻ em đặc biệt",
+                "Xây dựng sản phẩm độc bản",
+                "Tối ưu quy trình sản xuất"
+            ]
+        },
+        {
+            Icon: BsBook ,
+            title: "Đồng hành giáo dục và sân chơi sáng tạo",
+            description:
+                "CDoanh nghiệp/Tổ chức đồng hành cùng Tòhe với vai trò tài trợ, đồng tổ chức hoặc đối tác đối ứng chi phí cho các mô hình giáo dục sáng tạo dành cho trẻ em đặc biệt và gia đình.",
+            items: [
+                "Đồng hành tổ chức sự kiện, sân chơi và hoạt động trải nghiệm nghệ thuật cho trẻ em và gia đình",
+                "Tài trợ, hỗ trợ lớp học, trại hè và sân chơi nghệ thuật cho trẻ em đặc biệt",
+                "Kết nối tổ chức, chuyên gia và nguồn lực"
+            ]
+        },
+        {
+            Icon: TbMessageCircleStar ,
+            title: "Đồng hành phát triển dự án xã hội",
+            description:
+                "Doanh nghiệp/Tổ chức đồng hành cùng Tòhe với vai trò đối tác chiến lược hoặc nhà tài trợ nhằm triển khai các dự án xã hội dài hạn và bền vững.",
+            items: [
+                "Đồng tổ chức triển lãm và chiến dịch nâng cao nhận thức cộng đồng",
+                "Hỗ trợ xây dựng sân chơi và mô hình giáo dục sáng tạo dài hạn",
+                "Phối hợp triển khai các dự án cộng đồng cùng tổ chức xã hội/quốc tế"
+            ]
+        }
+    ];
     return (
         <>
             <div className='home-container'>
@@ -60,7 +98,7 @@ const boxList = [
 
                 {/*  all branch*/}
                 <div className="home-context_box-branch-hm1">
-                    <h1>
+                    <h1 className="text-bold-height">
                         <span className='text-pink'>TÒHE</span> <span className='text-blue-weight'>- Đối tác của những <br/>
                         tổ chức/ doanh nghiệp lớn tại Việt Nam</span>
                     </h1>
@@ -72,7 +110,7 @@ const boxList = [
                 {/* box home */}
                 <div className="home-context_box-content-hm1">
                     <div className="home-context_box-tex-hm1">
-                        <h1 className='text-blue-weight'>Case Study</h1>
+                        <h1 className='text-blue-weight text-bold-height'>Case Study</h1>
                     </div>
                     <div className='home-context_box-item-hm1'>
                         {
@@ -90,7 +128,7 @@ const boxList = [
                 <div className="home-context-award-hm1">
                     <div className='home-context-award-content-hm1'>
                         <div className="home-content-award-item-hm1">
-                            <h1>VINH DỰ NHẬN GIẢI THƯỞNG DANH GIÁ</h1>
+                            <h1 className="text-bold-height">VINH DỰ NHẬN GIẢI THƯỞNG DANH GIÁ</h1>
                             <p>
                                 Sau 20 năm hoạt động, Tòhe từng được ghi nhận qua nhiều dự án xã hội, triển lãm và hoạt động <br/>
                                 sáng tạo dành cho trẻ em đặc biệt.
@@ -131,7 +169,7 @@ const boxList = [
                 {/* parter */}
                 <div className="home-content-parter-hm1">
                     <div className="home-content-parter-text-hm1">
-                        <h1>
+                        <h1 className="text-bold-height">
                             <span className='text-blue-weight'>CÁC HÌNH THỨC ĐỒNG HÀNH CÙNG</span> <span className='text-pink'>TÒHE</span>
                         </h1>
                         <p>
@@ -140,9 +178,17 @@ const boxList = [
                         </p>
                     </div>
                     <div className="home-parter-box-content-hm1">
-                        <BoxTitle/>
-                        <BoxTitle/>
-                        <BoxTitle/>
+                        {
+                            partnerList.map((item, index) => (
+                                <BoxTitle
+                                    key={index}
+                                    Icon={item.Icon}
+                                    title={item.title}
+                                    description={item.description}
+                                    items={item.items}
+                                />
+                            ))
+                        }
                     </div>
                 </div>
 

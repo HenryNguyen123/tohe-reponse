@@ -10,12 +10,12 @@
                 display: flex;
                 justify-content: space-between;
                 .tohe-top-content{
-                    margin-left: 100px;
+                    margin-left: 50px;
                     display: flex;
                     justify-content: center;
                     flex-direction: column;
                     h1{
-                        font-size: 38px;
+                        font-size: 50px;
                     }
                     .tohe-top-content-text-p{
                         // font-weight: 100;
@@ -85,6 +85,7 @@
                         h1{
                             text-align: center;
                             color: #fff;
+                            font-size: 60px;
                         }
                     }
                     .tohe-box-context{
@@ -141,26 +142,157 @@
                     }
                 }
                 .tohe-model-content-box{
+                    margin-top: 100px;
                     display: flex;
                     justify-content: space-between;
+                    margin-right: 12px;
                     .tohe-model-item-left{
                         flex: 1;
                         .tohe-model-item-left-top{
                             .tohe-model-item-left-top-h4{
                                 font-size: 24px;
-                                font-weight: bold;
                             }
                             .tohe-model-item-left-top-h1{
-
+                                font-size: 52px;
+                            }
+                        }
+                        .tohe-model-item-left-bottom{
+                            margin-top: 220px;
+                            margin-right: 20px;
+                            .tohe-model-item-left-bottom-p-top{
+                                font-size: 24px;
                             }
                         }
                     }
                     .tohe-model-item-right{
                         flex: 1;
+                        width: 620px;
+                        height: 497px;
+                        position: relative;
+                        .tohe-model-item-right-bg{
+                            display: flex;
+                            .tohe-model-item-right-bg-left{
+                                width: 376px;
+                                height: 497px;
+                                position: absolute;
+                                display: block;
+                                left: 0;
+                                bottom: -40px;
+                                border-radius: 15px;
+                                box-shadow: 0 10px 30px rgba(6, 1, 1, 0.408);
+                            }
+                            .tohe-model-item-right-bg-right{
+                                width: 220px;
+                                height: 292px;
+                                position: absolute;
+                                display: block;
+                                bottom: -40px;
+                                right: -20px;
+                                border-radius: 15px;
+                                box-shadow: 0 10px 30px rgba(133, 132, 132, 0.633);
+                                z-index: 1;
+                            }
+                            &::before {
+                                content: "";
+                                position: absolute;
+                                top: 49%;
+                                left: 66.4%;
+                                width: 37%;
+                                height: 60%;
+                                background: linear-gradient(
+                                    to bottom,
+                                    rgb(255, 255, 255),
+                                    rgba(128, 128, 128, 0.534)
+                                );
+                                border-radius: 15px;;
+                                z-index: 999;
+                            }
+                        }
                     }
                 }
             }
         }
+
+        // mission
+        .tohe-mission-container{
+            margin-top: 100px;
+            position: relative;
+            .background-content{
+                background-image: url("/img/tohe/ve tohe/v416_2949.png");
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                width: 100%;
+                height: 630px;
+                display: block;
+            }
+            &::before {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: linear-gradient(
+                    to bottom,
+                    rgba(50, 50, 50, 0.897),
+                    rgba(1, 10, 18, 0.699)
+                );
+                z-index: 1;
+            }
+            .tohe-mission-context{
+                position: absolute;
+                inset: 0;
+                z-index: 2222;
+                .tohe-mission-title{
+                    margin-top: 30px;
+                    h1{
+                        text-align: center;
+                        font-size: 64px;
+                        color: #fff;
+                    }
+                }
+                .tohe-mission-content-box{
+                    display: flex;
+                    justify-content: center;
+                    .tohe-mission-box-content{
+                        display: flex;
+                        width: 1200px;
+                        justify-content: center;
+                        flex-wrap: wrap;
+                        .tohe-mission-box-item{
+                            width: 509px;
+                            height: 180px;
+                            padding: 25px;
+                            border: 1px solid #000;
+                            border-radius: 15px;
+                            background-color: #0C4EA1;
+                            margin: 10px;
+                            .tohe-mission-box-item-top{
+                                color: #fff;
+                                font-size: 32px;
+                            }
+                            .tohe-mission-box-item-bottom{
+                                color: #fff;
+                                margin-top: 10px;
+                                padding: 0px 50px 0px 0px;
+                            }
+                            ul{
+                                list-style: disc;
+                                color: #fff;
+                                li{
+                                    span{
+                                        color: #fff;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+
 
 
     }

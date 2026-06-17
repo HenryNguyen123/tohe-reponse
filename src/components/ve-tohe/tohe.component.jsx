@@ -33,13 +33,13 @@ const ToheComponent = () => {
                         <div className="tohe-bg-content">
                             <div className="tohe-bg-content-flex">
                                 <div className="tohe-content-item">
-                                    <h1 className='text-bold-height'>
+                                    <h1 className=''>
                                         <span className='text-pink'>TÒHE</span> ĐÃ TẠO RA BA GIÁ TRỊ SONG SONG
                                     </h1>
                                 </div>
                                 <div className="tohe-box-context">
                                     <div className="tohe-box-item">
-                                        <p className='tohe-box-item-text-title'>
+                                        <p className='tohe-box-item-text-title font-uvn-b'>
                                             TRẺ EM ĐẶC BIỆT
                                         </p>
                                         <p className='tohe-box-item-text-desc'>
@@ -47,15 +47,15 @@ const ToheComponent = () => {
                                         </p>
                                     </div>
                                     <div className="tohe-box-item">
-                                        <p className='tohe-box-item-text-title'>
-                                            DOANH NGHIỆP & TỔ CHỨC
+                                        <p className='tohe-box-item-text-title font-uvn-b'>
+                                            DOANH NGHIỆP<br/> & TỔ CHỨC
                                         </p>
                                         <p className='tohe-box-item-text-desc'>
                                             Chúng tôi đồng hành trong các dự án cộng đồng minh bạch, giàu tính sáng tạo và tạo tác động xã hội thực tế.
                                         </p>
                                     </div>
                                     <div className="tohe-box-item">
-                                        <p className='tohe-box-item-text-title'>
+                                        <p className='tohe-box-item-text-title font-uvn-b'>
                                             CỘNG ĐỒNG
                                         </p>
                                         <p className='tohe-box-item-text-desc'>
@@ -87,7 +87,7 @@ const ToheComponent = () => {
                                             Đội ngũ
                                         </h4>
                                         <h1 className='tohe-model-item-left-top-h1'>
-                                            Được sáng lập bởi những tình nguyện viên
+                                            Được sáng lập bởi những <span className='text-pink'>tình nguyện viên</span>
                                         </h1>
                                     </div>
                                     <div className="tohe-model-item-left-bottom">
@@ -99,12 +99,65 @@ const ToheComponent = () => {
                                         </p>
                                     </div>
                                 </div>
-                                <div className="tohe-model-item-right"></div>
+                                <div className="tohe-model-item-right">
+                                    <div className="tohe-model-item-right-bg">
+                                        <img src="/img/tohe/ve tohe/model.png" alt=""  className='tohe-model-item-right-bg-left'/>
+                                        <img src="/img/tohe/ve tohe/model.png" alt=""  className='tohe-model-item-right-bg-right'/>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
 
-
+                    {/* mission */}
+                    <div className="tohe-mission-container">
+                        <div className="background-content"></div>
+                        <div className="tohe-mission-context">
+                            <div className="tohe-mission-title">
+                                <h1 className='font-vn-wosker'>
+                                    Triết lý và sứ mệnh của <span className='text-pink'>Tòhe</span>
+                                </h1>
+                            </div>
+                            <div className="tohe-mission-content-box">
+                                <div className="tohe-mission-box-content">
+                                    <div className="tohe-mission-box-item">
+                                        <p className='tohe-mission-box-item-top font-uvn-b'>
+                                            1. Triết lý
+                                        </p>
+                                        <p className='tohe-mission-box-item-bottom'>
+                                            Triết lý kinh doanh của Tòhe là kết hợp nghệ thuật sáng tạo với tác động xã hội. Với niềm tin “mọi đứa trẻ đều là nghệ sĩ”, Tòhe hướng đến việc giúp trẻ tự tin thể hiện bản thân và hòa nhập cộng đồng thông qua nghệ thuật.
+                                        </p>
+                                    </div>
+                                    <div className="tohe-mission-box-item">
+                                        <p className='tohe-mission-box-item-top font-uvn-b'>
+                                            2. Sứ mệnh
+                                        </p>
+                                        <p className='tohe-mission-box-item-bottom'>
+                                            Sứ mệnh của Tòhe là tạo ra không gian sáng tạo để trẻ em đặc biệt được tự do thể hiện bản thân thông qua nghệ thuật và phát triển khả năng hòa nhập cộng đồng.
+                                        </p>
+                                    </div>
+                                    <div className="tohe-mission-box-item">
+                                        <p className='tohe-mission-box-item-top font-uvn-b'>
+                                            3. Mục tiêu
+                                        </p>
+                                        <p className='tohe-mission-box-item-bottom'>
+                                            Mục tiêu của Tòhe là mở rộng các không gian sáng tạo cho trẻ em đặc biệt và phát triển mô hình doanh nghiệp xã hội kết nối nghệ thuật, giáo dục và cộng đồng.
+                                        </p>
+                                    </div>
+                                    <div className="tohe-mission-box-item">
+                                        <p className='tohe-mission-box-item-top font-uvn-b'>
+                                            4. Giá trị cốt lõi
+                                        </p>
+                                        <ul>
+                                            <li><span>Bền bỉ</span></li>
+                                            <li><span>Tôn trọng</span></li>
+                                            <li><span>Sáng tạo</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
                 </div>
             </div>

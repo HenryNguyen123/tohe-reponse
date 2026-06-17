@@ -5,6 +5,7 @@ import BoxImage from '../../camoms/box/box-image.box'
 import BoxTitle from '../../camoms/box/box-title.box';
 import ButtonOne from '../../camoms/button/button-one.camon'
 import './home.scss'
+import { useEffect } from "react";
 
 const HomeComponent = () => {
     const boxList = [
@@ -59,6 +60,9 @@ const HomeComponent = () => {
             ]
         }
     ];
+    useEffect(() => {
+        document.title = 'Trang Chủ';
+    }, [])
     return (
         <>
             <div className='home-container'>
@@ -98,8 +102,8 @@ const HomeComponent = () => {
 
                 {/*  all branch*/}
                 <div className="home-context_box-branch-hm1">
-                    <h1 className="text-bold-height">
-                        <span className='text-pink'>TÒHE</span> <span className='text-blue-weight'>- Đối tác của những <br/>
+                    <h1 className="text-title">
+                        <span className='text-pink'>TÒHE</span> <span className='text-blue'>- Đối tác của những <br/>
                         tổ chức/ doanh nghiệp lớn tại Việt Nam</span>
                     </h1>
                     <div className='home-img-branch-hm1'>
@@ -110,7 +114,7 @@ const HomeComponent = () => {
                 {/* box home */}
                 <div className="home-context_box-content-hm1">
                     <div className="home-context_box-tex-hm1">
-                        <h1 className='text-blue-weight text-bold-height'>Case Study</h1>
+                        <h1 className='text-title text-blue'>Case Study</h1>
                     </div>
                     <div className='home-context_box-item-hm1'>
                         {
@@ -128,7 +132,7 @@ const HomeComponent = () => {
                 <div className="home-context-award-hm1">
                     <div className='home-context-award-content-hm1'>
                         <div className="home-content-award-item-hm1">
-                            <h1 className="text-bold-height">VINH DỰ NHẬN GIẢI THƯỞNG DANH GIÁ</h1>
+                            <h1 className="text-title">VINH DỰ NHẬN GIẢI THƯỞNG DANH GIÁ</h1>
                             <p>
                                 Sau 20 năm hoạt động, Tòhe từng được ghi nhận qua nhiều dự án xã hội, triển lãm và hoạt động <br/>
                                 sáng tạo dành cho trẻ em đặc biệt.
@@ -169,8 +173,8 @@ const HomeComponent = () => {
                 {/* parter */}
                 <div className="home-content-parter-hm1">
                     <div className="home-content-parter-text-hm1">
-                        <h1 className="text-bold-height">
-                            <span className='text-blue-weight'>CÁC HÌNH THỨC ĐỒNG HÀNH CÙNG</span> <span className='text-pink'>TÒHE</span>
+                        <h1 className="text-tetle">
+                            <span className='text-blue'>CÁC HÌNH THỨC ĐỒNG HÀNH CÙNG</span> <span className='text-pink'>TÒHE</span>
                         </h1>
                         <p>
                             Với niềm tin rằng sáng tạo có thể tạo ra tác động xã hội bền vững, Tòhe đồng hành cùng doanh nghiệp xây dựng <br>

@@ -9,9 +9,6 @@ import { useContext, useEffect  } from 'react'
 import { UserContext } from './components/context/UserContext'
 
 function App() {
-  useEffect(() => {
-    document.title = 'Trang Chủ';
-  }, [])
   const {loadingAccount} = useContext(UserContext)
   if (loadingAccount) {
     return (

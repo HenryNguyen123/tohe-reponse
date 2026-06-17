@@ -66,16 +66,15 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 } */
-@font-face {
+/* @font-face {
     font-family: "SVN Van";
-    src: url("../fonts/SVN-Van.ttf") format("truetype");
+    src: url("./assets/fonts/UVN-Van.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
 }
-
 @font-face {
     font-family: "VN Wosker";
-    src: url("../fonts/VN-Wosker.ttf") format("truetype");
+    src: url("./assets//fonts/VN-Wosker.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
-}
+} */

@@ -1,6 +1,10 @@
+import { useEffect } from 'react';
 import './tohe.css.scss'
 
 const ToheComponent = () => {
+    useEffect(() => {
+        document.title = 'Về TòHe';
+    }, [])
     return(
         <>
             <div className="tohe-container">
@@ -10,10 +14,10 @@ const ToheComponent = () => {
                     <div className="tohe-top-backgroud">
                         <div className="tohe-top-background-content">
                             <div className="tohe-top-content">
-                                <h1 className='text-bold-height text-blue'>
+                                <h1 className='text-blue'>
                                     KIẾN TẠO CƠ HỘI BÌNH ĐẲNG QUA SỨC MẠNH CỦA SÁNG TẠO
                                 </h1>
-                                <p>
+                                <p className='tohe-top-content-text-p'>
                                     Trong thực tế, nhiều trẻ em đặc biệt và trẻ em yếu thế vẫn còn thiếu không gian để được lắng nghe, học tập và phát triển và hòa nhập. Tòhe lựa chọn bắt đầu từ nghệ thuật vì sáng tạo là ngôn ngữ công bằng nhất đối với trẻ em. Thông qua các sân chơi, lớp học và dự án cộng đồng, Tòhe biến những nét vẽ của trẻ thành sản phẩm, triển lãm và các hoạt động có giá trị thực tế, giúp các em được ghi nhận như những “nghệ sĩ bé đặc biệt” thay vì chỉ được nhìn nhận như đối tượng cần hỗ trợ.
                                 </p>
                             </div>

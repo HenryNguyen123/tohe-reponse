@@ -10,9 +10,9 @@ const BoxTitle = ({ Icon, title, description, items }) => {
                 </div>
 
                 <div className="div-box-title">
-                    <h4 className='box-title text-bold-height'>
+                    <h6 className='box-title'>
                         {title}
-                    </h4>
+                    </h6>
                 </div>
 
                 <p>

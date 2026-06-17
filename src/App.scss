@@ -40,18 +40,35 @@
 // .read-the-docs {
 //   color: #888;
 // }
-
+// @font-face {
+//     font-family: "SVN Van";
+//     src: url("../fonts/UVN-Van.ttf") format("truetype");
+//     font-weight: normal;
+//     font-style: normal;
+// }
+@font-face {
+    font-family: "UVN Van";
+    src: url("./assets/fonts/UVN-Van.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "VN Wosker";
+    src: url("./assets/fonts/VN-Wosker.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
 * {
     margin: 0px;
     padding: 0px;
-    font-family: "SVN Van";
-    h1, h2, h3, h4, h5, h6{
-        font-family: "VN-Wosker";
-    }
-    p{
-        font-size: 18px;
-        line-height: 18px;
-    }
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: "VN Wosker";
+}
+p{
+    font-family: "UVN Van";
+    font-size: 16px;
+    line-height: 20px;
 }
 
 ul {
@@ -75,10 +92,14 @@ ul {
     color: #EC008C;
 }
 .text-bold-height{
-    font-weight: 700;
-    text-shadow: 1px 1px 1px currentColor;
+    // font-weight: 700;
+    // text-shadow: 1px 1px 1px currentColor;
 }
 .text-bold-base{
-    font-weight: 600;
-    text-shadow: 0px 0px 1px currentColor;
+    // font-weight: 600;
+    // text-shadow: 0px 0px 1px currentColor;
+}
+.text-title{
+    font-size: 64px;
+    line-height: 80px;
 }

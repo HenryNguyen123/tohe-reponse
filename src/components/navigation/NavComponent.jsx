@@ -41,7 +41,7 @@ const NavComponent =  () => {
                             </span>
                         </div>
                     </div>
-                    <Navbar expand="lg" className="bg-body-tertiary" bg="" data-bs-theme="">
+                    <Navbar expand="lg" className="bg-body-tertiary nav-bottom-bg" bg="" data-bs-theme="">
                         <Container className="container-nav-head">
                             <Navbar.Brand href="/">
                                 <img
@@ -63,7 +63,7 @@ const NavComponent =  () => {
                                 <NavLink className="nav-link" to="/about">About</NavLink> */}
                             </Nav>
                             <Nav>
-                                <Nav.Link className="nav-link" href="/account"><span>Về Tòhe</span></Nav.Link>
+                                <Nav.Link className="nav-link" href="/tohe"><span>Về Tòhe</span></Nav.Link>
                                 <Nav.Link className="nav-link" href="/account"><span>Hình thức đồng hành</span></Nav.Link>
                                 <Nav.Link className="nav-link" href="/account"><span>Case study</span></Nav.Link>
                                 <Nav.Link className="nav-link" href="/account"><span>Liên hệ</span></Nav.Link>

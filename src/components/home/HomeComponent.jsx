@@ -1,4 +1,5 @@
 import BoxImage from '../../camoms/box/box-image.box'
+import BoxTitle from '../../camoms/box/box-title.box';
 import ButtonOne from '../../camoms/button/button-one.camon'
 import './home.scss'
 
@@ -124,6 +125,24 @@ const boxList = [
                                 </div>
                             </div>
                         </div>
+                    </div>
+                </div>
+
+                {/* parter */}
+                <div className="home-content-parter-hm1">
+                    <div className="home-content-parter-text-hm1">
+                        <h1>
+                            <span className='text-blue-weight'>CÁC HÌNH THỨC ĐỒNG HÀNH CÙNG</span> <span className='text-pink'>TÒHE</span>
+                        </h1>
+                        <p>
+                            Với niềm tin rằng sáng tạo có thể tạo ra tác động xã hội bền vững, Tòhe đồng hành cùng doanh nghiệp xây dựng <br>
+                            </br> các hoạt động CSR/ESG thông qua nghệ thuật sáng tạo dành cho trẻ em đặc biệt.
+                        </p>
+                    </div>
+                    <div className="home-parter-box-content-hm1">
+                        <BoxTitle/>
+                        <BoxTitle/>
+                        <BoxTitle/>
                     </div>
                 </div>
 

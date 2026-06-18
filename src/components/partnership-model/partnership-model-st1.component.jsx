@@ -6,6 +6,8 @@ import { BsBook } from "react-icons/bs";
 import { TbMessageCircleStar } from "react-icons/tb";
 import BoxTitle from '../../camoms/box/box-title.box';
 import { FiCheckSquare } from "react-icons/fi";
+import { FaPenNib } from "react-icons/fa";
+import { IoIosArrowDown } from "react-icons/io";
 
 const PartnerShipModelSt1 = () => {
     useEffect(() => {
@@ -136,13 +138,13 @@ const PartnerShipModelSt1 = () => {
                         </div>
                         <div className="partership-model-panda-bg">
                             <div className="partership-model-panda-bg-content">
-                                <img src="/img/tohe/hinh-thuc-dong-hanh/st1/v478_1328.png" alt="" className='partership-model-panda-bg-conten-img'/>
-                                <img src="/img/tohe/hinh-thuc-dong-hanh/st1/v310_4854.png" alt="" className='partership-model-panda-bg-conten-img'/>
-                                <img src="/img/tohe/hinh-thuc-dong-hanh/st1/v310_4854.png" alt="" className='partership-model-panda-bg-conten-img'/>
-                                <img src="/img/tohe/hinh-thuc-dong-hanh/st1/v310_4854.png" alt="" className='partership-model-panda-bg-conten-img'/>
-                                <img src="/img/tohe/hinh-thuc-dong-hanh/st1/v310_4854.png" alt="" className='partership-model-panda-bg-conten-img'/>
-                                <img src="/img/tohe/hinh-thuc-dong-hanh/st1/v310_4854.png" alt="" className='partership-model-panda-bg-conten-img'/>
-                                <img src="/img/tohe/hinh-thuc-dong-hanh/st1/v310_4854.png" alt="" className='partership-model-panda-bg-conten-img'/>
+                                <img src="/img/tohe/logo/v478_1328.png" alt="" className='partership-model-panda-bg-conten-img'/>
+                                <img src="/img/tohe/logo/wwf-panda-logo.jpg" alt="" className='partership-model-panda-bg-conten-img'/>
+                                <img src="/img/tohe/logo/british-council-1-logo-png-transparent.png" alt="" className='partership-model-panda-bg-conten-img'/>
+                                <img src="/img/tohe/logo/images.png" alt="" className='partership-model-panda-bg-conten-img'/>
+                                <img src="/img/tohe/logo/images.png" alt="" className='partership-model-panda-bg-conten-img'/>
+                                <img src="/img/tohe/logo/uniqlo-seeklogo.png" alt="" className='partership-model-panda-bg-conten-img'/>
+                                <img src="/img/tohe/logo/ve-eco-retreat.png" alt="" className='partership-model-panda-bg-conten-img'/>
                             </div>
                         </div>
                         <div className="partership-model-panda-list">
@@ -175,10 +177,132 @@ const PartnerShipModelSt1 = () => {
                                 </div>
                             </div>
                         </div>
-                    </div>       
+                        <div className="partership-model-diagram">
+                            <div className="partership-model-diagram-content">
+                                <div className="partership-model-diagram-item-top">
+                                    <h1 className='text-blue'>QUY TRÌNH HỢP TÁC CHẶT CHẼ</h1>
+                                    <p>
+                                        CÙNG <span className='text-pink'>TÒHE</span> ĐỒNG HÀNH TRONG CÁC HOẠT ĐỘNG XÃ HỘI BỀN VỮNG
+                                    </p>
+                                </div>
+                                <div className="partership-model-diagram-item-bottom">
+                                    <div className="partership-model-diagram-item-button">
+                                        <p>
+                                            Quy trình tư vấn
+                                        </p>
+                                    </div>
+                                    <span className='arrow-right arrow_item-icon-right'></span>
+                                    <p className='text-pink text_item-title-text'>ký kết hợp đồng</p>
+                                    <span className='arrow-left arrow_item-icon-right'></span>
+                                    <div className="partership-model-diagram-item-button">
+                                        <p>
+                                            Quy trình triển khai
+                                        </p>
+                                    </div>
+                                    <div className="partership-model-diagram-item-arrow">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="partership-model-arrow">
+                            <div className="partership-model-arrow-left">
+                                <div className='arrow-right-dashed partership-model-arrow-left-item'></div>
+                            </div>
+                            <span className='icon-beetwen-arrow'><FaPenNib /></span>
+                            <div className="partership-model-arrow-right">
+                                <div className='arrow-left-dashed'></div>
+                            </div>
+                        </div>
+                    </div>     
+                    <div className="partership-model-bg-top">
+                        <div className="background-content"></div>
+                        <div className="partership-model-bg-top-content">
+                            <div className="partership-model-bg-top-content-item">
+                                <h1>QUY TRÌNH TƯ VẤN</h1>
+                                <div className="partership-model-bg-top-content-item">
+                                    <img src="/img/tohe/hinh-thuc-dong-hanh/st1/v310_5000.png" alt="" />
+                                    <div className="partership-model-bg-top-content-item-list">
+                                        <div className="content-list">
+                                            <p>Bước 1: Tiếp nhận yêu cầu ban đầu</p>
+                                            <p><IoIosArrowDown className='icon-arrow-bottom font-uvn-b'/></p>
+                                        </div>
+                                        <div className="content-list">
+                                            <p>Bước 2: Phân tích bài toán thương hiệu</p>
+                                            <p><IoIosArrowDown className='icon-arrow-bottom font-uvn-b'/></p>
+                                        </div>
+                                        <div className="content-list">
+                                            <p>Bước 3: Khảo sát và lựa chọn tư liệu mỹ thuật độc quyền</p>
+                                            <p><IoIosArrowDown className='icon-arrow-bottom font-uvn-b'/></p>
+                                        </div>
+                                        <div className="content-list">
+                                            <p>Bước 4: Thiết kế giải pháp sơ bộ </p>
+                                            <p><IoIosArrowDown className='icon-arrow-bottom font-uvn-b'/></p>
+                                        </div>
+                                        <div className="content-list">
+                                            <p>Bước 5: Thuyết trình phương án và lấy ý kiến phản hồi</p>
+                                            <p><IoIosArrowDown className='icon-arrow-bottom font-uvn-b'/></p>
+                                        </div>
+                                        <div className="content-list">
+                                            <p>Bước 6: Xây dựng cấu trúc giá linh hoạt cho đối tác/đại lý</p>
+                                            <p><IoIosArrowDown className='icon-arrow-bottom font-uvn-b'/></p>
+                                        </div>
+                                        <div className="content-list">
+                                            <p>Bước 7: Hoàn thiện bảng báo giá chi tiết</p>
+                                            <p><IoIosArrowDown className='icon-arrow-bottom font-uvn-b'/></p>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="partership-model-bg-bottom">
+                        <div className="background-content"></div>
+                        <div className="partership-model-bg-top-content">
+                            <div className="partership-model-bg-top-content-item">
+                                <h1>QUY TRÌNH TƯ VẤN</h1>
+                                <div className="partership-model-bg-top-content-item">
+                                    <div className="partership-model-bg-top-content-item-list">
+                                        <div className="content-list">
+                                            <p>Bước 1: Tiếp nhận yêu cầu ban đầu</p>
+                                            <p><IoIosArrowDown className='icon-arrow-bottom font-uvn-b'/></p>
+                                        </div>
+                                        <div className="content-list">
+                                            <p>Bước 2: Phân tích bài toán thương hiệu</p>
+                                            <p><IoIosArrowDown className='icon-arrow-bottom font-uvn-b'/></p>
+                                        </div>
+                                        <div className="content-list">
+                                            <p>Bước 3: Khảo sát và lựa chọn tư liệu mỹ thuật độc quyền</p>
+                                            <p><IoIosArrowDown className='icon-arrow-bottom font-uvn-b'/></p>
+                                        </div>
+                                        <div className="content-list">
+                                            <p>Bước 4: Thiết kế giải pháp sơ bộ </p>
+                                            <p><IoIosArrowDown className='icon-arrow-bottom font-uvn-b'/></p>
+                                        </div>
+                                        <div className="content-list">
+                                            <p>Bước 5: Thuyết trình phương án và lấy ý kiến phản hồi</p>
+                                            <p><IoIosArrowDown className='icon-arrow-bottom font-uvn-b'/></p>
+                                        </div>
+                                        <div className="content-list">
+                                            <p>Bước 6: Xây dựng cấu trúc giá linh hoạt cho đối tác/đại lý</p>
+                                            <p><IoIosArrowDown className='icon-arrow-bottom font-uvn-b'/></p>
+                                        </div>
+                                        <div className="content-list">
+                                            <p>Bước 7: Hoàn thiện bảng báo giá chi tiết</p>
+                                            <p><IoIosArrowDown className='icon-arrow-bottom font-uvn-b'/></p>
+                                        </div>
+                                        
+                                    </div>
+                                    <img src="/img/tohe/hinh-thuc-dong-hanh/st1/v310_5003.png" alt="" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-
-                    
+                    <div className="partership-model-button">
+                        <ButtonArrowRight title={'Case study'}/>
+                    </div>
+                            
 
                 </div>
             </div>

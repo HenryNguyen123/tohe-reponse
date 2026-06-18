@@ -144,6 +144,227 @@
                     display: flex;
                     justify-content: space-between;
                     align-items: center;
+                    .partership-model-panda-bg-conten-img{
+                        max-width: 190px;
+                        max-height: 120px;
+                        // width: 200px;
+                        height: 120px;
+                        // min-width: 120px;
+                    }
+                }
+            }
+            .partership-model-panda-list{
+                display: flex;
+                justify-content: center;
+                margin-top: 100px;
+                .partership-model-panda-list-left{
+                    h5{
+                        font-size: 26px;
+                    }
+                    h4{
+                        font-size: 32px;
+                    }
+                }
+                .partership-model-panda-list-right{
+                    margin-left: 40px;
+                    .partership-model-panda-list-one{
+                        width: 620px;
+                        background-color: #0C4EA1;
+                        border-radius: 15px;
+                        padding: 10px 20px;
+                        display: flex;
+                        span{
+                            color: #fff;
+                        }
+                        span{
+                            .partership-model-item-icon{
+                                font-size: 43px;
+                                margin-right: 10px;
+                            }
+                        }
+                    }
+                    .partership-model-panda-list-two{
+                        width: 620px;
+                        background-color: #D83997;
+                        border-radius: 15px;
+                        padding: 10px 20px;
+                        display: flex;
+                        margin: 10px 0;
+                        span{
+                            color: #fff;
+                        }
+                        span{
+                            .partership-model-item-icon{
+                                font-size: 43px;
+                                margin-right: 10px;
+                            }
+                        }
+                    }
+                }
+            }
+            .partership-model-diagram{
+                display: flex;
+                justify-content: center;
+                margin-top: 100px;
+                .partership-model-diagram-content{
+                    .partership-model-diagram-item-top{
+                        h1{
+                            font-size: 60px;
+                        }
+                        p{
+                            text-align: center;
+                            margin-top: -20px;
+                        }
+                    }
+                    .partership-model-diagram-item-bottom{
+                        display: flex;
+                        justify-content: center;
+                        margin-top: 40px;
+                        .partership-model-diagram-item-button{
+                            p{
+                                padding: 10px 30px;
+                                background-color: #0C4EA1;
+                                border-radius: 25px;
+                                color: #fff;
+                                font-size: 18px;
+
+                            }
+                        }
+                        .arrow_item-icon-right{
+                            margin-top: 20px;
+                        }
+                        .text_item-title-text{
+                            margin: 10px 5px;
+                        }
+                    }
+                }
+            }
+            .partership-model-arrow{
+                display: flex;
+                justify-content: center;
+                .partership-model-arrow-left{
+                    .partership-model-arrow-left-item{
+                    }
+                }
+                .icon-beetwen-arrow{
+                    color: #D83997;
+                    margin: -12px 5px 0px 5px;
+                }
+            }
+        }
+        // 
+        .partership-model-bg-top{
+            position: relative;
+            margin-top: 10px;
+            .background-content{
+                background-image: url("/img/tohe/hinh-thuc-dong-hanh/st1/v310_5000.png");
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                width: 100%;
+                height: 630px;
+                display: block;
+            }
+            &::before {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: linear-gradient(
+                    to bottom,
+                    rgba(2, 10, 18, 0.538),
+                    rgba(0, 8, 15, 0.795)
+                );
+                z-index: 1;
+            }
+            .partership-model-bg-top-content{
+                        position: absolute;
+                        inset: 0;
+                        z-index: 2222;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                .partership-model-bg-top-content-item{
+                    h1{
+                        color: #fff;
+                        text-align: center;
+                        font-size: 60px;
+                    }
+                    .partership-model-bg-top-content-item{
+                        display: flex;
+                        img{
+                            width: 400px;
+                            border-radius: 15px;
+                        }
+                        .partership-model-bg-top-content-item-list{
+                            .content-list{
+                                margin-left: 10px;
+                                display: flex;
+                                justify-content: space-between;
+                                width: 700px;
+                                background-color: #fff;
+                                padding: 5px 25px 10px 15px;
+                                // border-bottom: 1px solid #000;
+                                box-shadow: 0 4px 10px rgba(0, 0, 0, 0.849);
+                                p{
+                                    margin-bottom: -5px;
+                                }
+                                p{
+                                    .icon-arrow-bottom{
+                                        font-size: 20px;
+                                    }
+                                }
+                                &:first-child {
+                                    border-radius: 10px 10px 0 0;
+                                }
+                                &:last-child {
+                                    border-radius: 0 0 10px 10px;
+                                    border-bottom: none;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+// 
+        .partership-model-panda-conent{
+            .partership-model-panda-title{
+                display: flex;
+                justify-content: center;
+                .partership-model-panda-title-item{
+                    // display: flex;
+                    h4{
+                        font-size: 30px;
+                        margin-bottom: -20px;
+                        margin-left: 25px;
+                    }
+                    .partership-model-panda-title-item_item{
+                        display: flex;
+                        h1{
+                            font-size: 120px;
+                        }
+                        h4{
+                            margin-top: 15px;
+                            margin-left: 10px;
+                            font-size: 40px;
+                        }
+                    }
+                }
+            }
+            .partership-model-panda-bg{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 210px;
+                background-color: #D9D9D9;
+                .partership-model-panda-bg-content{
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
                     img{
                         width: 100px;
                         height: 50px;
@@ -199,10 +420,219 @@
                     }
                 }
             }
+            .partership-model-diagram{
+                display: flex;
+                justify-content: center;
+                margin-top: 100px;
+                .partership-model-diagram-content{
+                    .partership-model-diagram-item-top{
+                        h1{
+                            font-size: 60px;
+                        }
+                        p{
+                            text-align: center;
+                            margin-top: -20px;
+                        }
+                    }
+                    .partership-model-diagram-item-bottom{
+                        display: flex;
+                        justify-content: center;
+                        margin-top: 40px;
+                        .partership-model-diagram-item-button{
+                            p{
+                                padding: 10px 30px;
+                                background-color: #0C4EA1;
+                                border-radius: 25px;
+                                color: #fff;
+                                font-size: 18px;
+
+                            }
+                        }
+                        .arrow_item-icon-right{
+                            margin-top: 20px;
+                        }
+                        .text_item-title-text{
+                            margin: 10px 5px;
+                        }
+                    }
+                }
+            }
+            .partership-model-arrow{
+                display: flex;
+                justify-content: center;
+                .partership-model-arrow-left{
+                    .partership-model-arrow-left-item{
+                    }
+                }
+                .icon-beetwen-arrow{
+                    color: #D83997;
+                    margin: -12px 5px 0px 5px;
+                }
+            }
+        }
+        // 
+        .partership-model-bg-bottom{
+            position: relative;
+            .background-content{
+                background-image: url("/img/tohe/hinh-thuc-dong-hanh/st1/v310_5003.png");
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                width: 100%;
+                height: 630px;
+                display: block;
+            }
+            &::before {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: linear-gradient(
+                    to bottom,
+                    rgba(2, 10, 18, 0.538),
+                    rgba(0, 8, 15, 0.795)
+                );
+                z-index: 1;
+            }
+            .partership-model-bg-top-content{
+                        position: absolute;
+                        inset: 0;
+                        z-index: 2222;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                .partership-model-bg-top-content-item{
+                    h1{
+                        color: #fff;
+                        text-align: center;
+                        font-size: 60px;
+                    }
+                    .partership-model-bg-top-content-item{
+                        display: flex;
+                        img{
+                            width: 400px;
+                            border-radius: 15px;
+                        }
+                        .partership-model-bg-top-content-item-list{
+                            .content-list{
+                                margin-right: 10px;
+                                display: flex;
+                                justify-content: space-between;
+                                width: 700px;
+                                background-color: #fff;
+                                padding: 5px 25px 10px 15px;
+                                // border-bottom: 1px solid #000;
+                                box-shadow: 0 4px 10px rgba(0, 0, 0, 0.849);
+                                p{
+                                    margin-bottom: -5px;
+                                }
+                                p{
+                                    .icon-arrow-bottom{
+                                        font-size: 20px;
+                                    }
+                                }
+                                &:first-child {
+                                    border-radius: 10px 10px 0 0;
+                                }
+                                &:last-child {
+                                    border-radius: 0 0 10px 10px;
+                                    border-bottom: none;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+
+        // button
+        .partership-model-button{
+            display: flex;
+            justify-content: center;
+            margin: 100px 0;
         }
 
 
 
 
     }
+}
+
+// 
+.arrow-right {
+    width: 100px;
+    height: 2px;
+    background: black;
+    position: relative;
+}
+.arrow-right::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: -4px;
+    width: 0;
+    height: 0;
+    border-left: 10px solid black;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+}
+
+// 
+.arrow-left {
+    width: 100px;
+    height: 2px;
+    background: black;
+    position: relative;
+}
+.arrow-left::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: -4px;
+    width: 0;
+    height: 0;
+    border-right: 10px solid black;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+}
+
+// 
+.arrow-left-dashed {
+    width: 400px;
+    height: 0;
+    border-top: 1px dashed #E04784;
+    position: relative;
+}
+.arrow-left-dashed::before {
+    content: "";
+    position: absolute;
+    left: -1px;
+    top: -3px;
+    width: 0;
+    height: 0;
+    border-right: 10px solid #E04784;
+    border-top: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+}
+
+// 
+.arrow-right-dashed {
+    width: 400px;
+    height: 0;
+    border-top: 1px dashed #E04784;
+    position: relative;
+}
+.arrow-right-dashed::after {
+    content: "";
+    position: absolute;
+    right: -1px;
+    top: -3px;
+    width: 0;
+    height: 0;
+    border-left: 10px solid #E04784;
+    border-top: 3px solid transparent;
+    border-bottom: 3px solid transparent;
 }

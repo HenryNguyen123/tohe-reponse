@@ -292,6 +292,176 @@
             }
         }
 
+        // ability
+        .tohe-ability-container{
+            margin-top: 100px;
+            .tohe-ability-context{
+                .tohe-ability-top{
+                    display: flex;
+                    justify-content: center;
+                    .tohe-ability-top-content{
+                        display: flex;
+                        .tohe-ability-top-title-h1{
+                            margin-right: 20px;
+                            h1{
+                                font-size: 65px;
+                                transform: scaleY(1.1);
+                            }
+                        }
+                        .tohe-ability-top-desc-list-content{
+                            padding: 20px 10px 10px 10px;
+                            border: 1px solid #FBFBFB;
+                            width: 657px;
+                            border-radius: 15px;
+                            background-color: #FBFBFB;
+                            box-shadow: 0 10px 10px rgba(190, 190, 190, 0.633);
+                            .tohe-ability-top-desc-list{
+                                li{
+                                    list-style: disc;
+                                }
+                            }
+                        }
+                        
+                    }
+                }
+            }
+            .tohe-ability-active-title{
+                margin-top: 100px;
+                .tohe-ability-active-title-h1{
+                    text-align: center;
+                    font-size: 64px;
+                }
+                .tohe-ability-active-content{
+                    margin-top: 30px;
+                    position: relative;
+                    .background-content{
+                        background-image: url("/img/tohe/ve tohe/v416_2913.png");
+                        background-size: cover;
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        width: 100%;
+                        height: 630px;
+                        display: block;
+                    }
+                    &::before {
+                        content: "";
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 100%;
+                        height: 100%;
+                        background: linear-gradient(
+                            to bottom,
+                            rgba(108, 163, 225, 0.574),
+                            rgb(11, 57, 103)
+                        );
+                        z-index: 1;
+                    }
+                    .tohe-ability-active-content-item{
+                        position: absolute;
+                        inset: 0;
+                        z-index: 2222;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        .tohe-ability-active-content-item-box{
+                            width: 920px;
+                            .tohe-ability-active-content-item_item-top{
+                                display: flex;
+                                justify-content: space-between;
+                            }
+                            .tohe-ability-active-content-item_item-bottom{
+                                display: flex;
+                                justify-content: space-around;
+                                margin-top: 60px;
+                            }
+                            .tohe-ability-active-content-item_item-top, .tohe-ability-active-content-item_item-bottom{
+                                h1{
+                                    font-size: 64px;
+                                }
+                                .p-top-ab{
+                                    color: #fff;
+                                    font-size: 20px;
+                                    margin-top: -20px;
+                                }
+                                .p-bottom-ab{
+                                    color: #fff;
+                                    margin-top: -15px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        // action
+        .tohe-action-container{
+            margin-top: 100px;
+            .tohe-action-context{
+                // display: flex;
+                // flex-direction: column;
+                // justify-content: center;
+                .tohe-action-title{
+                    h1{
+                        text-align: center;
+                        font-size: 64px;
+                    }
+                    p{
+                        text-align: center;
+                        margin-top: -15px;
+                        font-size: 20px;
+                    }
+                }
+                .tohe-action-title-box{
+                    display: flex;
+                    justify-content: center;
+                    // align-items: center;
+                    .tohe-action-box-content{
+                        margin: 20px 15px;
+                        .tohe-action-box-item{
+                            display: flex;
+                            width: 206px;
+                            height: 414px;
+                            // justify-content: center;
+                            // flex-direction: column;
+                            align-items: center;
+                            border: 1px solid #fff;
+                            border-radius: 15px;
+                            background-color: #fff;
+                            box-shadow: -5px 5px 10px rgba(190, 190, 190, 0.633);
+                            border-radius: 15px;
+                            .tohe-action-box-item_item{
+                                .tohe-action-box-item-image{
+                                    width: 90px;
+                                    height: 90px;
+                                    display: block;
+                                    margin: 0 auto;
+                                }
+                                .tohe-action-box-item-text-top{
+                                    text-align: center;
+                                    margin: 10px 0;
+                                    font-size: 18px;
+                                }
+                                .tohe-action-box-item-text-bottom{
+                                    padding: 0 23px;
+                                    margin-top: 5px;
+                                }
+                            }
+                        }
+                    }
+
+                }
+            }
+        }
+
+
+        // button
+        .tohe-button-next{
+            margin: 100px 0;
+            display: flex;
+            justify-content: center;
+        }
 
 
 

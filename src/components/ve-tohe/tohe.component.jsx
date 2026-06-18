@@ -23,7 +23,7 @@ const ToheComponent = () => {
                                 </p>
                             </div>
                             <div className="tohe-top-image-bg">
-                                <img src="/img/tohe/ve tohe/v416_2909.png" alt="" className='tohe-top-image-bg-item'/>
+                                <img src="/img/tohe/ve-tohe/v416_2909.png" alt="" className='tohe-top-image-bg-item'/>
                             </div>
                         </div>
                     </div>
@@ -77,7 +77,7 @@ const ToheComponent = () => {
                     <div className="tohe-model-container">
                         <div className="model-content">
                             <div className="tohe-model-context">
-                                <img src="/img/tohe/ve tohe/model.png" alt="" className='tohe-model-context-bg'/>
+                                <img src="/img/tohe/ve-tohe/model.png" alt="" className='tohe-model-context-bg'/>
                                 <div className="tohe-model-bg">
                                 </div>
                             </div>
@@ -102,8 +102,8 @@ const ToheComponent = () => {
                                 </div>
                                 <div className="tohe-model-item-right">
                                     <div className="tohe-model-item-right-bg">
-                                        <img src="/img/tohe/ve tohe/model.png" alt=""  className='tohe-model-item-right-bg-left'/>
-                                        <img src="/img/tohe/ve tohe/model.png" alt=""  className='tohe-model-item-right-bg-right'/>
+                                        <img src="/img/tohe/ve-tohe/model.png" alt=""  className='tohe-model-item-right-bg-left'/>
+                                        <img src="/img/tohe/ve-tohe/model.png" alt=""  className='tohe-model-item-right-bg-right'/>
                                     </div>
                                 </div>
                             </div>
@@ -261,7 +261,7 @@ const ToheComponent = () => {
                                 <div className="tohe-action-box-content">
                                     <div className="tohe-action-box-item">
                                         <div className="tohe-action-box-item_item">
-                                            <img src="/img/tohe/ve tohe/icon-v1.png" alt="" className='tohe-action-box-item-image'/>
+                                            <img src="/img/tohe/ve-tohe/icon-v1.png" alt="" className='tohe-action-box-item-image'/>
                                             <p className='tohe-action-box-item-text-top font-uvn-b'>
                                                 Sân chơi <br/> nghệ thuật
                                             </p>
@@ -274,7 +274,7 @@ const ToheComponent = () => {
                                 <div className="tohe-action-box-content">
                                     <div className="tohe-action-box-item">
                                         <div className="tohe-action-box-item_item">
-                                            <img src="/img/tohe/ve tohe/icon-v2.png" alt="" className='tohe-action-box-item-image'/>
+                                            <img src="/img/tohe/ve-tohe/icon-v2.png" alt="" className='tohe-action-box-item-image'/>
                                             <p className='tohe-action-box-item-text-top font-uvn-b'>
                                                 Art Coaching
                                             </p>
@@ -287,7 +287,7 @@ const ToheComponent = () => {
                                 <div className="tohe-action-box-content">
                                     <div className="tohe-action-box-item">
                                         <div className="tohe-action-box-item_item">
-                                            <img src="/img/tohe/ve tohe/icon-v3.png" alt="" className='tohe-action-box-item-image'/>
+                                            <img src="/img/tohe/ve-tohe/icon-v3.png" alt="" className='tohe-action-box-item-image'/>
                                             <p className='tohe-action-box-item-text-top font-uvn-b'>
                                                 Xưởng đào <br/> tạo nghề
                                             </p>
@@ -300,7 +300,7 @@ const ToheComponent = () => {
                                 <div className="tohe-action-box-content">
                                     <div className="tohe-action-box-item">
                                         <div className="tohe-action-box-item_item">
-                                            <img src="/img/tohe/ve tohe/icon-v4.png" alt="" className='tohe-action-box-item-image'/>
+                                            <img src="/img/tohe/ve-tohe/icon-v4.png" alt="" className='tohe-action-box-item-image'/>
                                             <p className='tohe-action-box-item-text-top font-uvn-b'>
                                                 Tòhe Bank
                                             </p>
@@ -313,7 +313,7 @@ const ToheComponent = () => {
                                 <div className="tohe-action-box-content">
                                     <div className="tohe-action-box-item">
                                         <div className="tohe-action-box-item_item">
-                                            <img src="/img/tohe/ve tohe/icon-v5.png" alt="" className='tohe-action-box-item-image'/>
+                                            <img src="/img/tohe/ve-tohe/icon-v5.png" alt="" className='tohe-action-box-item-image'/>
                                             <p className='tohe-action-box-item-text-top font-uvn-b'>
                                                 Sân chơi<br/> trở thành nghệ sĩ bé
                                             </p>
@@ -326,7 +326,7 @@ const ToheComponent = () => {
                                 <div className="tohe-action-box-content">
                                     <div className="tohe-action-box-item">
                                         <div className="tohe-action-box-item_item">
-                                            <img src="/img/tohe/ve tohe/icon-v6.png" alt="" className='tohe-action-box-item-image'/>
+                                            <img src="/img/tohe/ve-tohe/icon-v6.png" alt="" className='tohe-action-box-item-image'/>
                                             <p className='tohe-action-box-item-text-top font-uvn-b'>
                                                 Triển lãm nâng <br/> cao nhận thức
                                             </p>

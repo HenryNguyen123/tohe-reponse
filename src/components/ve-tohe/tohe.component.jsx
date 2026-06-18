@@ -102,8 +102,8 @@ const ToheComponent = () => {
                                 </div>
                                 <div className="tohe-model-item-right">
                                     <div className="tohe-model-item-right-bg">
-                                        <img src="/img/tohe/ve-tohe/model.png" alt=""  className='tohe-model-item-right-bg-left'/>
-                                        <img src="/img/tohe/ve-tohe/model.png" alt=""  className='tohe-model-item-right-bg-right'/>
+                                        <img src="/img/tohe/ve-tohe/ceo-one.png" alt=""  className='tohe-model-item-right-bg-left'/>
+                                        <img src="/img/tohe/ve-tohe/ceo-two.png" alt=""  className='tohe-model-item-right-bg-right'/>
                                     </div>
                                 </div>
                             </div>

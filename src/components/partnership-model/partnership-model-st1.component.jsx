@@ -138,7 +138,7 @@ const PartnerShipModelSt1 = () => {
                         </div>
                         <div className="partership-model-panda-bg">
                             <div className="partership-model-panda-bg-content">
-                                <img src="/img/tohe/logo/v478_1328.png" alt="" className='partership-model-panda-bg-conten-img'/>
+                                <img src="/img/tohe/logo/v307_667.png" alt="" className='partership-model-panda-bg-conten-img'/>
                                 <img src="/img/tohe/logo/wwf-panda-logo.jpg" alt="" className='partership-model-panda-bg-conten-img'/>
                                 <img src="/img/tohe/logo/british-council-1-logo-png-transparent.png" alt="" className='partership-model-panda-bg-conten-img'/>
                                 <img src="/img/tohe/logo/images.png" alt="" className='partership-model-panda-bg-conten-img'/>

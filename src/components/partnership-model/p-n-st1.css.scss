@@ -1,0 +1,208 @@
+.partership-model-container-st1{
+    .partership-model-context-st1{
+        .partership-model-box-st1{
+            padding: 0 30px;
+            .home-context_box_item-box-hm1{
+                z-index: 9999;
+                background-color: #fff;
+                // width: 1086px;
+                height: 400px;
+                margin-top: 100px;
+                border-radius: 16px;
+                display: flex;
+                box-shadow: 0 10px 30px rgba(9, 0, 0, 0.15);
+                .box-content-box-left-hm1{
+                    margin-left: 100px;
+                    // width: 675px;
+                    margin-top: 30px;
+                    .home-img-two-hm1{
+                        width: 180px;
+                        height: 55px;
+                        margin-left: 10px;
+                    }
+                    h1{
+                        margin-left: 40px;
+                        font-size: 60px;
+                    }
+                    p{
+                        margin-left: 40px;
+                        width: 590px;
+                    }
+                    .home-button-left-hm1{
+                        margin-left: 40px;
+                        // display: flex;
+                        // justify-content: center;
+                    }
+                }
+                .box-img-box-right-hm1{
+                    .home-img-box{
+                        width: 800px;
+                        height: 308px;
+                        margin-left: -120px;
+                        // margin-top: 46px;
+                        border-radius: 21px;
+                    }
+                }
+            }
+            .partership-model-box-item-st1{
+                display: flex;
+                justify-content: center;
+                margin-top: 60px;
+                .partership-model-box-content-item-st1{
+                    display: flex;
+                    .partership-model-box-item_item-left-st1{
+                        h1{
+                            font-size: 52px;
+                        }
+                        h4{
+                            font-size: 30px;
+                            margin-top: -20px;
+                            margin-bottom: -5px;
+                        }
+                        p{
+                            font-size: 18px;
+                        }
+                        img{
+                            width: 400px;
+                            height: 320px;
+                            border-radius: 15px;
+                            box-shadow: 10px 10px 10px rgba(9, 0, 0, 0.229);
+                        }
+                    }
+                    .partership-model-box-item_item-right-st1{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        margin-left: 60px;
+                        ul{
+                            margin-top: 170px;
+                            border-left: 3px solid #0C4EA1;
+                        }
+                    }
+                }
+            }
+        }
+
+        // parter
+        .home-content-parter-hm1{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 100px;
+            .home-content-parter-text-hm1{
+                h1{
+                    text-align: center;
+                    font-size: 40px;
+                }
+                p{
+                    text-align: center;
+                }
+            }
+            .home-parter-box-content-hm1{
+                width: 1200px;
+                display: flex;
+                justify-content: space-between;
+                margin-top: 40px;
+                margin-bottom: 100px;
+            }
+        }
+
+
+        // 
+        .partership-model-panda-conent{
+            .partership-model-panda-title{
+                display: flex;
+                justify-content: center;
+                .partership-model-panda-title-item{
+                    // display: flex;
+                    h4{
+                        font-size: 30px;
+                        margin-bottom: -20px;
+                        margin-left: 25px;
+                    }
+                    .partership-model-panda-title-item_item{
+                        display: flex;
+                        h1{
+                            font-size: 120px;
+                        }
+                        h4{
+                            margin-top: 15px;
+                            margin-left: 10px;
+                            font-size: 40px;
+                        }
+                    }
+                }
+            }
+            .partership-model-panda-bg{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 210px;
+                background-color: #D9D9D9;
+                .partership-model-panda-bg-content{
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    img{
+                        width: 100px;
+                        height: 50px;
+                    }
+                }
+            }
+            .partership-model-panda-list{
+                display: flex;
+                justify-content: center;
+                margin-top: 100px;
+                .partership-model-panda-list-left{
+                    h5{
+                        font-size: 26px;
+                    }
+                    h4{
+                        font-size: 32px;
+                    }
+                }
+                .partership-model-panda-list-right{
+                    margin-left: 40px;
+                    .partership-model-panda-list-one{
+                        width: 620px;
+                        background-color: #0C4EA1;
+                        border-radius: 15px;
+                        padding: 10px 20px;
+                        display: flex;
+                        span{
+                            color: #fff;
+                        }
+                        span{
+                            .partership-model-item-icon{
+                                font-size: 43px;
+                                margin-right: 10px;
+                            }
+                        }
+                    }
+                    .partership-model-panda-list-two{
+                        width: 620px;
+                        background-color: #D83997;
+                        border-radius: 15px;
+                        padding: 10px 20px;
+                        display: flex;
+                        margin: 10px 0;
+                        span{
+                            color: #fff;
+                        }
+                        span{
+                            .partership-model-item-icon{
+                                font-size: 43px;
+                                margin-right: 10px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+
+
+
+    }
+}

@@ -57,7 +57,7 @@ const NavComponent = () => {
                             <Nav.Link
                                 as={NavLink}
                                 className="nav-link"
-                                to="/companion"
+                                to="/partnership-model"
                             >
                                 <span>Hình thức đồng hành</span>
                             </Nav.Link>

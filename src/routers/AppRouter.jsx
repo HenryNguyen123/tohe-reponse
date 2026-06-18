@@ -10,6 +10,7 @@ import AccountComponent from '../components/account/AccountComponent'
 import RolesComponent from '../components/roles/RolesComponent'
 import LayoutComponent from '../components/layouts/layoutComponent'
 import ToheComponent from '../components/ve-tohe/tohe.component'
+import PartnerShipModelSt1 from '../components/partnership-model/partnership-model-st1.component'
 
 
 const AppRouter = () => {
@@ -68,6 +69,7 @@ const AppRouter = () => {
                         <Route path='/roles' element={ <RolesComponent/>} ></Route> */}
 
                         <Route path='/tohe' element={ <ToheComponent/>} ></Route>
+                        <Route path='/partnership-model' element={ <PartnerShipModelSt1/>} ></Route>
         
                         <Route path='*' element={<div>404 not found</div>}></Route>
                     </Route>

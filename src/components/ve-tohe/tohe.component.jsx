@@ -77,7 +77,7 @@ const ToheComponent = () => {
                     <div className="tohe-model-container">
                         <div className="model-content">
                             <div className="tohe-model-context">
-                                <img src="/img/tohe/ve-tohe/model.png" alt="" className='tohe-model-context-bg'/>
+                                <img src="/img/tohe/ve-tohe/mo-hinh-hoat-dong.png" alt="" className='tohe-model-context-bg'/>
                                 <div className="tohe-model-bg">
                                 </div>
                             </div>

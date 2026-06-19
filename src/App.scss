@@ -127,3 +127,25 @@ ul {
     width: 120px;
     height: 35px;
 }
+
+// ////////// pagination center
+.partnership-model-pagination{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    .page-link{
+        font-size: 22px;
+        &:hover{
+            scale: 1.1;
+            background-color: antiquewhite;
+        }
+    }
+    .page-item.active .page-link {
+        background-color: #0C4EA1;
+        border-color: #0C4EA1;
+        color: white;
+        text-align: center;
+        // font-size: 26px;
+    }
+
+}

@@ -49,3 +49,40 @@
         }
     }
 }
+
+
+// button arrow right mini
+.button-arrow-right-box-mini{
+    .button-arrow-right-item-mini{
+        cursor: pointer;
+        background-color: #014CA4;
+        height: 35px;
+        min-width: 140px;
+        border: 1px solid hsl(212, 99%, 32%);
+        border-radius: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0px 15px;
+        &:hover{
+            scale: 1.1;
+        }
+        span{
+            font-size: 11px;
+            color: #fff;
+        }
+        .arrow-right-context-mini{
+            border: 1px solid #fff;
+            width: 15px;
+            height: 15px;
+            border-radius: 50%;
+            margin-top: 5px;
+            margin-left: 10px;
+            .arrow-right-item-mini{
+                font-size: 11px;
+                color: #fff;
+                margin-top: -15px;
+            }
+        }
+    }
+}

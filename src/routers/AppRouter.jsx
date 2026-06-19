@@ -15,6 +15,7 @@ import PartnerShipModelNd2 from '../components/partnership-model/partnership-mod
 import PartnerShipModelTh3 from '../components/partnership-model/partnership-model-th3.component'
 import PartnerShipModelTh4 from '../components/partnership-model/partnership-model-th4.component'
 import CaseStudyComponent from '../components/case-study/case-study.component'
+import KhoeComponent from '../components/case-study/khoe.component'
 
 const AppRouter = () => {
         return(
@@ -30,6 +31,7 @@ const AppRouter = () => {
                             <Route path='page4' element={ <PartnerShipModelTh4/>} ></Route>
                         </Route>
                         <Route path='case-study' element={ <CaseStudyComponent/>} ></Route>
+                        <Route path='khoe' element={ <KhoeComponent/>} ></Route>
         
                         <Route path='*' element={<div>404 not found</div>}></Route>
                     </Route>

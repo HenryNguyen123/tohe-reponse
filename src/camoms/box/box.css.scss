@@ -147,3 +147,62 @@
         }
     }
 }
+
+
+// box image nd2 mini
+.box-image-nd2-container-mini {
+    width: 280px;
+    min-height: 300px;
+    box-shadow: 5px -1px 5px 5px rgba(6, 1, 1, 0.27);
+    border-radius: 15px;
+
+    .box-image-nd2-content-mini {
+        display: flex;
+        flex-direction: column;
+        min-height: 300px;
+
+        .logo-item-1-mini {
+            width: 280px;
+            height: 180px;
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+        }
+
+        .box-image-nd2-content-container-mini {
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+            padding: 20px;
+            background-color: #fff;
+            border-bottom-left-radius: 15px;
+            border-bottom-right-radius: 15px;
+            .box-image-nd2-content-item-mini {
+                .text-item-1-mini{
+                    font-size: 13px;
+                    line-height: 13px;
+                }
+                .text-item-2-mini{
+                    margin-top: -10px;
+                    font-size: 12px;
+                    line-height: 12px;
+                }
+            }
+
+            .box-image-nd2-logo-button-mini {
+                margin-top: auto;
+                display: flex;
+                justify-content: space-between;
+
+                .logo-mini {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    .logo-item-2-mini{
+                        width: 100px;
+                        height: 40px;
+                    }
+                }
+            }
+        }
+    }
+}

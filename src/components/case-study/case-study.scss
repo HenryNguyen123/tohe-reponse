@@ -44,7 +44,30 @@
                     display: flex;
                     justify-content: center;
                     align-items: center;
+                    .case-study-background-nav-title {
+                        position: absolute;
+                        top: 30px;
+                        left: 50px;
 
+                        ul {
+                            display: flex;
+                            gap: 10px;
+                            padding: 0;
+                            margin: 0;
+                            list-style: none;
+
+                            li {
+                                color: #fff;
+                                font-size: 16px;
+                                padding-right: 10px;
+                                border-right: 2px solid #fff;
+                                cursor: pointer;
+                                &:last-child{
+                                    border-right: none;
+                                }
+                            }
+                        }
+                    }
                     .case-study-background-nav-item {
                         text-align: center;
                         h1 {

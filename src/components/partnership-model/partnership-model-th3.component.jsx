@@ -24,7 +24,7 @@ const PartnerShipModelTh3 = () => {
         },
         {
             img: "/img/tohe/hinh-thuc-dong-hanh/th4/v307_654.png",
-            logo: "/img/tohe/hinh-thuc-dong-hanh/th4/v345_557.png",
+            logo: "/img/tohe/hinh-thuc-dong-hanh/th4/th3-icon2.png",
             title1: "TÒHE",
             title2: " X VCCA",
             titleButton: "Xem Chi tiết",

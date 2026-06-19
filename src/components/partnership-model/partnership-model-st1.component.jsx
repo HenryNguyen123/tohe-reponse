@@ -138,13 +138,13 @@ const PartnerShipModelSt1 = () => {
                         </div>
                         <div className="partership-model-panda-bg">
                             <div className="partership-model-panda-bg-content">
-                                <img src="/img/tohe/logo/v307_667.png" alt="" className='partership-model-panda-bg-conten-img'/>
-                                <img src="/img/tohe/logo/wwf-panda-logo.jpg" alt="" className='partership-model-panda-bg-conten-img'/>
-                                <img src="/img/tohe/logo/british-council-1-logo-png-transparent.png" alt="" className='partership-model-panda-bg-conten-img'/>
-                                <img src="/img/tohe/logo/images.png" alt="" className='partership-model-panda-bg-conten-img'/>
-                                <img src="/img/tohe/logo/images.png" alt="" className='partership-model-panda-bg-conten-img'/>
-                                <img src="/img/tohe/logo/uniqlo-seeklogo.png" alt="" className='partership-model-panda-bg-conten-img'/>
-                                <img src="/img/tohe/logo/ve-eco-retreat.png" alt="" className='partership-model-panda-bg-conten-img'/>
+                                <img src="/img/tohe/hinh-thuc-dong-hanh/th4/v307_667.png" alt="" className='icon-logon-rectangular-120'/>
+                                <img src="/img/tohe/hinh-thuc-dong-hanh/th4/icon-01.png" alt="" className='icon-logon-round-100'/>
+                                <img src="/img/tohe/hinh-thuc-dong-hanh/th4/icon-06.png" alt="" className='icon-logon-rectangular-120'/>
+                                <img src="/img/tohe/hinh-thuc-dong-hanh/th4/icon-02.png" alt="" className='icon-logon-round-100'/>
+                                <img src="/img/tohe/hinh-thuc-dong-hanh/th4/icon-03.png" alt="" className='icon-logon-round-100'/>
+                                <img src="/img/tohe/hinh-thuc-dong-hanh/th4/icon-04.png" alt="" className='icon-logon-rectangular-120'/>
+                                <img src="/img/tohe/hinh-thuc-dong-hanh/th4/icon-05.png" alt="" className='icon-logon-rectangular-120'/>
                             </div>
                         </div>
                         <div className="partership-model-panda-list">

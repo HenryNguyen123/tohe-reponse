@@ -73,7 +73,7 @@ const PartnerShipModelNd2 = () => {
                                         </div> */}
                                         <div className="tohe-box-context">
                                             <div className="tohe-box-item">
-                                                <img src="/img/tohe/hinh-thuc-dong-hanh/nd2/v352_788.png" alt="" />
+                                                <img src="/img/tohe/hinh-thuc-dong-hanh/nd2/st1-img1.png" alt="" />
                                                 <p className='tohe-box-item-text-title font-uvn-b'>
                                                     Thiết kế quà tặng ÁP dụng tranh vẽ của nghệ sĩ đặc biệt
                                                 </p>
@@ -92,7 +92,7 @@ const PartnerShipModelNd2 = () => {
                                                 </p>
                                             </div>
                                             <div className="tohe-box-item">
-                                                <img src="/img/tohe/hinh-thuc-dong-hanh/nd2/v352_788.png" alt="" />
+                                                <img src="/img/tohe/hinh-thuc-dong-hanh/nd2/nd2-img3.png" alt="" />
                                                 <p className='tohe-box-item-text-title font-uvn-b'>
                                                     Ủy thác trọn gói <br/>
                                                     quy trình sản xuất

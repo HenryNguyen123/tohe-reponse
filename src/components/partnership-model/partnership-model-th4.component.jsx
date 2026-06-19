@@ -21,7 +21,7 @@ const PartnerShipModelTh4 = () => {
         },
         {
             img: "/img/tohe/hinh-thuc-dong-hanh/th4/v356_608.png",
-            logo: "/img/tohe/hinh-thuc-dong-hanh/th4/v356_626.png",
+            logo: "/img/tohe/hinh-thuc-dong-hanh/th4/th4-icon2.png",
             title1: "",
             title2: "KHOE CREATIVE FESTIVAL",
             titleButton: "Xem Chi tiết",

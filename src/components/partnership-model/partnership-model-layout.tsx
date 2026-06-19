@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Outlet, Link, useLocation, useNavigate } from 'react-router-dom';
 import Pagination from 'react-bootstrap/Pagination';
 
@@ -26,6 +26,12 @@ const PartnerShipModelLayout: React.FC = () => {
             navigate(pages[currentPage + 1]);
         }
     };
+    useEffect(() => {
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
+}, [location.pathname]);
 
     return (
         <>

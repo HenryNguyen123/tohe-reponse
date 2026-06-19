@@ -14,7 +14,7 @@ import PartnerShipModelSt1 from '../components/partnership-model/partnership-mod
 import PartnerShipModelNd2 from '../components/partnership-model/partnership-model-nd2.component'
 import PartnerShipModelTh3 from '../components/partnership-model/partnership-model-th3.component'
 import PartnerShipModelTh4 from '../components/partnership-model/partnership-model-th4.component'
-
+import CaseStudyComponent from '../components/case-study/case-study.component'
 
 const AppRouter = () => {
         return(
@@ -29,13 +29,13 @@ const AppRouter = () => {
                             <Route path='page3' element={ <PartnerShipModelTh3/>} ></Route>
                             <Route path='page4' element={ <PartnerShipModelTh4/>} ></Route>
                         </Route>
+                        <Route path='case-study' element={ <CaseStudyComponent/>} ></Route>
         
                         <Route path='*' element={<div>404 not found</div>}></Route>
                     </Route>
                 </Routes>
             </>
         )
-
 
 }
 

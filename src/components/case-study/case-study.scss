@@ -1,0 +1,137 @@
+.case-study-container-home {
+    .case-study-context {
+        .case-study-background {
+            .case-study-background-item {
+                position: relative;
+                width: 100%;
+                height: 350px;
+
+                .case-study-background-image {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+
+                    background-size: cover;
+                    background-position: center;
+                    background-repeat: no-repeat;
+
+                    z-index: 1;
+                }
+                &::before {
+                    content: "";
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    background: linear-gradient(
+                        to bottom,
+                        rgb(0, 0, 0, 0.7),
+                        rgba(0, 0, 0, 0.7)
+                    );
+                    z-index: 2;
+                }
+                .case-study-background-nav {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    z-index: 2;
+
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    .case-study-background-nav-item {
+                        text-align: center;
+                        h1 {
+                            color: #fff;
+                            font-size: 50px;
+                            margin-bottom: 30px;
+                        }
+                        .case-study-background-button {
+                            display: flex;
+                            justify-content: center;
+                            margin-top: -30px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .case-study-box-top{
+            display: flex;
+            justify-content: center;
+            margin-top: -50px;
+            z-index: 999999;
+            position: relative;
+            .case-study-box-item-flex{
+                display: flex;
+                box-shadow: 0 10px 30px rgba(9, 0, 0, 0.15);
+                padding: 20px;
+                border-radius: 15px;
+                background-color: #fff;
+                .case-study-box-item{
+                    display: flex;
+                    padding: 10px;
+                    span{
+                        .icon-gift{
+                            font-size: 65px;
+                        }
+                    }
+                    .text-item-case-study{
+                        margin-top: 10px;
+                        padding-right: 20px;
+                        margin-left: 5px;
+                        height: 40px;
+                        border-right: 2px solid #000;
+                        .text-top{
+                        }
+                        .text-bottom{
+                            margin-top: -10px;
+                        }
+                    }
+                    &:last-child{
+                        .text-item-case-study{
+                            border-right: none;
+                        }
+                    }
+                }
+            }
+        }
+
+        
+            // title text
+            .partnership-model-content-item-pm1{
+                .partnership-model-impact-content{
+                    margin-top: 100px;
+                    h1{
+                        text-align: center;
+                        font-size: 60px;
+                    }
+                    p{
+                        text-align: center;
+                        margin-top: -15px;
+                        font-size: 18px;
+                    }
+                }
+                .partnership-model-impact-content-box{
+                    display: flex;
+                    justify-content: center;
+                    margin-top: 30px;
+                    .box-item-model{
+                        margin: 0 15px;
+                    }
+                }
+            }
+
+
+        .case-study-footer{
+            margin-bottom: 100px;
+        }
+
+    }
+}

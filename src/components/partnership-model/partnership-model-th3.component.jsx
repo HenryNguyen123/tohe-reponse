@@ -8,9 +8,6 @@ const PartnerShipModelTh3 = () => {
         document.title = 'Hình thức đồng hành';
     }, [])
     
-
-
-
     const boxList = [
         {
             img: "/img/tohe/hinh-thuc-dong-hanh/th4/v307_641.png",

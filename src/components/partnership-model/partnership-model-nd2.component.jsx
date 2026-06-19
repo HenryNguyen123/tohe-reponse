@@ -165,7 +165,84 @@ const PartnerShipModelNd2 = () => {
                             </div>
                         </div>
 
+                        {/* business */}
+                        <div className="partnership-model-business">
+                            <div className="partnership-model-business-content">
+                                <div className="partnership-model-business-content-top">
+                                    <div className="partnership-model-business-content-bg">
+                                        <div className="background-content"></div>
+                                        <div className="partnership-model-business-content-bg-item">
+                                            <img src="/img/tohe/hinh-thuc-dong-hanh/nd2/v342_851.png" alt="" />
+                                        </div>
+                                    </div>
+                                    <div className="partnership-model-business-content-text">
+                                        <h1 className='text-pink text-h1-top'>LỢI ÍCH GIÀNH CHO </h1>
+                                        <h1 className='text-h1-bottom'>DOANH NGHIỆP, TỔ CHỨC</h1>
+                                        <div className="partnership-model-business-box-item">
+                                            <h4 className='text-blue'>
+                                                Sở hữu giải pháp quà tặng mang tính độc bản cao
+                                            </h4>
+                                            <p>
+                                                Doanh nghiệp/Tổ chức nhận được các thiết kế quà tặng độc quyền, không thể sao chép nhờ ứng dụng kho dữ liệu tranh vẽ mang tính nghệ thuật tự do của các nghệ sĩ bé đặc biệt. Mỗi sản phẩm là một công cụ truyền thông sắc bén, tích hợp câu chuyện thương hiệu nhân văn để tạo sự khác biệt hóa vượt trội trong mắt khách hàng và đối tác.
+                                            </p>
+                                        </div>
+                                        <div className="partnership-model-business-box-item">
+                                            <h4 className='text-blue'>
+                                                Bảo chứng giá trị CSR/ESG minh bạch và thiết thực
+                                            </h4>
+                                            <p>
+                                                Mọi đơn hàng quà tặng đều có số liệu tác động xã hội rõ ràng, cam kết trích trực tiếp 5% doanh thu gửi lại tận tay các nghệ sĩ nhí đặc biệt có tranh được ứng dụng.
+                                            </p>
+                                        </div>
+                                        <div className="partnership-model-business-box-item">
+                                            <h4 className='text-blue'>
+                                                Quy trình hợp tác chuẩn B2B, nhanh chóng và linh hoạt
+                                            </h4>
+                                            <p>
+                                                Tòhe cam kết quy trình làm việc chuyên nghiệp, năng lực đáp ứng linh hoạt từ các đơn hàng nhỏ đến hàng chục nghìn sản phẩm. Toàn bộ chuỗi cung ứng  đều được tối ưu hóa, đảm bảo đúng tiến độ và tiêu chuẩn khắt khe của doanh nghiệp/tổ chức.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
 
+                                <div className="partnership-model-business-content-bottom">
+                                    <div className="partnership-model-business-content-text">
+                                        <h1 className='text-pink text-h1-top'>GIÁ TRỊ</h1>
+                                        <h1 className='text-h1-bottom'>CỘNG ĐỒNG TẠO RA</h1>
+                                        <div className="partnership-model-business-box-item">
+                                            <h4 className='text-blue'>
+                                                Trích trực tiếp 5% doanh thu từ sản phẩm
+                                            </h4>
+                                            <p>
+                                                Trích trực tiếp 5% doanh thu từ sản phẩm gửi lại cho các nghệ sĩ nhí có tranh được ứng dụng, giúp tạo nguồn thu nhập thực tế để các em tự lập và cải thiện cuộc sống.
+                                            </p>
+                                        </div>
+                                        <div className="partnership-model-business-box-item">
+                                            <h4 className='text-blue'>
+                                                Nuôi dưỡng tài năng đặc biệt
+                                            </h4>
+                                            <p>
+                                                Đóng góp nguồn tài lực vào việc duy trì vận hành xưởng hướng nghiệp và các lớp học nghệ thuật chuyên sâu, giúp chuyển hóa “Nghệ sĩ bé” thành những “Nghệ sĩ lớn” có khả năng sáng tác độc lập.
+                                            </p>
+                                        </div>
+                                        <div className="partnership-model-business-box-item">
+                                            <h4 className='text-blue'>
+                                                Thúc đẩy mô hình kinh tế tuần hoàn và toàn diện
+                                            </h4>
+                                            <p>
+                                                Tạo cơ hội việc làm bình đẳng cho nhóm người có nhu cầu đặc biệt trong chuỗi cung ứng sản xuất của doanh nghiệp xã hội. 
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div className="partnership-model-business-content-bg">
+                                        <div className="background-content"></div>
+                                        <div className="partnership-model-business-content-bg-item">
+                                            <img src="/img/tohe/hinh-thuc-dong-hanh/nd2/v342_905.png" alt="" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
 
 

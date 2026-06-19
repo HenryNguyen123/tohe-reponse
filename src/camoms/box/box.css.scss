@@ -152,14 +152,14 @@
 // box image nd2 mini
 .box-image-nd2-container-mini {
     width: 280px;
-    min-height: 300px;
+    min-height: 320px;
     box-shadow: 5px -1px 5px 5px rgba(6, 1, 1, 0.27);
     border-radius: 15px;
 
     .box-image-nd2-content-mini {
         display: flex;
         flex-direction: column;
-        min-height: 300px;
+        min-height: 320px;
 
         .logo-item-1-mini {
             width: 280px;
@@ -177,6 +177,7 @@
             border-bottom-left-radius: 15px;
             border-bottom-right-radius: 15px;
             .box-image-nd2-content-item-mini {
+                min-height: 80px;
                 .text-item-1-mini{
                     font-size: 13px;
                     line-height: 13px;

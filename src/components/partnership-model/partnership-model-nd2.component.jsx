@@ -58,9 +58,11 @@ const PartnerShipModelNd2 = () => {
                                 <h1 className='text-blue'>
                                     HỢP TÁC <span className='text-pink'>QUÀ TẶNG DOANH NGHIỆP</span> LÀ GÌ?
                                 </h1>
-                                <p>
-                                    <span className='text-pink'>Tòhe</span> cung cấp giải pháp tư vấn, thiết kế độc bản và sản xuất trọn gói các tặng phẩm<br/> doanh nghiệp tích hợp giá trị xã hội
-                                </p>
+                                <div className="text">
+                                    <p>
+                                        <span className='text-pink'>Tòhe</span> cung cấp giải pháp tư vấn, thiết kế độc bản và sản xuất trọn gói các tặng phẩm<br/> doanh nghiệp tích hợp giá trị xã hội
+                                    </p>
+                                </div>
                             </div>
                             <div className="tohe-bg-container">
                                 <div className="background-content"></div>

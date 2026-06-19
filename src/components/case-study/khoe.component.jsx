@@ -48,8 +48,8 @@ const KhoeComponent = () => {
             iconCheck: true,
         },
         {
-            img: "/img/tohe/case-study/st1/v364_666.png",
-            logo: "/img/tohe/case-study/st1/willet.png",
+            img: "/img/tohe/case-study/st1/willet.png",
+            logo: "/img/tohe/hinh-thuc-dong-hanh/nd2/v342_659.png",
             title1: "TÒHE",
             title2: " X STARBUCKS VIỆT NAM",
             titleButton: "Xem Chi tiết",

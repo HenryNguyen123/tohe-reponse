@@ -12,6 +12,7 @@ import LayoutComponent from '../components/layouts/layoutComponent'
 import ToheComponent from '../components/ve-tohe/tohe.component'
 import PartnerShipModelSt1 from '../components/partnership-model/partnership-model-st1.component'
 import PartnerShipModelNd2 from '../components/partnership-model/partnership-model-nd2.component'
+import PartnerShipModelTh3 from '../components/partnership-model/partnership-model-th3.component'
 
 
 const AppRouter = () => {
@@ -70,8 +71,9 @@ const AppRouter = () => {
                         <Route path='/roles' element={ <RolesComponent/>} ></Route> */}
 
                         <Route path='/tohe' element={ <ToheComponent/>} ></Route>
-                        <Route path='/partnership-model' element={ <PartnerShipModelSt1/>} ></Route>
-                        <Route path='/partnership-model-2' element={ <PartnerShipModelNd2/>} ></Route>
+                        <Route path='/partnership-model-page1' element={ <PartnerShipModelSt1/>} ></Route>
+                        <Route path='/partnership-model-page2' element={ <PartnerShipModelNd2/>} ></Route>
+                        <Route path='/partnership-model-page3' element={ <PartnerShipModelTh3/>} ></Route>
         
                         <Route path='*' element={<div>404 not found</div>}></Route>
                     </Route>

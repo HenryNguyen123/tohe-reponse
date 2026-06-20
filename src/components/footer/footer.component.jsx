@@ -11,6 +11,24 @@ const FooterComponent = () => {
     const handleToPageWarrantyPolicy = () => {
         navigate('/warranty-policy')
     }
+    const handleToPageWTohe = () => {
+        navigate('tohe')
+    }
+    const handleToPagePartnershipModel = () => {
+        navigate('/partnership-model')
+    }
+    const handleToPagePartnershipModelPage2 = () => {
+        navigate('/partnership-model/page2')
+    }
+    const handleToPagePartnershipModelPage3 = () => {
+        navigate('/partnership-model/page3')
+    }
+    const handleToPagePartnershipModelPage4 = () => {
+        navigate('/partnership-model/page4')
+    }
+    const handleToPageCaseStudy = () => {
+        navigate('/case-study')
+    }
     return(
         <>
             <div className="contaier-footer">
@@ -52,17 +70,17 @@ const FooterComponent = () => {
                                 <div className="item_item-box-footer">
                                     <ul>
                                         <li><p className='footer-box-text'>Giới thiệu</p></li>
-                                        <li><p>Về Tòhe</p></li>
-                                        <li><p>Hình thức đồng hành</p></li>
-                                        <li><p>Case study</p></li>
+                                        <li><p><a onClick={handleToPageWTohe}>Về Tòhe</a></p></li>
+                                        <li><p><a onClick={handleToPagePartnershipModel}>Hình thức đồng hành</a></p></li>
+                                        <li><p><a onClick={handleToPageCaseStudy}>Case study</a></p></li>
                                     </ul>
                                 </div>
                                 <div className="item_item-box-footer">
                                     <ul>
                                         <li><p className='footer-box-text'>Hình thức đồng hành</p></li>
-                                        <li><p>Đồng hành phát triển quà tặng doanh nghiệp</p></li>
-                                        <li><p>Đồng hành giáo dục và sân chơi sáng tạo </p></li>
-                                        <li><p>Đồng hành phát triển dự án xã hội</p></li>
+                                        <li><p><a onClick={handleToPagePartnershipModelPage2}>Đồng hành phát triển quà tặng doanh nghiệp</a></p></li>
+                                        <li><p><a onClick={handleToPagePartnershipModelPage3}>Đồng hành giáo dục và sân chơi sáng tạo </a></p></li>
+                                        <li><p><a onClick={handleToPagePartnershipModelPage4}>Đồng hành phát triển dự án xã hội</a></p></li>
                                     </ul>
                                 </div>
                                 <div className="item_item-box-footer">

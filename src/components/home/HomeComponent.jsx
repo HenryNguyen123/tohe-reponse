@@ -6,23 +6,29 @@ import BoxTitle from '../../camoms/box/box-title.box';
 import ButtonOne from '../../camoms/button/button-one.camon'
 import './home.scss'
 import { useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 
 const HomeComponent = () => {
+    const navigate = useNavigate()
+    
     const boxList = [
         {
             img: "/img/tohe/trang-chu/v72_14.png",
             branch: "/img/tohe/trang-chu/v76_2.png",
-            title: "Xem Chi tiết"
+            title: "Xem Chi tiết",
+            page: 'canifa'
         },
         {
             img: "/img/tohe/trang-chu/v74_3.png",
             branch: "/img/tohe/trang-chu/v76_3.png",
-            title: "Xem thêm"
+            title: "Xem thêm",
+            page: 'unicef'
         },
         {
             img: "/img/tohe/trang-chu/v74_4.png",
             branch: "/img/tohe/trang-chu/v76_4.png",
-            title: "Mua ngay"
+            title: "Mua ngay",
+            page: 'tokio-marine'
         }
     ];
     const partnerList = [
@@ -35,7 +41,8 @@ const HomeComponent = () => {
                 "Thiết kế quà tặng ứng dụng tranh trẻ em đặc biệt",
                 "Xây dựng sản phẩm độc bản",
                 "Tối ưu quy trình sản xuất"
-            ]
+            ],
+            page: 'page2'
         },
         {
             Icon: BsBook ,
@@ -46,7 +53,8 @@ const HomeComponent = () => {
                 "Đồng hành tổ chức sự kiện, sân chơi và hoạt động trải nghiệm nghệ thuật cho trẻ em và gia đình",
                 "Tài trợ, hỗ trợ lớp học, trại hè và sân chơi nghệ thuật cho trẻ em đặc biệt",
                 "Kết nối tổ chức, chuyên gia và nguồn lực"
-            ]
+            ],
+            page: 'page3'
         },
         {
             Icon: TbMessageCircleStar ,
@@ -57,9 +65,17 @@ const HomeComponent = () => {
                 "Đồng tổ chức triển lãm và chiến dịch nâng cao nhận thức cộng đồng",
                 "Hỗ trợ xây dựng sân chơi và mô hình giáo dục sáng tạo dài hạn",
                 "Phối hợp triển khai các dự án cộng đồng cùng tổ chức xã hội/quốc tế"
-            ]
+            ],
+            page: 'page4'
         }
     ];
+
+    const handleToPageContact = () => {
+        navigate('/contact')
+    }
+    const handleToPageCaseStudy = () => {
+        navigate('/case-study')
+    }
     useEffect(() => {
         document.title = 'Trang Chủ';
     }, [])
@@ -91,7 +107,7 @@ const HomeComponent = () => {
                                 Tòhe dành 5% doanh số bán sản phẩm để tạo thu nhập cho các nghệ sĩ đặc biệt có tranh được sử dụng.
                             </p>
                             <div className='home-button-left-hm1'>
-                                <ButtonOne title={'LIÊN HỆ NGAY'}/>
+                                <a onClick={handleToPageContact}><ButtonOne title={'LIÊN HỆ NGAY'}/></a>
                             </div>
                         </div>
                         <div className="box-img-box-right-hm1">
@@ -124,7 +140,7 @@ const HomeComponent = () => {
                         }
                     </div>
                     <div className='home-context_box-button-hm1'>
-                        <ButtonOne title={'Xem Tất Cả'}/>
+                        <a onClick={handleToPageCaseStudy}><ButtonOne title={'Xem Tất Cả'}/></a>
                     </div>
                 </div>
 
@@ -190,6 +206,7 @@ const HomeComponent = () => {
                                     title={item.title}
                                     description={item.description}
                                     items={item.items}
+                                    page={item.page}
                                 />
                             ))
                         }

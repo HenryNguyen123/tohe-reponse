@@ -8,8 +8,13 @@ import BoxTitle from '../../camoms/box/box-title.box';
 import { FiCheckSquare } from "react-icons/fi";
 import { FaPenNib } from "react-icons/fa";
 import { IoIosArrowDown } from "react-icons/io";
+import { useNavigate } from 'react-router-dom';
 
 const PartnerShipModelSt1 = () => {
+    const navigate = useNavigate()
+    const handleToPage = () => {
+        navigate(`/case-study`)
+    }
     useEffect(() => {
         document.title = 'Hình thức đồng hành';
     }, [])
@@ -300,7 +305,7 @@ const PartnerShipModelSt1 = () => {
                     </div>
 
                     <div className="partership-model-button">
-                        <ButtonArrowRight title={'Case study'}/>
+                        <a onClick={handleToPage}><ButtonArrowRight title={'Case study'}/></a>
                     </div>
                             
 

@@ -1,8 +1,13 @@
 import { useEffect } from 'react';
 import './tohe.css.scss'
 import ButtonArrowRight from '../../camoms/button/button-arrow-right.camon copy';
+import { useNavigate } from 'react-router-dom';
 
 const ToheComponent = () => {
+    const navigate = useNavigate()
+    const handleToPage = () => {
+        navigate(`/partnership-model`)
+    }
     useEffect(() => {
         document.title = 'Về TòHe';
     }, [])
@@ -341,7 +346,7 @@ const ToheComponent = () => {
                     </div>
 
                     <div className="tohe-button-next">
-                        <ButtonArrowRight title={'Xem hình thức đồng hành'} />
+                        <a onClick={handleToPage}><ButtonArrowRight title={'Xem hình thức đồng hành'} /></a>
                     </div>
 
                 </div>

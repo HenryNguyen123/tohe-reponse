@@ -1,6 +1,11 @@
+import { useNavigate } from 'react-router-dom';
 import './box.css.scss';
 
 const BoxImage = (props) => {
+    const navigate = useNavigate()
+    const handleToPage = () => {
+        navigate(`/${props.page}`)
+    }
     return(
         <>
             {/* <div className="box-image-container">
@@ -17,7 +22,7 @@ const BoxImage = (props) => {
                     <img src={props.img} alt="" className='box-image-item-one'/>
                     <div className="box-image-context">
                         <img src={props.branch} alt='' className="box-image-context-item-two" />
-                        <button className='box-img-button'>{props.title}</button>
+                        <a onClick={handleToPage}><button className='box-img-button'>{props.title}</button></a>
                     </div>
                 </div>
             </div>

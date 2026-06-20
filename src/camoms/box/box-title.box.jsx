@@ -1,7 +1,12 @@
+import { useNavigate } from 'react-router-dom';
 import ButtonArrowRight from '../button/button-arrow-right.camon copy';
 import './box.css.scss';
 
-const BoxTitle = ({ Icon, title, description, items }) => {
+const BoxTitle = ({ Icon, title, description, items, page }) => {
+    const navigate = useNavigate()
+    const handleToPage = () => {
+        navigate(`/partnership-model/${page}`)
+    }
     return (
         <div className="box-title-container">
             <div className="box-title-content">
@@ -31,7 +36,7 @@ const BoxTitle = ({ Icon, title, description, items }) => {
 
             </div>
                 <div className="button-title-box">
-                    <ButtonArrowRight title={'Xem chi tiết'} />
+                    <a onClick={handleToPage}><ButtonArrowRight title={'Xem chi tiết'} /></a>
                 </div>
         </div>
     );

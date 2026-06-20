@@ -6,7 +6,7 @@ import BoxIImageNd2Mini from '../../camoms/box/box-image-nd2-mini.box';
 const StarBuckComponent = () => {
     const navigate = useNavigate();
 
-    const background = '/img/tohe/case-study/canifa/image.png';
+    const background = '/img/tohe/case-study/starbuck/v370_575.png';
     const handleClickToHome = () =>{
         navigate('/')
     }
@@ -18,7 +18,7 @@ const StarBuckComponent = () => {
         navigate('/case-study')
     }
     useEffect(() => {
-        document.title = 'Canifa';
+        document.title = 'Starbucks';
     }, [])
     
     const boxList = [
@@ -79,8 +79,8 @@ const StarBuckComponent = () => {
                                     </ul>
                                 </div>
                                 <div className="case-study-background-nav-item">
-                                    <h1>
-                                        <span className='text-pink'>TÒHE</span> X <span className='text-origin'>CANIFA</span>: “YÊU THƯƠNG CÓ TẤT” - KHI MỘT SẢN PHẨM THỜI<br/> TRANG TRỞ THÀNH DỰ ÁN TẠO TÁC ĐỘNG XÃ HỘI
+                                    <h1>TÒHE X 
+                                        <span className='text-pink'>TÒHE</span> X <span className='text-green'>STARBUCKS VIỆT NAM</span>: 6 NĂM KIẾN TẠO QUÀ TẶNG<br/> DOANH NGHIỆP MANG GIÁ TRỊ XÃ HỘI
                                     </h1>
                                 </div>
                             </div>
@@ -101,7 +101,7 @@ const StarBuckComponent = () => {
                                 Thông qua việc đưa các tác phẩm nghệ thuật của những nghệ sĩ nhí Tòhe vào sản phẩm, mỗi bộ quà tặng không chỉ mang dấu ấn thương hiệu riêng của Starbucks mà còn lan tỏa những giá trị tích cực tới cộng đồng. Với Tòhe, Starbucks Việt Nam không chỉ là một đối tác kinh doanh có trách nhiệm và ảnh hưởng tích cực, mà còn là một người bạn tin cậy, chia sẻ chung các giá trị nhân văn.
                             </p>
 
-                            <img src="/img/tohe/case-study/canifa/v366_1450.png" alt="" className='img-canifa-one'/>
+                            <img src="/img/tohe/case-study/starbuck/starbuck.png" alt="" className='img-canifa-one'/>
 
                             <p className='font-uvn-b-content-20' style={{margin: '15px 0'}}>
                                 II. Mong muốn của Stubucks và Giải pháp từ Tòhe
@@ -120,7 +120,7 @@ const StarBuckComponent = () => {
                                 Trong bối cảnh đó, Starbucks Việt Nam mong muốn xây dựng các dòng quà tặng và merchandise không đơn thuần là vật phẩm nhận diện thương hiệu mà trở thành một phần trong trải nghiệm cảm xúc của khách hàng với Starbucks.
                             </p>
 
-                            <img src="/img/tohe/case-study/canifa/v344_606.png" alt="" className='img-canifa-one'/>                                     
+                            <img src="/img/tohe/case-study/starbuck/v370_608.png" alt="" className='img-canifa-one'/>                                     
 
                             <p style={{margin: '15px 0'}}>
                                 Tuy nhiên, bài toán đặt ra là:
@@ -180,11 +180,11 @@ const StarBuckComponent = () => {
                                         <p>Mỗi chiếc ví bán ra tại Starbucks sẽ đóng góp 5.000 đồng vào quỹ “Xưởng sản xuất nụ cười”.</p>
                                     </div>
                                 </div>
-                                <img src="/img/tohe/case-study/canifa/v344_606.png" alt="" className='starbuck-box-img-right'/>
+                                <img src="/img/tohe/case-study/starbuck/v404_578.png" alt="" className='starbuck-box-img-right'/>
                             </div>
 
                             <div className="starbuck-box-img-left">
-                                <img src="/img/tohe/case-study/canifa/v344_606.png" alt="" className='starbuck-box-img-left'/>
+                                <img src="/img/tohe/case-study/starbuck/v404_585.png" alt="" className='starbuck-box-img-left'/>
                                 <div className="starbuck-box-item-content">
                                     <div className="starbuck-box-item-text" style={{margin: '20px 0'}}>
                                         <p>CAM KẾT TỪ STARBUCKS</p>

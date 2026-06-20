@@ -82,8 +82,8 @@ const NavComponent = () => {
                                     Starbucks
                                 </NavDropdown.Item>
 
-                                <NavDropdown.Item as={NavLink} to="/case-study/study">
-                                    Study
+                                <NavDropdown.Item as={NavLink} to="/tokio-marine">
+                                    Tokio Marine
                                 </NavDropdown.Item>
 
                                 <NavDropdown.Item as={NavLink} to="/case-study/abc">

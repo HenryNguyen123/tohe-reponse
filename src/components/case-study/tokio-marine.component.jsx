@@ -3,7 +3,7 @@ import './starbuck.scss'
 import { useNavigate } from 'react-router-dom';
 import BoxIImageNd2Mini from '../../camoms/box/box-image-nd2-mini.box';
 
-const StarBuckComponent = () => {
+const TokioMarineComponent = () => {
     const navigate = useNavigate();
 
     const background = '/img/tohe/case-study/canifa/image.png';
@@ -18,7 +18,7 @@ const StarBuckComponent = () => {
         navigate('/case-study')
     }
     useEffect(() => {
-        document.title = 'Canifa';
+        document.title = 'Tokio Marine';
     }, [])
     
     const boxList = [
@@ -350,4 +350,4 @@ const StarBuckComponent = () => {
         </>
     )
 }
-export default StarBuckComponent;
+export default TokioMarineComponent;

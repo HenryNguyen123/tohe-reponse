@@ -78,8 +78,8 @@ const NavComponent = () => {
                                     Canifa
                                 </NavDropdown.Item>
 
-                                <NavDropdown.Item as={NavLink} to="/case-study/canify">
-                                    Canify
+                                <NavDropdown.Item as={NavLink} to="/starbuck">
+                                    Starbucks
                                 </NavDropdown.Item>
 
                                 <NavDropdown.Item as={NavLink} to="/case-study/study">

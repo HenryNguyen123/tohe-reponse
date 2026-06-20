@@ -86,8 +86,8 @@ const NavComponent = () => {
                                     Tokio Marine
                                 </NavDropdown.Item>
 
-                                <NavDropdown.Item as={NavLink} to="/case-study/abc">
-                                    ABC
+                                <NavDropdown.Item as={NavLink} to="/unicef">
+                                    Unicef
                                 </NavDropdown.Item>
                             </NavDropdown>
 

@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import './starbuck.scss'
+import './tokio-marine.scss'
 import { useNavigate } from 'react-router-dom';
 import BoxIImageNd2Mini from '../../camoms/box/box-image-nd2-mini.box';
 

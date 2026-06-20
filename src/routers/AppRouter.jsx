@@ -19,6 +19,7 @@ import KhoeComponent from '../components/case-study/khoe.component'
 import CanifaComponent from '../components/case-study/canifa.component'
 import StarBuckComponent from '../components/case-study/starbuck.component'
 import TokioMarineComponent from '../components/case-study/tokio-marine.component'
+import UnicefComponent from '../components/case-study/unicef.component'
 
 const AppRouter = () => {
         return(
@@ -38,6 +39,7 @@ const AppRouter = () => {
                         <Route path='canifa' element={ <CanifaComponent/>} ></Route>
                         <Route path='starbuck' element={ <StarBuckComponent/>} ></Route>
                         <Route path='tokio-marine' element={ <TokioMarineComponent/>} ></Route>
+                        <Route path='unicef' element={ <UnicefComponent/>} ></Route>
         
                         <Route path='*' element={<div>404 not found</div>}></Route>
                     </Route>

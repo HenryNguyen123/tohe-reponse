@@ -1,21 +1,26 @@
 import { useEffect } from 'react';
-import BoxIImageNd2Mini from '../../camoms/box/box-image-nd2-mini.box';
 import ButtonArrowRight from '../../camoms/button/button-arrow-right.camon copy';
 import './khoe.scss'
-
+import { useNavigate } from "react-router-dom";
+import BoxIImageNd2Mini from '../../camoms/box/box-image-nd2-mini.box'
 const KhoeComponent = () => {
+    const navigate = useNavigate();
+
     const background = '/img/tohe/case-study/st1/v364_636.png';
+    const handleClickToHome = () =>{
+        navigate('/')
+    }
+    const handleClickTOCaseStudy = () =>{
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
+        navigate('/case-study')
+    }
     useEffect(() => {
         document.title = 'Khoe';
     }, [])
     
-
-
-
-
-
-
-
     const boxList = [
         {
             img: "/img/tohe/case-study/st1/v364_656.png",
@@ -68,7 +73,7 @@ const KhoeComponent = () => {
                             <div className="case-study-background-nav">
                                 <div className="case-study-background-nav-title">
                                     <ul>
-                                        <li>trang chu</li>
+                                        <li><a  onClick={() => handleClickToHome()}>Trang chu</a></li>
                                         <li>Dịch vụ quà tặng doanh nghiệp</li>
                                         <li>Các dự án hợp tác</li>
                                     </ul>
@@ -351,6 +356,11 @@ const KhoeComponent = () => {
                         </div>
                     </div>
 
+
+
+                    <div className="case-study-all">
+                        <p><a onClick={() => handleClickTOCaseStudy()}>XEM TẤT CẢ CASESTUDY</a></p>
+                    </div>
                     <div className="case-studt-mapping">
                         <div className="case-studt-mapping-content">
                             <div className="case-studt-mapping-content-h1">
@@ -361,7 +371,7 @@ const KhoeComponent = () => {
                                     {
                                         boxList && boxList.map((item, index) => (
                                             <div className="box-item-model" key={index}>
-                                                <BoxIImageNd2Mini 
+                                                <BoxIImageNd2Mini
                                                     img={item.img}
                                                     logo={item.logo}
                                                     title1={item.title1}

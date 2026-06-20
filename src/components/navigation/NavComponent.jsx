@@ -4,6 +4,7 @@ import "./nav.scss";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
+import NavDropdown from "react-bootstrap/NavDropdown";
 
 const NavComponent = () => {
     return (
@@ -62,13 +63,33 @@ const NavComponent = () => {
                                 <span>Hình thức đồng hành</span>
                             </Nav.Link>
 
-                            <Nav.Link
-                                as={NavLink}
+                            <NavDropdown
+                                title="Case study"
+                                id="case-study-dropdown"
                                 className="nav-link"
-                                to="/case-study"
                             >
-                                <span>Case study</span>
-                            </Nav.Link>
+                                <NavDropdown.Item as={NavLink} to="/case-study">
+                                    Case Study
+                                </NavDropdown.Item>
+                                <NavDropdown.Item as={NavLink} to="/khoe">
+                                    Khoe
+                                </NavDropdown.Item>
+                                <NavDropdown.Item as={NavLink} to="/canifa">
+                                    Canifa
+                                </NavDropdown.Item>
+
+                                <NavDropdown.Item as={NavLink} to="/case-study/canify">
+                                    Canify
+                                </NavDropdown.Item>
+
+                                <NavDropdown.Item as={NavLink} to="/case-study/study">
+                                    Study
+                                </NavDropdown.Item>
+
+                                <NavDropdown.Item as={NavLink} to="/case-study/abc">
+                                    ABC
+                                </NavDropdown.Item>
+                            </NavDropdown>
 
                             <Nav.Link
                                 as={NavLink}

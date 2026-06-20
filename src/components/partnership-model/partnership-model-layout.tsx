@@ -27,11 +27,11 @@ const PartnerShipModelLayout: React.FC = () => {
         }
     };
     useEffect(() => {
-    window.scrollTo({
-        top: 0,
-        behavior: "smooth"
-    });
-}, [location.pathname]);
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
+    }, [location.pathname]);
 
     return (
         <>

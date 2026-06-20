@@ -100,7 +100,7 @@ const UnicefComponent = () => {
                                 Dự án được triển khai từ năm 2017 với định hướng “học mà chơi - chơi mà học”, giúp trẻ tiếp cận các kiến thức về biến đổi khí hậu, vệ sinh cá nhân và kỹ năng ứng phó thiên tai thông qua hình thức tương tác trực quan, gần gũi và sáng tạo thay vì các phương pháp truyền đạt một chiều truyền thống.
                             </p>
 
-                            <img src="/img/tohe/case-study/canifa/v366_1450.png" alt="" className='img-canifa-one'/>
+                            <img src="/img/tohe/case-study/canifa/un-1.png" alt="" className='img-canifa-one'/>
 
                             <p className='font-uvn-b-content-20' style={{margin: '15px 0'}}>
                                 II. Mong muốn của UNICEF và Giải pháp từ Tòhe
@@ -149,10 +149,10 @@ const UnicefComponent = () => {
                                 </li>
                             </ul>
                             <p>
-                                                                Đây cũng là lý do UNICEF lựa chọn Tòhe - một doanh nghiệp xã hội có kinh nghiệm phát triển các sản phẩm giáo dục sáng tạo lấy trẻ em làm trung tâm để cùng thiết kế và triển khai dự án.
+                                Đây cũng là lý do UNICEF lựa chọn Tòhe - một doanh nghiệp xã hội có kinh nghiệm phát triển các sản phẩm giáo dục sáng tạo lấy trẻ em làm trung tâm để cùng thiết kế và triển khai dự án.
                             </p>
 
-                            <img src="/img/tohe/case-study/canifa/v344_606.png" alt="" className='img-canifa-one'/>
+                            <img src="/img/tohe/case-study/canifa/un-2.png" alt="" className='img-canifa-one'/>
 
                             <p className='font-uvn-b-content-16' style={{margin: '15px 0'}}>
                                 2.2 Giải pháp từ Tòhe 
@@ -169,11 +169,11 @@ const UnicefComponent = () => {
 
                             <div className="box-item">
                                 <div className="box-item-box" >
-                                    <img src="/img/tohe/case-study/canifa/v366_1509.png" alt="" className='box-item-img'/>
+                                    <img src="/img/tohe/case-study/canifa/v416_818.png" alt="" className='box-item-img'/>
                                     <p>board game “Hạ nhiệt Trái Đất”</p>
                                 </div>
                                 <div className="box-item-box" >
-                                    <img src="/img/tohe/case-study/canifa/v366_1509.png" alt="" className='box-item-img'/>
+                                    <img src="/img/tohe/case-study/canifa/un-3.png" alt="" className='box-item-img'/>
                                     <p>board game “Hạ nhiệt Trái Đất”</p>
                                 </div>
                             </div>
@@ -217,7 +217,7 @@ const UnicefComponent = () => {
                                     <p>Có thể sử dụng nhiều lần với chi phí hợp lý.</p>
                                 </li>
                             </ul>
-                            <img src="/img/tohe/case-study/canifa/v344_606.png" alt="" className='img-canifa-one'/>
+                            <img src="/img/tohe/case-study/canifa/un-4.png" alt="" className='img-canifa-one'/>
                             <p style={{margin: '15px 0'}}>
                                 Thứ năm, Biến sản phẩm giáo dục thành công cụ truyền thông cộng đồng.
                             </p>

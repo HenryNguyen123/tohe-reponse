@@ -89,6 +89,10 @@ const NavComponent = () => {
                                 <NavDropdown.Item as={NavLink} to="/unicef">
                                     Unicef
                                 </NavDropdown.Item>
+
+                                <NavDropdown.Item as={NavLink} to="/vcca">
+                                    VCCA
+                                </NavDropdown.Item>
                             </NavDropdown>
 
                             <Nav.Link

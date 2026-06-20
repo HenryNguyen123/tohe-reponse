@@ -20,6 +20,7 @@ import CanifaComponent from '../components/case-study/canifa.component'
 import StarBuckComponent from '../components/case-study/starbuck.component'
 import TokioMarineComponent from '../components/case-study/tokio-marine.component'
 import UnicefComponent from '../components/case-study/unicef.component'
+import VCCAComponent from '../components/case-study/vcca.component'
 
 const AppRouter = () => {
         return(
@@ -40,6 +41,7 @@ const AppRouter = () => {
                         <Route path='starbuck' element={ <StarBuckComponent/>} ></Route>
                         <Route path='tokio-marine' element={ <TokioMarineComponent/>} ></Route>
                         <Route path='unicef' element={ <UnicefComponent/>} ></Route>
+                        <Route path='vcca' element={ <VCCAComponent/>} ></Route>
         
                         <Route path='*' element={<div>404 not found</div>}></Route>
                     </Route>

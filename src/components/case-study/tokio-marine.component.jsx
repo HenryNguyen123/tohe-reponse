@@ -80,7 +80,7 @@ const TokioMarineComponent = () => {
                                 </div>
                                 <div className="case-study-background-nav-item">
                                     <h1>
-                                        <span className='text-pink'>TÒHE</span> X <span className='text-origin'>CANIFA</span>: “YÊU THƯƠNG CÓ TẤT” - KHI MỘT SẢN PHẨM THỜI<br/> TRANG TRỞ THÀNH DỰ ÁN TẠO TÁC ĐỘNG XÃ HỘI
+                                        <span className='text-pink'>TÒHE</span> X <span className='text-blue'>TOKIO MARINE VIỆT NAM</span>: “YÊU TRỌN NIỀM VUI” - GIÁO<br/> DỤC NGHỆ THUẬT CHO TRẺ EM TỰ KỶ
                                     </h1>
                                 </div>
                             </div>
@@ -91,194 +91,252 @@ const TokioMarineComponent = () => {
                     <div className="case-study-blog-container">
                         <div className="case-study-blog-content">
                             <p className='font-uvn-b-content-20'>
-                                I. Tổng quan quá trình hợp tác
+                                I. Tổng quan dự án
                             </p>
 
+                            <p>Thời gian thực hiện: Tháng 11/2025 - Tháng 6/2026</p>
                             <p>
-                                Trong hơn 6 năm đồng hành kể từ năm 2019, Tòhe và Starbucks Việt Nam đã cùng phát triển nhiều bộ sưu tập quà tặng doanh nghiệp đa dạng, được thiết kế riêng cho từng mùa và các dịp đặc biệt. Starbucks Việt Nam là thương hiệu cà phê toàn cầu, hiện diện tại Việt Nam với định hướng không chỉ mang đến trải nghiệm đồ uống chất lượng mà còn xây dựng không gian kết nối cộng đồng, đề cao tính bền vững và trách nhiệm xã hội trong mọi hoạt động thương hiệu.
+                                Với cam kết xây dựng một xã hội bền vững và hòa nhập, Tokio Marine Việt Nam phối hợp cùng Tòhe triển khai dự án “Yêu trọn niềm vui” - Dự án giáo dục sáng tạo nhằm mang đến cơ hội học tập và phát triển cho các bạn nhỏ rối loạn phổ tự kỷ. Thông qua sức mạnh chuyển hóa của nghệ thuật, dự án tạo nên những nhịp cầu kết nối cảm xúc, khơi dậy sự tự tin và hỗ trợ các em trên hành trình hòa nhập cộng đồng.
                             </p>
                             <p>
-                                Thông qua việc đưa các tác phẩm nghệ thuật của những nghệ sĩ nhí Tòhe vào sản phẩm, mỗi bộ quà tặng không chỉ mang dấu ấn thương hiệu riêng của Starbucks mà còn lan tỏa những giá trị tích cực tới cộng đồng. Với Tòhe, Starbucks Việt Nam không chỉ là một đối tác kinh doanh có trách nhiệm và ảnh hưởng tích cực, mà còn là một người bạn tin cậy, chia sẻ chung các giá trị nhân văn.
+                                Trong bối cảnh tỷ lệ trẻ tự kỷ đang gia tăng trên thế giới và tại Việt Nam, đặt ra thách thức lớn cho gia đình và xã hội. Các em thường gặp nhiều khó khăn trong cuộc sống như rối loạn ngôn ngữ, hạn chế tương tác xã hội, chậm nói, tăng động, khó kiểm soát hành vi… Nghệ thuật, với khả năng khơi gợi cảm xúc và tạo ra những kênh biểu đạt phi ngôn ngữ độc đáo, là một công cụ hữu hiệu đối với trẻ tự kỷ. Xuất phát từ niềm tin đó, Tòhe vui mừng đồng hành cùng Tokio Marine trong dự án “Yêu trọn niềm vui”, được xây dựng trên nền tảng của sự thấu cảm và quan tâm.
                             </p>
 
                             <img src="/img/tohe/case-study/canifa/v366_1450.png" alt="" className='img-canifa-one'/>
 
                             <p className='font-uvn-b-content-20' style={{margin: '15px 0'}}>
-                                II. Mong muốn của Stubucks và Giải pháp từ Tòhe
+                                II. Mong muốn của Tokio Marine và Giải pháp từ Tòhe
                             </p>
                             <p className='font-uvn-b-content-16'>
-                                2.1 Mong muốn của Starbucks
+                                2.1. Mong muốn của Tokio Marine
                             </p>
 
                             <p>
-                                Trong bối cảnh thị trường F&B Việt Nam ngày càng cạnh tranh mạnh về trải nghiệm thương hiệu, các chuỗi cà phê không còn chỉ cạnh tranh bằng đồ uống mà còn bằng khả năng tạo ra trải nghiệm và kết nối cảm xúc với khách hàng. Theo báo cáo thị trường F&B Việt Nam 2024 của iPOS và Nestlé Professional, doanh thu toàn ngành đạt gần 689 nghìn tỷ đồng, tăng 16,6%, nhưng mức độ cạnh tranh ngày càng khốc liệt khi chỉ khoảng 14,7% doanh nghiệp ghi nhận tăng trưởng doanh thu thực sự. Đồng thời, hơn 52% doanh nghiệp trong ngành đang chuyển hướng từ các xu hướng ngắn hạn sang đầu tư dài hạn vào giá trị thương hiệu và phát triển bền vững.
+                                Trong những năm gần đây, vấn đề sức khỏe tinh thần và giáo dục hòa nhập cho trẻ em tự kỷ ngày càng trở thành một mối quan tâm lớn trên toàn cầu. Theo Tổ chức Y tế Thế giới (WHO), cứ khoảng 100 trẻ em thì có 1 trẻ nằm trong phổ tự kỷ. Năm 2023, Trung tâm Kiểm soát và Phòng ngừa Dịch bệnh Hoa Kỳ (CDC) đã công bố tỷ lệ trẻ tự kỷ đã đạt mức 1/36. Tại Việt Nam, theo công bố của Tổng cục Thống kê (tháng 1/2019), cả nước có khoảng 1 triệu người rối loạn phổ tự kỷ, với tỷ lệ trẻ mắc tự kỷ ước tính chiếm khoảng 1% số trẻ sinh ra mỗi năm.
                             </p>
                             <p>
-                                Với Starbucks Việt Nam, điều này tạo ra áp lực lớn trong việc duy trì sức hút thương hiệu tại một thị trường có văn hóa cà phê bản địa rất mạnh như Việt Nam. Sau hơn 10 năm hoạt động với hơn 90 cửa hàng và hơn 1.200 nhân sự tại Việt Nam (năm 2023), Starbucks không chỉ cần bán sản phẩm mà còn cần liên tục làm mới trải nghiệm thương hiệu để duy trì sự kết nối với tệp khách hàng trẻ, yêu thích tính cá nhân hóa và các giá trị cộng đồng phía sau thương hiệu.
+                                Trong bối cảnh đó, các doanh nghiệp quốc tế ngày càng chịu áp lực phải chứng minh trách nhiệm xã hội bằng những tác động cụ thể, dài hạn và có khả năng tạo thay đổi thật sự cho cộng đồng, thay vì chỉ dừng lại ở các hoạt động tài trợ ngắn hạn hay truyền thông CSR đơn lẻ. Đặc biệt với ngành bảo hiểm - lĩnh vực gắn trực tiếp với sự an toàn, bảo vệ con người và niềm tin xã hội - các chương trình cộng đồng cần thể hiện rõ tính nhân văn, sự đồng hành lâu dài và khả năng tạo ra giá trị bền vững.
                             </p>
                             <p>
-                                Trong bối cảnh đó, Starbucks Việt Nam mong muốn xây dựng các dòng quà tặng và merchandise không đơn thuần là vật phẩm nhận diện thương hiệu mà trở thành một phần trong trải nghiệm cảm xúc của khách hàng với Starbucks.
+                                Là doanh nghiệp hoạt động với triết lý “To Be a Good Company”, Tokio Marine Việt Nam định hướng phát triển không chỉ như một công ty bảo hiểm mà còn là một doanh nghiệp có trách nhiệm với xã hội, chú trọng các giá trị về con người, sự hòa nhập và phát triển bền vững. Đây cũng là định hướng xuyên suốt của Tokio Marine Group trên toàn cầu khi tập trung vào các mục tiêu ESG, hỗ trợ cộng đồng và tạo ra các tác động xã hội tích cực thông qua hoạt động kinh doanh.
                             </p>
 
-                            <img src="/img/tohe/case-study/canifa/v344_606.png" alt="" className='img-canifa-one'/>                                     
-
+                            <img src="/img/tohe/case-study/canifa/v344_606.png" alt="" className='img-canifa-one'/>
                             <p style={{margin: '15px 0'}}>
-                                Tuy nhiên, bài toán đặt ra là:
+                                Từ định hướng đó, bài toán đặt ra với Tokio Marine Việt Nam không chỉ là “tài trợ cho một dự án cộng đồng”, mà là tìm kiếm một mô hình đủ thực chất và lâu dài để:
                             </p>
                             <ul>
                                 <li>
                                     <p>
-                                        Làm thế nào để mỗi mùa quà tặng vẫn giữ được tinh thần nhận diện toàn cầu của Starbucks nhưng không bị lặp lại hay “công nghiệp hóa” giữa một thị trường ngày càng đòi hỏi tính mới mẻ và cá nhân hóa.
+                                        Tạo ra tác động bền vững cho trẻ em tự kỷ thay vì các hoạt động hỗ trợ ngắn hạn.
                                     </p>
                                 </li>
                                 <li>
                                     <p>
-                                        Làm sao để các sản phẩm merchandise mang đủ chất nghệ thuật, tính sưu tầm và câu chuyện cảm xúc để khách hàng thật sự muốn sở hữu thay vì chỉ là quà tặng thương hiệu thông thường.
+                                        Xây dựng một chương trình có khả năng phát triển đồng thời cả kỹ năng, cảm xúc và sự tự tin cho trẻ.
                                     </p>
                                 </li>
                                 <li>
                                     <p>
-                                        Làm thế nào để đưa các giá trị cộng đồng và phát triển bền vững vào chính sản phẩm thương mại một cách tự nhiên, lâu dài và đủ thực chất, thay vì chỉ dừng ở hoạt động truyền thông CSR ngắn hạn.
+                                        Tạo cơ hội để trẻ em tự kỷ được kết nối và hòa nhập với cộng đồng thông qua các hoạt động sáng tạo phù hợp.
                                     </p>
                                 </li>
                                 <li>
                                     <p>
-                                        Với đặc thù phải liên tục ra mắt concept mới qua từng năm, Starbucks cần một đối tác có khả năng sáng tạo dài hạn, vừa hiểu tinh thần thương hiệu Starbucks, vừa đủ năng lực chuyển hóa ý tưởng thành sản phẩm có thể sản xuất thực tế với số lượng lớn.
+                                        Biến những cam kết ESG và triết lý “To Be a Good Company” thành các hoạt động cụ thể, có thể nhìn thấy và đo lường được trong thực tế.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Đồng hành cùng một đối tác có chuyên môn về giáo dục nghệ thuật và hiểu rõ cách làm việc với trẻ em có nhu cầu đặc biệt để đảm bảo chương trình được triển khai chuyên nghiệp, an toàn và lâu dài.
                                     </p>
                                 </li>
                             </ul>
                             <p>
-                                Đồng thời, doanh nghiệp cũng cần một mô hình hợp tác có thể giúp thương hiệu “địa phương hóa” trải nghiệm tại Việt Nam, tạo cảm giác gần gũi hơn với khách hàng Việt nhưng vẫn giữ được tinh thần Starbucks toàn cầu.
-                            </p>
-                            <p>
-                                Chính những yêu cầu đó đã tạo nên điểm giao thoa giữa Starbucks Việt Nam và Tòhe - nơi nghệ thuật của trẻ em đặc biệt không chỉ trở thành chất liệu thiết kế độc bản cho sản phẩm mà còn giúp Starbucks kể những câu chuyện thương hiệu giàu cảm xúc, có chiều sâu cộng đồng và đủ khác biệt để duy trì kết nối với khách hàng qua nhiều năm liên tiếp.
-
+                                Chính từ những nhu cầu đó, Tokio Marine Việt Nam lựa chọn đồng hành cùng Tòhe để triển khai dự án “Yêu trọn niềm vui” - một mô hình giáo dục nghệ thuật hướng tới sự hòa nhập, phát triển cảm xúc và kết nối cộng đồng dành cho trẻ em tự kỷ.
                             </p>
                             <p className='font-uvn-b-content-16'>
-                                2.2 Giải pháp từ Tòhe 
+                                2.2. Giải pháp từ Tòhe
                             </p>
                             <p>
-                                Tòhe đã triển khai mô hình đồng hành sáng tạo theo hướng “Art - Story - Impact”, thể hiện qua nhiều dự án tiêu biểu:
-                            </p>
-                            <p style={{ margin: '15px 0'}}>
-                                1.  Túi Dây Rút và Ví Vải | Hành trình cùng “xây” những nụ cười (2019)
+                                Thứ nhất, xây dựng chương trình giáo dục nghệ thuật hướng đến phát triển toàn diện. Tòhe phát triển dự án "Yêu trọn niềm vui" dựa trên phương pháp giáo dục nghệ thuật sáng tạo đã được ứng dụng nhiều năm với trẻ em có hoàn cảnh đặc biệt. Chương trình không chỉ tập trung vào kỹ năng mỹ thuật mà còn hướng đến phát triển cảm xúc, khả năng giao tiếp và sự tự tin của trẻ thông qua các hoạt động sáng tạo phù hợp với đặc điểm của trẻ tự kỷ.
                             </p>
                             <p>
-                                Mùa hè năm 2019 đánh dấu sự hợp tác thành công giữa Tòhe và Starbucks Việt Nam thông qua dự án xây dựng “Xưởng sản xuất nụ cười” tại bản Nà Chào, xã Bao La, Mai Châu, tỉnh Hòa Bình. Nà Chào, với mẫu túi dây rút và ví vải được thiết kế độc quyền. Nội dung của tác phẩm là câu chuyện về hành trình thám hiểm vượt đại dương và chiến đấu với những sinh vật biển hung tợn của một cậu bé.
+                                Mô hình được xây dựng dựa trên ba trụ cột:
+                            </p>
+                            <p style={{textAlign: 'center'}}>
+                                “Môi trường an toàn - Cùng nhau phát triển - Hòa nhập và Tôn trọng”
+                            </p>
+                            <ul>
+                                <li>
+                                    <p>
+                                        Kiến thức: Giúp trẻ tiếp cận các kỹ thuật mỹ thuật cơ bản.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Kỹ năng: Khuyến khích tư duy sáng tạo và khả năng thể hiện ý tưởng.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Cảm xúc: Tạo môi trường an toàn để trẻ biểu đạt bản thân và tăng cường sự tự tin.
+                                    </p>
+                                </li>
+                            </ul>
+                            <p>
+                                Thứ hai, thiết kế hệ sinh thái học tập đa dạng, tiếp cận nhiều nhóm trẻ. Thay vì triển khai các hoạt động đơn lẻ, Tòhe xây dựng một hành trình học tập liên tục kết hợp giữa trực tiếp và trực tuyến nhằm mở rộng khả năng tiếp cận cho trẻ em tự kỷ.
                             </p>
 
-
-
-                            <div className="starbuck-box-img-right">
-                                <div className="starbuck-box-item-content">
-                                    <div className="starbuck-box-item-text" style={{margin: '20px 0'}}>
-                                        <p>THIẾT KẾ ĐỘC QUYỀN</p>
-                                        <p>Thiết kế dựa trên tác phẩm của nghệ sĩ nhí Hà Đình Chí (Nem) - bạn nhỏ tự kỷ và mắc hội chứng Noonan</p>
+                            <div className="box-item">
+                                <div className="box-item-title" style={{margin: '60px 15px 0 0'}}>
+                                    <div className="canifa-box-number-item-top">
+                                        <div className="number-left">
+                                            <span className='font-vn-wosker text-blue'>0</span>
+                                            <span className='font-vn-wosker text-blue'>3</span>
+                                        </div>
+                                        <div className="text-right">
+                                            <p className='font-uvn-b'>
+                                                Điểm sân chơi nghệ thuật sáng tạo
+                                            </p>
+                                        </div>
                                     </div>
-                                    <div className="starbuck-box-item-text" style={{margin: '20px 0'}}>
-                                        <p>ĐÓNG GÓP CỘNG ĐỒNG</p>
-                                        <p>Mỗi chiếc ví bán ra tại Starbucks sẽ đóng góp 5.000 đồng vào quỹ “Xưởng sản xuất nụ cười”.</p>
-                                    </div>
+
+                                    <p style={{margin: '15px 0'}}>
+                                        Được tổ chức định kỳ tại các trung tâm giáo dục chuyên biệt tại Hà Nội gồm:
+                                    </p>
+                                    <ul>
+                                        <li>
+                                            <p>Trung tâm Sao Mai</p>
+                                        </li>
+                                        <li>
+                                            <p>Hand in Hand</p>
+                                        </li>
+                                        <li>
+                                            <p>Hai Dang Psychological Education Centre</p>
+                                        </li>
+                                    </ul>
                                 </div>
-                                <img src="/img/tohe/case-study/canifa/v344_606.png" alt="" className='starbuck-box-img-right'/>
-                            </div>
-
-                            <div className="starbuck-box-img-left">
-                                <img src="/img/tohe/case-study/canifa/v344_606.png" alt="" className='starbuck-box-img-left'/>
-                                <div className="starbuck-box-item-content">
-                                    <div className="starbuck-box-item-text" style={{margin: '20px 0'}}>
-                                        <p>CAM KẾT TỪ STARBUCKS</p>
-                                        <p>Starbucks Việt Nam cam kết tài trợ toàn bộ chi phí xây dựng xưởng chơi này tại tỉnh Hoà Bình.</p>
-                                    </div>
-                                    <div className="starbuck-box-item-text" style={{margin: '20px 0'}}>
-                                        <p>TÁC ĐỘNG BỀN VỮNG</p>
-                                        <p>Dự án mở ra cơ hội để các nghệ sĩ nhí của Tòhe tham gia vào việc sáng tạo, được ghi nhận giá trị bản thân và đóng góp tích cực hơn cho xã hội. </p>
-                                    </div>
-                                </div>
-                            </div>                   
-
-
-
-                            <p style={{ margin: '15px 0'}}>
-                                Bà Patricia Marques, Tổng giám đốc của Starbucks Việt Nam chia sẻ: “Là một vinh hạnh của chúng tôi khi có tác phẩm tuyệt vời của Nem trong lần hợp tác thiết kế này. Bằng một cách gián tiếp, với những sáng tạo của mình, Nem đã giúp đỡ các trẻ em có hoàn cảnh khó khăn khác, và chúng tôi may mắn có cơ hội trở thành cầu nối đặc biệt này”
-                            </p>
-                            <p style={{ margin: '15px 0'}}>
-                                2. Phát triển chuỗi bộ lịch nghệ thuật theo từng năm (2020 - 2025)
-                            </p>
-                            <p style={{ margin: '15px 0'}}>
-                                Thay vì chỉ thiết kế quà tặng mang tính hình ảnh thương hiệu đơn thuần, Tòhe đồng hành cùng Starbucks Việt Nam xây dựng chuỗi bộ lịch nghệ thuật thường niên như một hình thức kể chuyện thương hiệu xuyên suốt qua từng năm.
-                            </p>
-                            <p>
-                                Dựa trên các biểu tượng quen thuộc của Starbucks như nàng tiên cá Siren, văn hóa cà phê, không gian cửa hàng hay hành trình khám phá Việt Nam, Tòhe phát triển các concept sáng tạo mới mỗi năm thông qua góc nhìn hồn nhiên và giàu tưởng tượng của những nghệ sĩ nhí đặc biệt.
-                            </p>
-                            <p>
-                                Mỗi bộ lịch không chỉ đóng vai trò quà tặng doanh nghiệp mà còn trở thành một trải nghiệm thương hiệu riêng biệt, giúp Starbucks duy trì sự mới mẻ trong các chiến dịch seasonal merchandise, đồng thời tạo kết nối cảm xúc gần gũi hơn với khách hàng thông qua nghệ thuật và câu chuyện cộng đồng.
-                            </p>
-
-                            <div className="starbuck-aguler">
-                                <div className="starbuck-aguler-content">
-                                    <p className='font-uvn-b text-pink'>2020 - 2022 JOURNEY</p>
-                                    <div className="starbuck-aguler-content-top">
-                                        <div className="starbuck-aguler-item">
-                                            <img src="/img/tohe/case-study/starbuck/v418_581.png" alt="" className='starbuck-aguler-img'/>
-                                        </div>
-                                        <div className="starbuck-aguler-item">
-                                            <img src="/img/tohe/case-study/starbuck/v418_604.png" alt="" className='starbuck-aguler-img'/>
-                                        </div>
-                                    </div>
-                                    <div className="starbuck-aguler-content-bottom">
-                                        <div className="starbuck-aguler-item">
-                                            <p className='font-uvn-b text-pink'>2023</p>
-                                            <p className='font-uvn-b text-pink' style={{ margin: '10px 0'}}>“MEET ME IN 2023”</p>
-                                            <img src="/img/tohe/case-study/starbuck/v418_605.png" alt="" className='starbuck-aguler-img'/>
-                                        </div>
-                                        <div className="starbuck-aguler-item">
-                                            <p className='font-uvn-b text-pink'>2023</p>
-                                            <p className='font-uvn-b text-pink' style={{ margin: '10px 0'}}>“CÁ CHÉP VƯỢT VŨ MÔN”</p>
-                                            <img src="/img/tohe/case-study/starbuck/v418_635.png" alt="" className='starbuck-aguler-img'/>
-                                        </div>
-                                        <div className="starbuck-aguler-item">
-                                            <p className='font-uvn-b text-pink'>2023</p>
-                                            <p className='font-uvn-b text-pink' style={{ margin: '10px 0'}}>DOANH NGHIỆP NĂM THỨ 6</p>
-                                            <img src="/img/tohe/case-study/starbuck/v418_636.png" alt="" className='starbuck-aguler-img'/>
-                                        </div>
-                                    </div>
+                                <div className="box-item-box"  style={{margin: '0 30px 0 0'}}>
+                                    <img src="/img/tohe/case-study/canifa/v366_1509.png" alt="" className='box-item-img'/>
                                 </div>
                             </div>
-                            <p className='font-uvn-b-content-20' style={{margin: '15px 0'}}>
+
+                            <div className="box-item">
+                                <div className="box-item-box"  style={{margin: '0 30px 0 0'}}>
+                                    <img src="/img/tohe/case-study/canifa/v366_1509.png" alt="" className='box-item-img'/>
+                                </div>
+                                <div className="box-item-title">
+                                    <div className="canifa-box-number-item-top">
+                                        <div className="number-left">
+                                            <span className='font-vn-wosker text-blue'>0</span>
+                                            <span className='font-vn-wosker text-blue'>2</span>
+                                        </div>
+                                        <div className="text-right">
+                                            <p className='font-uvn-b'>
+                                                Khóa học nghệ thuật trực tuyến
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <p style={{margin: '15px 0'}}>
+                                        Vẽ nét yêu thương - Khám phá thế giới qua đường nét (nét ngắn - dài, nét cứng - mềm, nét sáng tạo,...)
+                                    </p>
+                                    <p>
+                                        Tô màu hạnh phúc - Khám phá cảm xúc qua màu sắc (màu nóng - lạnh, màu đậm - nhạt, màu tương phản,...)
+                                    </p>
+                                </div>
+                            </div>
+
+
+                            <div className="box-item">
+                                <div className="box-item-title" style={{margin: '60px 30px 0 0'}}>
+                                    <div className="canifa-box-number-item-top">
+                                        <div className="number-left">
+                                            <span className='font-vn-wosker text-blue'>0</span>
+                                            <span className='font-vn-wosker text-blue'>1</span>
+                                        </div>
+                                        <div className="text-right">
+                                            <p className='font-uvn-b'>
+                                                Triển lãm nghệ thuật
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <p style={{margin: '15px 0'}}>
+                                        Sự kiện trưng bày các tác phẩm do trẻ thực hiện trong suốt chương trình, tạo cơ hội để trẻ kết nối với cộng đồng
+                                    </p>
+                                    <p style={{margin: '15px 0'}}>
+                                        Mô hình kết hợp online và offline giúp chương trình có khả năng mở rộng phạm vi tiếp cận, đồng thời duy trì tính liên tục trong quá trình học tập của trẻ.
+                                    </p>
+                                </div>
+                                <div className="box-item-box"  style={{margin: '0 30px 0 0'}}>
+                                    <img src="/img/tohe/case-study/canifa/v366_1509.png" alt="" className='box-item-img'/>
+                                </div>
+                            </div>
+
+
+                            <p style={{margin: '30px 0'}}>
+                                Thứ ba, phương pháp giáo dục nghệ thuật sáng tạo. Thông qua việc thiết kế chương trình, kết nối các trung tâm giáo dục đặc biệt, triển khai lớp học và đánh giá tác động, Tòhe giúp Tokio Marine Việt Nam chuyển hóa định hướng “To Be a Good Company” thành một dự án cộng đồng cụ thể với các hoạt động rõ ràng:
+                            </p>
+                            <ul>
+                                <li>
+                                    <p>Thiết kế chương trình học.</p>
+                                </li>
+                                <li>
+                                    <p>Phát triển giáo trình nghệ thuật sáng tạo.</p>
+                                </li>
+                                <li>
+                                    <p>Kết nối các trung tâm giáo dục đặc biệt.</p>
+                                </li>
+                                <li>
+                                    <p>Triển khai lớp học và đánh giá tác động.</p>
+                                </li>
+                            </ul>
+                            <p>
+                                Qua đó, dự án không chỉ tạo giá trị cho nhóm hưởng lợi trực tiếp mà còn giúp doanh nghiệp xây dựng một mô hình CSR/ESG mang tính bền vững, có chiều sâu và tạo được kết nối cảm xúc với cộng đồng.
+                            </p>
+
+
+                            <p className='font-uvn-b-content-20'>
                                 III. Kết quả dự án
                             </p>
-                            <p className='font-uvn-b-content-16' style={{ margin: '15px 0' }}>
+                            <p className='font-uvn-b-content-16'>
                                 3.1. Tác động cộng đồng
                             </p>
+
                             <p>
-                                ✓ Các tác phẩm của nghệ sĩ nhí Tòhe được đưa trực tiếp lên sản phẩm thương mại chính thức của Starbucks Việt Nam như ví vải, túi dây rút và bộ lịch nghệ thuật hằng năm. Điều này giúp trẻ em đặc biệt không còn chỉ xuất hiện trong vai trò “đối tượng được hỗ trợ”, mà thật sự trở thành người tạo ra giá trị sáng tạo cho sản phẩm và có nguồn thu nhập bản quyền.
+                                Dự án góp phần tạo ra môi trường học tập sáng tạo và an toàn cho trẻ tự kỷ, vốn alf nhóm trẻ thường gặp khó khăn trong giao tiếp và biểu đạt cảm xúc trong môi trường học tập thông thường.
                             </p>
                             <p>
-                                ✓ Dự án hợp tác năm 2019 đã gây quỹ xây dựng “Xưởng sản xuất nụ cười” dành cho trẻ em dân tộc Thái tại Mai Châu, Hòa Bình. Mỗi sản phẩm ví vải bán ra đóng góp 5.000 đồng cho quỹ cộng đồng, đồng thời Starbucks Việt Nam tài trợ chi phí xây dựng xưởng chơi.
+                                Thông qua 03 lớp học trực tiếp, 02 khóa học trực tuyến và 01 triển lãm cộng đồng, trẻ có thêm cơ hội rèn luyện khả năng kết nối, tự tin thể hiện bản thân và tương tác với mọi người thông qua nghệ thuật.
+                            </p>
+                            <img src="/img/tohe/case-study/canifa/canifaTwo.png" alt="" className='img-canifa-one'/>
+                            <p style={{ margin: '15px 0' }}>
+                                Các hoạt động triển lãm và trưng bày tác phẩm giúp phụ huynh, giáo viên và cộng đồng nhìn nhận trẻ tự kỷ theo hướng tích cực hơn, chuyển đổi góc nhìn từ “thương cảm - khó khăn” sang “khả năng sáng tạo và cảm xúc riêng” của mỗi em.
                             </p>
                             <p>
-                                ✓ Chuỗi lịch nghệ thuật giai đoạn 2020-2025 tiếp tục mở rộng cơ hội để nghệ sĩ nhí tham gia vào quá trình sáng tạo thực tế: từ phát triển ý tưởng, kể chuyện bằng hình ảnh đến ứng dụng tác phẩm trên sản phẩm thương mại quy mô lớn.
+                                Dự án đồng thời góp phần lan tỏa nhận thức về giáo dục hòa nhập và vai trò của nghệ thuật trong hỗ trợ phát triển cảm xúc cho trẻ em có nhu cầu đặc biệt.
                             </p>
 
                             <p className='font-uvn-b-content-16' style={{ margin: '15px 0' }}>
                                 3.2. Giá trị mang lại cho doanh nghiệp
                             </p>
                             <p>
-                                ✓ 6 năm đồng hành liên tục: mô hình hợp tác không chỉ dừng ở một chiến dịch CSR ngắn hạn mà đã trở thành một phần trong định hướng xây dựng thương hiệu lâu dài của Starbucks tại Việt Nam.
+                                ✓ Giúp Tokio Marine Việt Nam hiện thực hóa rõ nét định hướng “To Be a Good Company” thông qua một dự án giáo dục hòa nhập có tác động dài hạn thay vì các hoạt động tài trợ ngắn hạn mang tính hình thức.
                             </p>
                             <p>
-                                ✓ Sản phẩm quà tặng có dấu ấn riêng: Việc đồng hành cùng Tòhe giúp Starbucks liên tục làm mới các bộ sưu tập theo từng năm nhưng vẫn giữ được tinh thần thương hiệu quen thuộc.
+                                ✓ Dự án giúp doanh nghiệp xây dựng hình ảnh thương hiệu gắn với sự thấu cảm, giáo dục hòa nhập và phát triển bền vững. Đây vốn là những chủ đề ngày càng được quan tâm trong ngành bảo hiểm và tài chính, nơi niềm tin thương hiệu và trách nhiệm xã hội có ảnh hưởng lớn đến mức độ gắn kết khách hàng.
                             </p>
                             <p>
-                                ✓ Đưa chính biểu tượng thương hiệu vào góc nhìn sáng tạo của các nghệ sĩ nhí Tòhe: Bộ sưu tầm lịch giúp Starbucks kể câu chuyện thương hiệu theo cách gần gũi và giàu cảm xúc hơn thay vì chỉ dùng hình ảnh quảng bá sản phẩm
+                                ✓ Hoạt động hợp tác được nhiều nền tảng báo chí và truyền thông chính thống đăng tải như: Vietnam Investment Review, Vietnamnet, Asia Education Review,...Qua đó giúp Tokio Marine Việt Nam gia tăng độ phủ thương hiệu theo hướng tích cực, nhân văn và có chiều sâu xã hội.
                             </p>
                             <p>
-                                ✓Mô hình “mua hàng tạo tác động xã hội”: Khách hàng không chỉ mua một món quà tặng mà còn cảm nhận được mình đang trực tiếp đóng góp cho các hoạt động cộng đồng dành cho trẻ em đặc biệt.
+                                ✓ Dự án giúp Tokio Marine chuyển các cam kết ESG thành hành động cụ thể, có thể đo lường được thông qua số lượng lớp học, thời gian triển khai, đối tượng hưởng lợi và hoạt động triển lãm cộng đồng.
                             </p>
                             <p>
-                                ✓ Nhiều nền tảng truyền thông quảng báo: Cafebiz, VTC News, cùng nhiều cộng đồng thiết kế và lifestyle trên mạng xã hội. Điều này giúp Starbucks gia tăng độ phủ thương hiệu theo hướng tích cực, sáng tạo và nhân văn hơn trong mắt khách hàng trẻ.
+                                ✓ Việc lựa chọn giáo dục nghệ thuật cho trẻ tự kỷ cũng giúp doanh nghiệp tạo khác biệt trong hoạt động cộng đồng của ngành bảo hiểm, khi phần lớn các chương trình CSR trên thị trường hiện vẫn tập trung vào tài trợ ngắn hạn hoặc hoạt động thiện nguyện thời vụ.
                             </p>
+
                             <p className='font-uvn-b-content-20'>
                                 NGUỒN THAM KHẢO
                             </p>
@@ -286,22 +344,32 @@ const TokioMarineComponent = () => {
                             <ul style={{listStyle: 'decimal'}}>
                                 <li>
                                     <p>
-                                        Trường Thịnh (2025). Canifa kết hợp Tòhe ra mắt dự án cộng đồng ‘“Yêu thương có tất”’. [online] Báo điện tử Dân trí.
+                                        Facebook.com. (2026a). Tohe Fun. [online]                                    
                                     </p>
                                 </li>
                                 <li>
                                     <p>
-                                        Thùy Anh (2025). Ra mắt bộ sản phẩm Yêu thương có tất kết hợp Canifa và Tòhe vì cộng đồng. [online] afamily.
+                                        Administrator (2025). DỰ ÁN XÃ HỘI ‘YÊU TRỌN NIỀM VUI’ – HÀNH TRÌNH GIEO VUI CỦA TOKIO MARINE. [online] 
                                     </p>
                                 </li>
                                 <li>
                                     <p>
-                                        Thùy Anh (2025a). Chuyện chưa kể về sự ra đời của một bộ sản phẩm đặc biệt, nghe tên đã thấy ‘yêu thương’. [online] Báo Markettimes.
+                                        News, V. (2025). Tokio Marine đồng hành cùng dự án giáo dục nghệ thuật cho trẻ tự kỷ. [online] VietNamNet News.
                                     </p>
                                 </li>
                                 <li>
                                     <p>
-                                        Facebook.com. (2026). Tohe Social Enterprise. [online].
+                                        Van, T. (2025) Tokio Marine Vietnam supports children with autism through art education project. [online]Vietnam Investment Review 
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Facebook.com. (2026d). Tokio Marine. [online] 
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Hoàng Thạch (2023). Ngày Thế giới nhận thức về tự kỷ (2-4): Cần yêu thương, thấu hiểu trẻ tự kỷ và hỗ trợ tâm lý đối với cha mẹ trẻ tự kỷ | Bệnh viện Nhi Trung ương. [online]                                      
                                     </p>
                                 </li>
                             </ul>

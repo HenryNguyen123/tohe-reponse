@@ -1,0 +1,13 @@
+.security-container{
+    display: flex;
+    justify-content: center;
+    .security-content{
+        width: 940px;
+        p{
+            font-size: 18px;
+        }
+        .text-title{
+            font-size: 28px;
+        }
+    }
+}

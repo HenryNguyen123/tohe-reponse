@@ -22,6 +22,8 @@ import TokioMarineComponent from '../components/case-study/tokio-marine.componen
 import UnicefComponent from '../components/case-study/unicef.component'
 import VCCAComponent from '../components/case-study/vcca.component'
 import ContactComponent from '../components/contact/contact.component'
+import SecurityComponent from '../components/security-page/security.component'
+import WarrantyPolicyComponent from '../components/warranty-policy/warranty-policy.component'
 
 const AppRouter = () => {
         return(
@@ -45,6 +47,8 @@ const AppRouter = () => {
                         <Route path='vcca' element={ <VCCAComponent/>} ></Route>
 
                         <Route path='contact' element={ <ContactComponent/>} ></Route>
+                        <Route path='security' element={ <SecurityComponent/>} ></Route>
+                        <Route path='warranty-policy' element={ <WarrantyPolicyComponent/>} ></Route>
         
                         <Route path='*' element={<div>404 not found</div>}></Route>
                     </Route>

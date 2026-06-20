@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import './contact.scss'
 import Form from 'react-bootstrap/Form';
 import { FaFacebook } from "react-icons/fa";
@@ -5,6 +6,9 @@ import { FaInstagramSquare } from "react-icons/fa";
 import { FaPhone } from "react-icons/fa6";
 
 const ContactComponent = () => {
+    useEffect(() => {
+        document.title = 'Contact';
+    }, [])
     return(
         <>
             <div className="contact-container">

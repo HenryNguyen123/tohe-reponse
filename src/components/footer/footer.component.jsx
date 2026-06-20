@@ -5,6 +5,12 @@ const FooterComponent = () => {
     const handleToPageHome = () => {
         navigate('/')
     }
+    const handleToPageSecurity = () => {
+        navigate('/security')
+    }
+    const handleToPageWarrantyPolicy = () => {
+        navigate('/warranty-policy')
+    }
     return(
         <>
             <div className="contaier-footer">
@@ -62,8 +68,8 @@ const FooterComponent = () => {
                                 <div className="item_item-box-footer">
                                     <ul>
                                         <li><p className='footer-box-text'>Chính sách</p></li>
-                                        <li><p>Chính sách bảo mật</p></li>
-                                        <li><p>Chính sách bảo hành</p></li>
+                                        <li><p><a onClick={handleToPageSecurity}>Chính sách bảo mật</a></p></li>
+                                        <li><p><a onClick={handleToPageWarrantyPolicy}>Chính sách bảo hành</a></p></li>
                                     </ul>
                                 </div>
                             </div>

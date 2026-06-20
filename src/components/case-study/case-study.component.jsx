@@ -5,8 +5,12 @@ import { BsBook } from "react-icons/bs";
 import { TbMessageCircleStar } from "react-icons/tb";
 import { useEffect } from 'react';
 import BoxIImageNd2 from '../../camoms/box/box-image-nd2.box';
+// import {ToClickPage} from '../../camoms/function/to-click-page'
+// import { useNavigate } from 'react-router-dom';
 
 const CaseStudyComponent = () => {
+    // const navigate = useNavigate();
+    // const page = new ToClickPage(navigate);
     const background = '/img/tohe/case-study/st1/v357_1128.png';
     useEffect(() => {
         document.title = 'Case study';
@@ -21,6 +25,7 @@ const CaseStudyComponent = () => {
             desc1: '"Dự án: “Yêu thương có tất”',
             desc2: "Bộ sưu tất nhằm tầm tôn vinh khả năng sáng tạo độc đáo của các trẻ đặc biệt.",
             iconCheck: true,
+            page: 'canifa',
         },
         {
             img: "/img/tohe/hinh-thuc-dong-hanh/nd2/v300_2136.png",
@@ -31,6 +36,7 @@ const CaseStudyComponent = () => {
             desc1: 'Dự án quà tặng doanh nghiệp',
             desc2: "6 năm kiến tạo quà tặng doanh nghiệp mang giá trị xã hội",
             iconCheck: false,
+            page: 'starbuck'
         },
     ];
 
@@ -44,6 +50,7 @@ const CaseStudyComponent = () => {
             desc1: '2 Bộ Board Game giáo dục cho trẻ em',
             desc2: "Trò chơi giáo dục về biến đổi khí hậu và vệ sinh cộng đồng cho trẻ em.",
             iconCheck: true,
+            page: 'canifa'
         },
         {
             img: "/img/tohe/hinh-thuc-dong-hanh/th4/v307_654.png",
@@ -54,6 +61,7 @@ const CaseStudyComponent = () => {
             desc1: 'Dự án: Triển lãm “Hành tinh nhựa”',
             desc2: 'Không gian triển lãm tái hiện một thế giới nơi đất, nước, gió và các yếu tố tự nhiên bị “nhựa hóa”',
             iconCheck: true,
+            page: 'vcca'
         },
     ];
     const boxList3 = [
@@ -66,6 +74,7 @@ const CaseStudyComponent = () => {
             desc1: 'Dự án: “Yêu trọn niềm vui”',
             desc2: "Dự án giáo dục nghệ thuật mang đến cơ hội học tập và phát triển cho các bạn nhỏ rối loạn phổ tự kỷ",
             iconCheck: true,
+            page: 'tokio-marine'
         },
         {
             img: "/img/tohe/hinh-thuc-dong-hanh/th4/v356_608.png",
@@ -76,6 +85,7 @@ const CaseStudyComponent = () => {
             desc1: 'Lễ hội sáng tạo khỏe',
             desc2: 'Ngày hội vui chơi - Xem sáng tạo. Chơi sáng tạo. Mua sáng tạo!',
             iconCheck: true,
+            page: 'khoe'
         },
     ];
     return(
@@ -141,6 +151,7 @@ const CaseStudyComponent = () => {
                                             desc1={item.desc1}
                                             desc2={item.desc2}
                                             iconCheck={item.iconCheck}
+                                            page={item.page}
                                         />
                                     </div>
                                 ))
@@ -165,6 +176,7 @@ const CaseStudyComponent = () => {
                                             desc1={item.desc1}
                                             desc2={item.desc2}
                                             iconCheck={item.iconCheck}
+                                            page={item.page}
                                         />
                                     </div>
                                 ))
@@ -189,6 +201,7 @@ const CaseStudyComponent = () => {
                                             desc1={item.desc1}
                                             desc2={item.desc2}
                                             iconCheck={item.iconCheck}
+                                            page={item.page}
                                         />
                                     </div>
                                 ))

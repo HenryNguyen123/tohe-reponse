@@ -17,6 +17,7 @@ const PartnerShipModelNd2 = () => {
             desc1: '"Dự án: “Yêu thương có tất”',
             desc2: "Bộ sưu tất nhằm tầm tôn vinh khả năng sáng tạo độc đáo của các trẻ đặc biệt.",
             iconCheck: true,
+            page: 'canifa'
         },
         {
             img: "/img/tohe/hinh-thuc-dong-hanh/nd2/v300_2136.png",
@@ -27,6 +28,7 @@ const PartnerShipModelNd2 = () => {
             desc1: 'Dự án quà tặng doanh nghiệp',
             desc2: "6 năm kiến tạo quà tặng doanh nghiệp mang giá trị xã hội",
             iconCheck: false,
+            page: 'starbuck'
         },
     ];
     return(
@@ -160,6 +162,7 @@ const PartnerShipModelNd2 = () => {
                                                 desc1={item.desc1}
                                                 desc2={item.desc2}
                                                 iconCheck={item.iconCheck}
+                                                page={item.page}
                                             />
                                         </div>
                                     ))

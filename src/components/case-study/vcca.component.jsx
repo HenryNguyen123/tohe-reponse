@@ -31,6 +31,7 @@ const VCCAComponent = () => {
             desc1: '2 Bộ Board Game giáo dục cho trẻ em',
             desc2: "Trò chơi giáo dục về biến đổi khí hậu và vệ sinh cộng đồng cho trẻ em.",
             iconCheck: true,
+            page: 'canifa'
         },
         {
             img: "/img/tohe/case-study/st1/v364_666.png",
@@ -41,6 +42,7 @@ const VCCAComponent = () => {
             desc1: 'Dự án: Triển lãm “Hành tinh nhựa”',
             desc2: 'Không gian triển lãm tái hiện một thế giới nơi đất, nước, gió và các yếu tố tự nhiên bị “nhựa hóa”',
             iconCheck: true,
+            page: 'vcca'
         },
         {
             img: "/img/tohe/case-study/st1/v366_1525.png",
@@ -51,6 +53,7 @@ const VCCAComponent = () => {
             desc1: '"Dự án: “Yêu thương có tất”',
             desc2: "Bộ sưu tất nhằm tầm tôn vinh khả năng sáng tạo độc đáo của các trẻ đặc biệt.",
             iconCheck: true,
+            page: 'canifa'
         },
         {
             img: "/img/tohe/case-study/st1/willet.png",
@@ -61,6 +64,7 @@ const VCCAComponent = () => {
             desc1: 'Dự án quà tặng doanh nghiệp',
             desc2: "6 năm kiến tạo quà tặng doanh nghiệp mang giá trị xã hội",
             iconCheck: false,
+            page: 'starbuck'
         },
     ];
     return(
@@ -341,6 +345,7 @@ const VCCAComponent = () => {
                                                     desc1={item.desc1}
                                                     desc2={item.desc2}
                                                     iconCheck={item.iconCheck}
+                                                    page={item.page}
                                                 />
                                             </div>
                                         ))

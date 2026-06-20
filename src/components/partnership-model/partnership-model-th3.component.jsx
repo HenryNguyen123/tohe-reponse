@@ -18,6 +18,7 @@ const PartnerShipModelTh3 = () => {
             desc1: '2 Bộ Board Game giáo dục cho trẻ em',
             desc2: "Trò chơi giáo dục về biến đổi khí hậu và vệ sinh cộng đồng cho trẻ em.",
             iconCheck: true,
+            page: 'canifa'
         },
         {
             img: "/img/tohe/hinh-thuc-dong-hanh/th4/v307_654.png",
@@ -28,6 +29,7 @@ const PartnerShipModelTh3 = () => {
             desc1: 'Dự án: Triển lãm “Hành tinh nhựa”',
             desc2: 'Không gian triển lãm tái hiện một thế giới nơi đất, nước, gió và các yếu tố tự nhiên bị “nhựa hóa”',
             iconCheck: true,
+            page: 'vcca'
         },
     ];
     return(
@@ -171,6 +173,7 @@ const PartnerShipModelTh3 = () => {
                                                 desc1={item.desc1}
                                                 desc2={item.desc2}
                                                 iconCheck={item.iconCheck}
+                                                page={item.page}
                                             />
                                         </div>
                                     ))

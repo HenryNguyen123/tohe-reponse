@@ -18,6 +18,7 @@ const PartnerShipModelTh4 = () => {
             desc1: 'Dự án: “Yêu trọn niềm vui”',
             desc2: "Dự án giáo dục nghệ thuật mang đến cơ hội học tập và phát triển cho các bạn nhỏ rối loạn phổ tự kỷ",
             iconCheck: true,
+            page: 'tokio-marine'
         },
         {
             img: "/img/tohe/hinh-thuc-dong-hanh/th4/v356_608.png",
@@ -28,6 +29,7 @@ const PartnerShipModelTh4 = () => {
             desc1: 'Lễ hội sáng tạo khỏe',
             desc2: 'Ngày hội vui chơi - Xem sáng tạo. Chơi sáng tạo. Mua sáng tạo!',
             iconCheck: true,
+            page: 'khoe'
         },
     ];
     return(
@@ -159,6 +161,7 @@ const PartnerShipModelTh4 = () => {
                                                 desc1={item.desc1}
                                                 desc2={item.desc2}
                                                 iconCheck={item.iconCheck}
+                                                page={item.page}
                                             />
                                         </div>
                                     ))

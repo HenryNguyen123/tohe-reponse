@@ -1,5 +1,10 @@
+import { useNavigate } from 'react-router-dom';
 import './footer.css.scss'
 const FooterComponent = () => {
+    const navigate = useNavigate()
+    const handleToPageHome = () => {
+        navigate('/')
+    }
     return(
         <>
             <div className="contaier-footer">
@@ -7,18 +12,20 @@ const FooterComponent = () => {
                     <div className="context-box">
                         <div className="box-item-footer">
                             <div className="footer-logo">
-                                <img src="/img/tohe/trang-chu/v39_39.png"
-                                    width="170"
-                                    height="100" alt="logo" />
+                                <a onClick={handleToPageHome}>
+                                    <img src="/img/tohe/trang-chu/v39_39.png"
+                                        width="170"
+                                        height="100" alt="logo" />
+                                </a>
                             </div>
                             <div className='title-ft1'>
                                 <p className='footer-box-text'>Công Ty Cổ Phần Tòhe</p>
                                 <p>Tòhe là doanh nghiệp xã hội tiên phong trong lĩnh vực sáng tạo vì trẻ em đặc biệt tại Việt Nam, kết nối nghệ thuật, giáo dục và cộng đồng để tạo nên những giá trị nhân văn bền vững.</p>
                             </div>
                             <div className="footer-logo-ft1">
-                                <img src="/img/tohe/trang-chu/v478_1229.png"
-                                    width="250"
-                                    height="100" alt="kiem duyet" />
+                                    <img src="/img/tohe/trang-chu/v478_1229.png"
+                                        width="250"
+                                        height="100" alt="kiem duyet" />
                             </div>
                             <div className="foter-logo-branch-ft1">
                                 <div className='item_one-foter-logo-branch-ft1'>

@@ -2,11 +2,12 @@ import { useEffect } from 'react';
 import './tokio-marine.scss'
 import { useNavigate } from 'react-router-dom';
 import BoxIImageNd2Mini from '../../camoms/box/box-image-nd2-mini.box';
-
+import {ToClickPage} from '../../camoms/function/to-click-page'
 const TokioMarineComponent = () => {
     const navigate = useNavigate();
-
-    const background = '/img/tohe/case-study/canifa/image.png';
+    const page = new ToClickPage(navigate);
+    
+    const background = '/img/tohe/case-study/tokio-marine/v369_578.png';
     const handleClickToHome = () =>{
         navigate('/')
     }
@@ -15,7 +16,7 @@ const TokioMarineComponent = () => {
             top: 0,
             behavior: "smooth"
         });
-        navigate('/case-study')
+        page.handleOnclickToPageCaseStudy()
     }
     useEffect(() => {
         document.title = 'Tokio Marine';
@@ -31,6 +32,7 @@ const TokioMarineComponent = () => {
             desc1: '2 Bộ Board Game giáo dục cho trẻ em',
             desc2: "Trò chơi giáo dục về biến đổi khí hậu và vệ sinh cộng đồng cho trẻ em.",
             iconCheck: true,
+            page: 'canifa'
         },
         {
             img: "/img/tohe/case-study/st1/v364_666.png",
@@ -41,6 +43,7 @@ const TokioMarineComponent = () => {
             desc1: 'Dự án: Triển lãm “Hành tinh nhựa”',
             desc2: 'Không gian triển lãm tái hiện một thế giới nơi đất, nước, gió và các yếu tố tự nhiên bị “nhựa hóa”',
             iconCheck: true,
+            page: 'vcca'
         },
         {
             img: "/img/tohe/case-study/st1/v366_1525.png",
@@ -51,6 +54,7 @@ const TokioMarineComponent = () => {
             desc1: '"Dự án: “Yêu thương có tất”',
             desc2: "Bộ sưu tất nhằm tầm tôn vinh khả năng sáng tạo độc đáo của các trẻ đặc biệt.",
             iconCheck: true,
+            page: 'canifa'
         },
         {
             img: "/img/tohe/case-study/st1/willet.png",
@@ -61,6 +65,7 @@ const TokioMarineComponent = () => {
             desc1: 'Dự án quà tặng doanh nghiệp',
             desc2: "6 năm kiến tạo quà tặng doanh nghiệp mang giá trị xã hội",
             iconCheck: false,
+            page: 'starbuck'
         },
     ];
     return(
@@ -102,7 +107,7 @@ const TokioMarineComponent = () => {
                                 Trong bối cảnh tỷ lệ trẻ tự kỷ đang gia tăng trên thế giới và tại Việt Nam, đặt ra thách thức lớn cho gia đình và xã hội. Các em thường gặp nhiều khó khăn trong cuộc sống như rối loạn ngôn ngữ, hạn chế tương tác xã hội, chậm nói, tăng động, khó kiểm soát hành vi… Nghệ thuật, với khả năng khơi gợi cảm xúc và tạo ra những kênh biểu đạt phi ngôn ngữ độc đáo, là một công cụ hữu hiệu đối với trẻ tự kỷ. Xuất phát từ niềm tin đó, Tòhe vui mừng đồng hành cùng Tokio Marine trong dự án “Yêu trọn niềm vui”, được xây dựng trên nền tảng của sự thấu cảm và quan tâm.
                             </p>
 
-                            <img src="/img/tohe/case-study/canifa/v366_1450.png" alt="" className='img-canifa-one'/>
+                            <img src="/img/tohe/case-study/tokio-marine/v369_578.png" alt="" className='img-canifa-one'/>
 
                             <p className='font-uvn-b-content-20' style={{margin: '15px 0'}}>
                                 II. Mong muốn của Tokio Marine và Giải pháp từ Tòhe
@@ -121,7 +126,7 @@ const TokioMarineComponent = () => {
                                 Là doanh nghiệp hoạt động với triết lý “To Be a Good Company”, Tokio Marine Việt Nam định hướng phát triển không chỉ như một công ty bảo hiểm mà còn là một doanh nghiệp có trách nhiệm với xã hội, chú trọng các giá trị về con người, sự hòa nhập và phát triển bền vững. Đây cũng là định hướng xuyên suốt của Tokio Marine Group trên toàn cầu khi tập trung vào các mục tiêu ESG, hỗ trợ cộng đồng và tạo ra các tác động xã hội tích cực thông qua hoạt động kinh doanh.
                             </p>
 
-                            <img src="/img/tohe/case-study/canifa/v344_606.png" alt="" className='img-canifa-one'/>
+                            <img src="/img/tohe/case-study/tokio-marine/v369_590.png" alt="" className='img-canifa-one'/>
                             <p style={{margin: '15px 0'}}>
                                 Từ định hướng đó, bài toán đặt ra với Tokio Marine Việt Nam không chỉ là “tài trợ cho một dự án cộng đồng”, mà là tìm kiếm một mô hình đủ thực chất và lâu dài để:
                             </p>
@@ -218,13 +223,13 @@ const TokioMarineComponent = () => {
                                     </ul>
                                 </div>
                                 <div className="box-item-box"  style={{margin: '0 30px 0 0'}}>
-                                    <img src="/img/tohe/case-study/canifa/v366_1509.png" alt="" className='box-item-img'/>
+                                    <img src="/img/tohe/case-study/tokio-marine/v374_563.png" alt="" className='box-item-img'/>
                                 </div>
                             </div>
 
                             <div className="box-item">
                                 <div className="box-item-box"  style={{margin: '0 30px 0 0'}}>
-                                    <img src="/img/tohe/case-study/canifa/v366_1509.png" alt="" className='box-item-img'/>
+                                    <img src="/img/tohe/case-study/tokio-marine/v374_570.png" alt="" className='box-item-img'/>
                                 </div>
                                 <div className="box-item-title">
                                     <div className="canifa-box-number-item-top">
@@ -270,7 +275,7 @@ const TokioMarineComponent = () => {
                                     </p>
                                 </div>
                                 <div className="box-item-box"  style={{margin: '0 30px 0 0'}}>
-                                    <img src="/img/tohe/case-study/canifa/v366_1509.png" alt="" className='box-item-img'/>
+                                    <img src="/img/tohe/case-study/tokio-marine/v380_576.png" alt="" className='box-item-img'/>
                                 </div>
                             </div>
 
@@ -310,7 +315,7 @@ const TokioMarineComponent = () => {
                             <p>
                                 Thông qua 03 lớp học trực tiếp, 02 khóa học trực tuyến và 01 triển lãm cộng đồng, trẻ có thêm cơ hội rèn luyện khả năng kết nối, tự tin thể hiện bản thân và tương tác với mọi người thông qua nghệ thuật.
                             </p>
-                            <img src="/img/tohe/case-study/canifa/canifaTwo.png" alt="" className='img-canifa-one'/>
+                            <img src="/img/tohe/case-study/tokio-marine/v380_619.png" alt="" className='img-canifa-one'/>
                             <p style={{ margin: '15px 0' }}>
                                 Các hoạt động triển lãm và trưng bày tác phẩm giúp phụ huynh, giáo viên và cộng đồng nhìn nhận trẻ tự kỷ theo hướng tích cực hơn, chuyển đổi góc nhìn từ “thương cảm - khó khăn” sang “khả năng sáng tạo và cảm xúc riêng” của mỗi em.
                             </p>
@@ -402,6 +407,7 @@ const TokioMarineComponent = () => {
                                                     desc1={item.desc1}
                                                     desc2={item.desc2}
                                                     iconCheck={item.iconCheck}
+                                                    page={item.page}
                                                 />
                                             </div>
                                         ))

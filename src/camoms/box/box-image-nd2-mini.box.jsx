@@ -1,7 +1,13 @@
+import { useNavigate } from 'react-router-dom';
 import ButtonArrowRightMini from '../button/button-arrow-right-mini.camon';
 import './box.css.scss'
 
-const BoxIImageNd2Mini = ({img, logo, title1, title2, titleButton, desc1, desc2, iconCheck}) => {
+const BoxIImageNd2Mini = ({img, logo, title1, title2, titleButton, desc1, desc2, iconCheck, page}) => {
+    const navigate = useNavigate();
+
+    const handlePage = () => {
+        navigate(`/${page}`);
+    };
     return(
         <>
             <div className="box-image-nd2-container-mini">
@@ -23,7 +29,9 @@ const BoxIImageNd2Mini = ({img, logo, title1, title2, titleButton, desc1, desc2,
                                 <img src={logo} alt="" className={iconCheck ? 'icon-logon-rectangular-80' : 'icon-logon-round-40'}/>
                             </div>
                             <div className="box-button-mini">
-                                <ButtonArrowRightMini title={titleButton}/>
+                                <a onClick={handlePage}>
+                                    <ButtonArrowRightMini title={titleButton}/>
+                                </a>
                             </div>
                         </div>
                     </div>

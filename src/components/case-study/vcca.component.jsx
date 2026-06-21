@@ -295,31 +295,30 @@ const VCCAComponent = () => {
                             </p>
 
                             <ul style={{listStyle: 'decimal'}}>
-                                <li>
+                                <li><a style={{color: '#000'}} href='https://www.facebook.com/'>
                                     <p>
-2-Tohe Play_Introduction.pdf (2019). 2-Tohe Play_Introduction.pdf. [online] Google Docs.
-                                    </p>
+                                        2-Tohe Play_Introduction.pdf (2019). 2-Tohe Play_Introduction.pdf. [online] Google Docs.
+                                    </p></a>
                                 </li>
-                                <li>
+                                <li><a style={{color: '#000'}} href='https://www.facebook.com/'>
                                     <p>
                                         Công ty CP Tòhe. (2022g). Triễn lãm HÀNH TINH NHỰA. [online]
-                                    </p>
+                                    </p></a>
                                 </li>
-                                <li>
+                                <li><a style={{color: '#000'}} href='https://www.facebook.com/'>
                                     <p>
                                         TRUNG (2025). Nỗ lực giảm ô nhiễm môi trường từ rác thải nhựa. [online] Báo Nhân Dân điện tử. 
-                                    </p>
+                                    </p></a>
                                 </li>
-                                <li>
+                                <li><a style={{color: '#000'}} href='https://www.facebook.com/'>
                                     <p>
                                         P.Sơn - B.Châu (Ảnh (2019). Triển lãm ‘Hành tinh nhựa’ truyền đi thông điệp sử dụng đồ nhựa có ý thức. [online] Công an Nhân dân - Hệ sinh thái truyền thông đa nền tảng.
-                                    </p>
+                                    </p></a>
                                 </li>
-                                <li>
+                                <li><a style={{color: '#000'}} href='https://www.facebook.com/'>
                                     <p>
                                         VnExpress (2019). Triển lãm tác phẩm nghệ thuật làm từ nhựa đã qua sử dụng. [online] vnexpress.net.
-
-                                    </p>
+                                    </p></a>
                                 </li>
                             </ul>
                         </div>

@@ -322,40 +322,40 @@ const KhoeComponent = () => {
                                 NGUỒN THAM KHẢO
                             </p>
                             <ul style={{listStyle: 'decimal'}}>
-                                <li>
+                                <li><a style={{color: '#000'}} href='https://www.facebook.com/'>
                                     <p>
                                         Vietnam+ (VietnamPlus (2019). Hàng loạt các hoạt động thú vị tại KHOE Creative Festival 2019. [online] Vietnam+ (VietnamPlus).
-                                    </p>
+                                    </p></a>
                                 </li>
-                                <li>
+                                <li><a style={{color: '#000'}} href='https://www.facebook.com/'>
                                     <p>
                                         2-Tohe Play_Introduction.pdf (2019). 2-Tohe Play_Introduction.pdf. [online] Google Docs. 
-                                    </p>
+                                    </p></a>
                                 </li>
-                                <li>
+                                <li><a style={{color: '#000'}} href='https://www.facebook.com/'>
                                     <p>
                                         Hanoi Tourist (2018) KHOE Creative Festival 2018. [online]
-                                    </p>
+                                    </p></a>
                                 </li>
-                                <li>
+                                <li><a style={{color: '#000'}} href='https://www.facebook.com/'>
                                     <p>
                                         Facebook.com. (2026a). KHOE Creative Festival. [online] 
-                                    </p>
+                                    </p></a>
                                 </li>
-                                <li>
+                                <li><a style={{color: '#000'}} href='https://www.facebook.com/'>
                                     <p>
                                         toquoc.vn (2019). Thỏa sức sống xanh, sống sạch tại Khoe Creative Festival. [online] toquoc.vn. 
-                                    </p>
+                                    </p></a>
                                 </li>
-                                <li>
+                                <li><a style={{color: '#000'}} href='https://www.facebook.com/'>
                                     <p>
                                         Trang thông tin nghệ thuật Hanoi Grapevine
-                                    </p>
+                                    </p></a>
                                 </li>
-                                <li>
+                                <li><a style={{color: '#000'}} href='https://www.facebook.com/'>
                                     <p>
                                         vietnamnews.vn. (2026). Families can go ’green’ at weekend festival. [online] 
-                                    </p>
+                                    </p></a>
                                 </li>
                             </ul>
 

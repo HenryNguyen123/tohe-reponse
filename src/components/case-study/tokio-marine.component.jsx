@@ -353,35 +353,35 @@ const TokioMarineComponent = () => {
                             </p>
                          
                             <ul style={{listStyle: 'decimal'}}>
-                                <li>
+                                <li><a style={{color: '#000'}} href='https://www.facebook.com/'>
                                     <p>
                                         Facebook.com. (2026a). Tohe Fun. [online]                                    
-                                    </p>
+                                    </p></a>
                                 </li>
-                                <li>
+                                <li><a style={{color: '#000'}} href='https://www.facebook.com/'>
                                     <p>
                                         Administrator (2025). DỰ ÁN XÃ HỘI ‘YÊU TRỌN NIỀM VUI’ – HÀNH TRÌNH GIEO VUI CỦA TOKIO MARINE. [online] 
-                                    </p>
+                                    </p></a>
                                 </li>
-                                <li>
+                                <li><a style={{color: '#000'}} href='https://www.facebook.com/'>
                                     <p>
                                         News, V. (2025). Tokio Marine đồng hành cùng dự án giáo dục nghệ thuật cho trẻ tự kỷ. [online] VietNamNet News.
-                                    </p>
+                                    </p></a>
                                 </li>
-                                <li>
+                                <li><a style={{color: '#000'}} href='https://www.facebook.com/'>
                                     <p>
                                         Van, T. (2025) Tokio Marine Vietnam supports children with autism through art education project. [online]Vietnam Investment Review 
-                                    </p>
+                                    </p></a>
                                 </li>
-                                <li>
+                                <li><a style={{color: '#000'}} href='https://www.facebook.com/'>
                                     <p>
                                         Facebook.com. (2026d). Tokio Marine. [online] 
-                                    </p>
+                                    </p></a>
                                 </li>
-                                <li>
+                                <li><a style={{color: '#000'}} href='https://www.facebook.com/'>
                                     <p>
                                         Hoàng Thạch (2023). Ngày Thế giới nhận thức về tự kỷ (2-4): Cần yêu thương, thấu hiểu trẻ tự kỷ và hỗ trợ tâm lý đối với cha mẹ trẻ tự kỷ | Bệnh viện Nhi Trung ương. [online]                                      
-                                    </p>
+                                    </p></a>
                                 </li>
                             </ul>
                         </div>

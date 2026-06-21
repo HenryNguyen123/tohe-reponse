@@ -54,7 +54,7 @@ const HomeComponent = () => {
                 "Tài trợ, hỗ trợ lớp học, trại hè và sân chơi nghệ thuật cho trẻ em đặc biệt",
                 "Kết nối tổ chức, chuyên gia và nguồn lực"
             ],
-            page: 'page3'
+            page: 'page4'
         },
         {
             Icon: TbMessageCircleStar ,
@@ -66,7 +66,7 @@ const HomeComponent = () => {
                 "Hỗ trợ xây dựng sân chơi và mô hình giáo dục sáng tạo dài hạn",
                 "Phối hợp triển khai các dự án cộng đồng cùng tổ chức xã hội/quốc tế"
             ],
-            page: 'page4'
+            page: 'page3'
         }
     ];
 

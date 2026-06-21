@@ -6,12 +6,16 @@ import { TbMessageCircleStar } from "react-icons/tb";
 import { useEffect } from 'react';
 import BoxIImageNd2 from '../../camoms/box/box-image-nd2.box';
 // import {ToClickPage} from '../../camoms/function/to-click-page'
-// import { useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 const CaseStudyComponent = () => {
-    // const navigate = useNavigate();
+    const navigate = useNavigate();
     // const page = new ToClickPage(navigate);
     const background = '/img/tohe/case-study/st1/v357_1128.png';
+
+    const handleToPageContact = () => {
+        navigate('/contact')
+    }
     useEffect(() => {
         document.title = 'Case study';
     }, [])
@@ -45,12 +49,12 @@ const CaseStudyComponent = () => {
             img: "/img/tohe/hinh-thuc-dong-hanh/th4/v307_641.png",
             logo: "/img/tohe/hinh-thuc-dong-hanh/th4/v307_667.png",
             title1: "TÒHE",
-            title2: " X CANIFA",
+            title2: " X Unicef",
             titleButton: "Xem Chi tiết",
             desc1: '2 Bộ Board Game giáo dục cho trẻ em',
             desc2: "Trò chơi giáo dục về biến đổi khí hậu và vệ sinh cộng đồng cho trẻ em.",
             iconCheck: true,
-            page: 'canifa'
+            page: 'Unicef'
         },
         {
             img: "/img/tohe/hinh-thuc-dong-hanh/th4/v307_654.png",
@@ -101,7 +105,7 @@ const CaseStudyComponent = () => {
                                         <span className='text-pink'>TÒHE</span> CÓ THỂ GIÚP GÌ CHO BẠN
                                     </h1>
                                     <div className="case-study-background-button">
-                                        <ButtonArrowRight title={'LIÊN HỆ ĐỂ NHẬN TƯ VẤN MIỄN PHÍ'}/>
+                                        <a onClick={handleToPageContact}><ButtonArrowRight title={'LIÊN HỆ ĐỂ NHẬN TƯ VẤN MIỄN PHÍ'}/></a>
                                     </div>
                                 </div>
                             </div>

@@ -5,7 +5,7 @@ import BoxIImageNd2 from '../../camoms/box/box-image-nd2.box';
 
 const PartnerShipModelTh4 = () => {
     useEffect(() => {
-        document.title = 'Hình thức đồng hành';
+        document.title = 'Đồng hành giáo dục và sân chơi sáng tạo';
     }, [])
 
     const boxList = [

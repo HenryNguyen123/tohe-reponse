@@ -5,7 +5,7 @@ import BoxIImageNd2 from '../../camoms/box/box-image-nd2.box';
 
 const PartnerShipModelTh3 = () => {
     useEffect(() => {
-        document.title = 'Hình thức đồng hành';
+        document.title = 'Đồng hành phát triển dự án xã hội';
     }, [])
     
     const boxList = [
@@ -13,7 +13,7 @@ const PartnerShipModelTh3 = () => {
             img: "/img/tohe/hinh-thuc-dong-hanh/th4/v307_641.png",
             logo: "/img/tohe/hinh-thuc-dong-hanh/th4/v307_667.png",
             title1: "TÒHE",
-            title2: " X CANIFA",
+            title2: " X UNICEF",
             titleButton: "Xem Chi tiết",
             desc1: '2 Bộ Board Game giáo dục cho trẻ em',
             desc2: "Trò chơi giáo dục về biến đổi khí hậu và vệ sinh cộng đồng cho trẻ em.",

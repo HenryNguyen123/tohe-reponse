@@ -10,6 +10,12 @@ const UnicefComponent = () => {
     const handleClickToHome = () =>{
         navigate('/')
     }
+    const handleClickToCaseStudyPage2 = () =>{
+        navigate('/partnership-model/page2')
+    }
+    const handleClickToCaseStudyPage3 = () =>{
+        navigate('/partnership-model/page3')
+    }
     const handleClickTOCaseStudy = () =>{
         window.scrollTo({
             top: 0,
@@ -78,8 +84,8 @@ const UnicefComponent = () => {
                                 <div className="case-study-background-nav-title">
                                     <ul>
                                         <li><a  onClick={() => handleClickToHome()}>Trang chu</a></li>
-                                        <li>Dịch vụ quà tặng doanh nghiệp</li>
-                                        <li>Các dự án hợp tác</li>
+                                        <li><a onClick={handleClickToCaseStudyPage2}>Dịch vụ quà tặng doanh nghiệp</a></li>
+                                        <li><a onClick={handleClickToCaseStudyPage3}>Các dự án hợp tác</a></li>
                                     </ul>
                                 </div>
                                 <div className="case-study-background-nav-item">

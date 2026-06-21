@@ -15,6 +15,10 @@ const PartnerShipModelSt1 = () => {
     const handleToPage = () => {
         navigate(`/case-study`)
     }
+
+    const handleToPageContact = () => {
+        navigate('/contact')
+    }
     useEffect(() => {
         document.title = 'Hình thức đồng hành';
     }, [])
@@ -29,7 +33,8 @@ const PartnerShipModelSt1 = () => {
                     "Thiết kế quà tặng ứng dụng tranh trẻ em đặc biệt",
                     "Xây dựng sản phẩm độc bản",
                     "Tối ưu quy trình sản xuất"
-                ]
+                ],
+                page: 'page2'
             },
             {
                 Icon: BsBook ,
@@ -40,7 +45,8 @@ const PartnerShipModelSt1 = () => {
                     "Đồng hành tổ chức sự kiện, sân chơi và hoạt động trải nghiệm nghệ thuật cho trẻ em và gia đình",
                     "Tài trợ, hỗ trợ lớp học, trại hè và sân chơi nghệ thuật cho trẻ em đặc biệt",
                     "Kết nối tổ chức, chuyên gia và nguồn lực"
-                ]
+                ],
+                page: 'page4'
             },
             {
                 Icon: TbMessageCircleStar ,
@@ -51,7 +57,8 @@ const PartnerShipModelSt1 = () => {
                     "Đồng tổ chức triển lãm và chiến dịch nâng cao nhận thức cộng đồng",
                     "Hỗ trợ xây dựng sân chơi và mô hình giáo dục sáng tạo dài hạn",
                     "Phối hợp triển khai các dự án cộng đồng cùng tổ chức xã hội/quốc tế"
-                ]
+                ],
+                page: 'page3'
             }
         ];
     return(
@@ -70,7 +77,7 @@ const PartnerShipModelSt1 = () => {
                                     Từ quà tặng doanh nghiệp, chương trình giáo dục sáng tạo đến các dự án cộng đồng, Tòhe mang đến nhiều mô hình hợp tác giúp doanh nghiệp tạo tác động xã hội thực tế và bền vững.
                                 </p>
                                 <div className='home-button-left-hm1'>
-                                    <ButtonArrowRight title={'LIÊN HỆ NGAY'}/>
+                                    <a onClick={handleToPageContact}><ButtonArrowRight title={'LIÊN HỆ NGAY'}/></a>
                                 </div>
                             </div>
                             <div className="box-img-box-right-hm1">
@@ -124,6 +131,7 @@ const PartnerShipModelSt1 = () => {
                                         title={item.title}
                                         description={item.description}
                                         items={item.items}
+                                        page={item.page}
                                     />
                                 ))
                             }

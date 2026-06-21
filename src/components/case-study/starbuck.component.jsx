@@ -10,6 +10,12 @@ const StarBuckComponent = () => {
     const handleClickToHome = () =>{
         navigate('/')
     }
+    const handleClickToCaseStudyPage2 = () =>{
+        navigate('/partnership-model/page2')
+    }
+    const handleClickToCaseStudyPage3 = () =>{
+        navigate('/partnership-model/page3')
+    }    
     const handleClickTOCaseStudy = () =>{
         window.scrollTo({
             top: 0,
@@ -78,8 +84,8 @@ const StarBuckComponent = () => {
                                 <div className="case-study-background-nav-title">
                                     <ul>
                                         <li><a  onClick={() => handleClickToHome()}>Trang chu</a></li>
-                                        <li>Dịch vụ quà tặng doanh nghiệp</li>
-                                        <li>Các dự án hợp tác</li>
+                                        <li><a onClick={handleClickToCaseStudyPage2}>Dịch vụ quà tặng doanh nghiệp</a></li>
+                                        <li><a onClick={handleClickToCaseStudyPage3}>Các dự án hợp tác</a></li>
                                     </ul>
                                 </div>
                                 <div className="case-study-background-nav-item">
@@ -289,24 +295,32 @@ const StarBuckComponent = () => {
                          
                             <ul style={{listStyle: 'decimal'}}>
                                 <li>
+                                    <a style={{color: '#000'}} href='https://dantri.com.vn/kinh-doanh/canifa-ket-hop-tohe-ra-mat-du-an-cong-dong-yeu-thuong-co-tat-20250124095414061.htm'>
                                     <p>
                                         Trường Thịnh (2025). Canifa kết hợp Tòhe ra mắt dự án cộng đồng ‘“Yêu thương có tất”’. [online] Báo điện tử Dân trí.
                                     </p>
+                                    </a>
                                 </li>
                                 <li>
+                                    <a style={{color: '#000'}} href='https://afamily.vn/chuyen-chua-ke-ve-su-ra-doi-cua-mot-bo-san-pham-dac-biet-nghe-ten-da-thay-yeu-thuong-20250820163922723.chn'>
                                     <p>
                                         Thùy Anh (2025). Ra mắt bộ sản phẩm Yêu thương có tất kết hợp Canifa và Tòhe vì cộng đồng. [online] afamily.
                                     </p>
+                                    </a>
                                 </li>
                                 <li>
+                                    <a style={{color: '#000'}} href='https://markettimes.vn/chuyen-chua-ke-ve-su-ra-doi-cua-mot-bo-san-pham-dac-biet-nghe-ten-da-thay-yeu-thuong-88957.html'>
                                     <p>
                                         Thùy Anh (2025a). Chuyện chưa kể về sự ra đời của một bộ sản phẩm đặc biệt, nghe tên đã thấy ‘yêu thương’. [online] Báo Markettimes.
                                     </p>
+                                    </a>
                                 </li>
                                 <li>
+                                    <a style={{color: '#000'}} href='https://www.facebook.com/'>
                                     <p>
                                         Facebook.com. (2026). Tohe Social Enterprise. [online].
                                     </p>
+                                    </a>
                                 </li>
                             </ul>
                         </div>

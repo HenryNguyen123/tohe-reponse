@@ -14,7 +14,7 @@ const NavComponent = () => {
                     <span>
                         LƯU Ý: Đây là sản phẩm giả lập của sinh viên Khoa TT&VHĐN,
                         Học viện Ngoại giao, phục vụ cho môn học truyền thông đa
-                        phương tiện. Sản phẩm không phục vụ cho mục đích thương mại
+                        phương tiện.<br/> Sản phẩm không phục vụ cho mục đích thương mại
                         và không đại diện cho Tòhe.
                     </span>
                 </div>

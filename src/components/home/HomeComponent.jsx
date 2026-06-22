@@ -156,7 +156,7 @@ const HomeComponent = () => {
                         </div>
                         <div className="home-content-award-image-hm1">
                             <div className='home-award-image-one-hm1'>
-                                <img src="/img/tohe/trang-chu/v80_53.png" alt="" className='award-one-hm1'/>
+                                <img src="/img/tohe/trang-chu/cup-left.png" alt="" className='award-one-hm1'/>
                             </div>
                             <div className='home-award-image-box-item-hm1'>
                                 <div className='home-award-image_item-item-hm1'>

@@ -300,6 +300,9 @@
                         }
                         .partership-model-bg-top-content-item-list{
                             .content-list{
+                                // display: flex;
+                                .content-list-item-top{
+
                                 margin-left: 10px;
                                 display: flex;
                                 justify-content: space-between;
@@ -322,6 +325,16 @@
                                 &:last-child {
                                     border-radius: 0 0 10px 10px;
                                     border-bottom: none;
+                                }
+                                }
+
+                                .content-list-item-bottom{
+                                    // display: none;
+                                    margin-left: 10px;
+                                    width: 700px;
+                                    background-color: #fff;
+                                    padding: 5px 25px 10px 15px;
+                                    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.849);
                                 }
                             }
                         }

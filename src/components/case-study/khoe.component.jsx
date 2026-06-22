@@ -83,7 +83,7 @@ const KhoeComponent = () => {
                             <div className="case-study-background-nav">
                                 <div className="case-study-background-nav-title">
                                     <ul>
-                                        <li><a  onClick={() => handleClickToHome()}>Trang chu</a></li>
+                                        <li><a  onClick={() => handleClickToHome()}>Trang chủ</a></li>
                                         <li><a onClick={handleClickToCaseStudyPage2}>Dịch vụ quà tặng doanh nghiệp</a></li>
                                         <li><a onClick={handleClickToCaseStudyPage3}>Các dự án hợp tác</a></li>
                                     </ul>
@@ -177,7 +177,7 @@ const KhoeComponent = () => {
                                 </div>
                             </div>
                             
-                            <p>Hoạt động nổi bật:</p>
+                            <p style={{margin: '20px 0'}}>Hoạt động nổi bật:</p>
                             <ul>
                                 <li>
                                     <p>
@@ -211,7 +211,7 @@ const KhoeComponent = () => {
                             </div>
 
                             
-                            <p style={{margin: '15px 0'}}>Hoạt động nổi bật:</p>
+                            <p style={{margin: '20px 0'}}>Hoạt động nổi bật:</p>
                             <ul>
                                 <li>
                                     <p>
@@ -251,7 +251,7 @@ const KhoeComponent = () => {
                             </div>
 
                             
-                            <p style={{margin: '15px 0'}}>Hoạt động nổi bật:</p>
+                            <p style={{margin: '20px 0'}}>Hoạt động nổi bật:</p>
                             <ul>
                                 <li>
                                     <p>
@@ -304,7 +304,7 @@ const KhoeComponent = () => {
                                 ✓ Dự án đồng thời tạo ra một không gian hiếm có nơi trẻ em, nghệ sĩ, doanh nghiệp xã hội, thương hiệu sáng tạo và các tổ chức cộng đồng cùng tham gia xây dựng trải nghiệm chung thay vì chỉ xuất hiện dưới vai trò tài trợ hoặc truyền thông đơn thuần.
                             </p>
 
-                            <p className='font-uvn-b-content-16' style={{margin: '15px 0px 15px 0px'}}>3.2. Giá trị mang lại cho doanh nghiệp</p>
+                            <p className='font-uvn-b-content-16' style={{margin: '20px 0px 20px 0px'}}>3.2. Giá trị mang lại cho doanh nghiệp</p>
                             <p>
                                 ✓ KHOE Creative Festival giúp doanh nghiệp tiếp cận trực tiếp nhóm gia đình trẻ và cộng đồng sáng tạo - tệp khách hàng ngày càng được nhiều thương hiệu quan tâm nhờ mức độ quan tâm cao tới giáo dục, trải nghiệm và giá trị bền vững. Riêng giai đoạn trước sự kiện đã có hơn 40 trường học tham gia các hoạt động kết nối và truyền thông cộng đồng.
                             </p>

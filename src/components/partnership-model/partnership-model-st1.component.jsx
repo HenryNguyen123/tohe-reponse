@@ -236,32 +236,67 @@ const PartnerShipModelSt1 = () => {
                                     <img src="/img/tohe/hinh-thuc-dong-hanh/st1/v310_5000.png" alt="" />
                                     <div className="partership-model-bg-top-content-item-list">
                                         <div className="content-list">
-                                            <p>Bước 1: Tiếp nhận yêu cầu ban đầu</p>
-                                            <p><IoIosArrowDown className='icon-arrow-bottom font-uvn-b'/></p>
+                                            <div className="content-list-item-top">
+                                                <p>Bước 1: Tiếp nhận yêu cầu ban đầu</p>
+                                                <p><IoIosArrowDown className='icon-arrow-bottom font-uvn-b'/></p>
+                                            </div>
+                                            <div className="content-list-item-bottom">
+                                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime non adipisci ex quae. Unde hic quo natus sapiente quia adipisci voluptatibus, alias voluptatem deserunt quas debitis molestiae quis maiores necessitatibus!</p>
+                                            </div>
                                         </div>
                                         <div className="content-list">
-                                            <p>Bước 2: Phân tích bài toán thương hiệu</p>
-                                            <p><IoIosArrowDown className='icon-arrow-bottom font-uvn-b'/></p>
+                                            <div className="content-list-item-top">
+                                                <p>Bước 2: Phân tích bài toán thương hiệu</p>
+                                                <p><IoIosArrowDown className='icon-arrow-bottom font-uvn-b'/></p>
+                                            </div>
+                                            <div className="content-list-item-bottom">
+                                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime non adipisci ex quae. Unde hic quo natus sapiente quia adipisci voluptatibus, alias voluptatem deserunt quas debitis molestiae quis maiores necessitatibus!</p>
+                                            </div>
                                         </div>
                                         <div className="content-list">
-                                            <p>Bước 3: Khảo sát và lựa chọn tư liệu mỹ thuật độc quyền</p>
-                                            <p><IoIosArrowDown className='icon-arrow-bottom font-uvn-b'/></p>
+                                            <div className="content-list-item-top">
+                                                <p>Bước 3: Khảo sát và lựa chọn tư liệu mỹ thuật độc quyền</p>
+                                                <p><IoIosArrowDown className='icon-arrow-bottom font-uvn-b'/></p>
+                                            </div>
+                                            <div className="content-list-item-bottom">
+                                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime non adipisci ex quae. Unde hic quo natus sapiente quia adipisci voluptatibus, alias voluptatem deserunt quas debitis molestiae quis maiores necessitatibus!</p>
+                                            </div>
                                         </div>
                                         <div className="content-list">
-                                            <p>Bước 4: Thiết kế giải pháp sơ bộ </p>
-                                            <p><IoIosArrowDown className='icon-arrow-bottom font-uvn-b'/></p>
+                                            <div className="content-list-item-top">
+                                                <p>Bước 4: Thiết kế giải pháp sơ bộ </p>
+                                                <p><IoIosArrowDown className='icon-arrow-bottom font-uvn-b'/></p>
+                                            </div>
+                                            <div className="content-list-item-bottom">
+                                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime non adipisci ex quae. Unde hic quo natus sapiente quia adipisci voluptatibus, alias voluptatem deserunt quas debitis molestiae quis maiores necessitatibus!</p>
+                                            </div>
                                         </div>
                                         <div className="content-list">
-                                            <p>Bước 5: Thuyết trình phương án và lấy ý kiến phản hồi</p>
-                                            <p><IoIosArrowDown className='icon-arrow-bottom font-uvn-b'/></p>
+                                            <div className="content-list-item-top">
+                                                <p>Bước 5: Thuyết trình phương án và lấy ý kiến phản hồi</p>
+                                                <p><IoIosArrowDown className='icon-arrow-bottom font-uvn-b'/></p>
+                                            </div>
+                                            <div className="content-list-item-bottom">
+                                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime non adipisci ex quae. Unde hic quo natus sapiente quia adipisci voluptatibus, alias voluptatem deserunt quas debitis molestiae quis maiores necessitatibus!</p>
+                                            </div>
                                         </div>
                                         <div className="content-list">
-                                            <p>Bước 6: Xây dựng cấu trúc giá linh hoạt cho đối tác/đại lý</p>
-                                            <p><IoIosArrowDown className='icon-arrow-bottom font-uvn-b'/></p>
+                                            <div className="content-list-item-top">
+                                                <p>Bước 6: Xây dựng cấu trúc giá linh hoạt cho đối tác/đại lý</p>
+                                                <p><IoIosArrowDown className='icon-arrow-bottom font-uvn-b'/></p>
+                                            </div>
+                                            <div className="content-list-item-bottom">
+                                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime non adipisci ex quae. Unde hic quo natus sapiente quia adipisci voluptatibus, alias voluptatem deserunt quas debitis molestiae quis maiores necessitatibus!</p>
+                                            </div>
                                         </div>
                                         <div className="content-list">
-                                            <p>Bước 7: Hoàn thiện bảng báo giá chi tiết</p>
-                                            <p><IoIosArrowDown className='icon-arrow-bottom font-uvn-b'/></p>
+                                            <div className="content-list-item-top">
+                                                <p>Bước 7: Hoàn thiện bảng báo giá chi tiết</p>
+                                                <p><IoIosArrowDown className='icon-arrow-bottom font-uvn-b'/></p>
+                                            </div>
+                                            <div className="content-list-item-bottom">
+                                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime non adipisci ex quae. Unde hic quo natus sapiente quia adipisci voluptatibus, alias voluptatem deserunt quas debitis molestiae quis maiores necessitatibus!</p>
+                                            </div>
                                         </div>
                                         
                                     </div>

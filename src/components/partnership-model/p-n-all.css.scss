@@ -179,6 +179,7 @@
                                     display: flex;
                                     justify-content: center;
                                     align-items: center;
+                                    z-index: 999;
                                     h1{
                                         text-align: center;
                                         background-color: #0C4EA1;
@@ -188,12 +189,15 @@
                                     }
                                 }
                                 .item-text{
+                                    display: flex;
+                                    align-items: center;
                                     height: 62px;
                                     border-top-right-radius: 30px;
                                     border-bottom-right-radius: 30px;
                                     box-shadow: 0 5px 5px rgba(6, 1, 1, 0.408);
                                     margin-left: -30px;
                                     padding-right: 10px;
+                                    width: 100%;
                                     div{
                                         margin-left: 40px;
                                         padding-right: 10px;
@@ -236,6 +240,7 @@
                 .partnership-model-business-content{
                     .partnership-model-business-content-top{
                         display: flex;
+                        justify-content: center;
                         margin: 0 50px;
                         .partnership-model-business-content-bg{
                             margin-top: 60px;
@@ -298,6 +303,7 @@
                                 padding: 20px;
                                 border-radius: 15px;
                                 margin-top: 10px;
+                                width: 700px;
                                 h4{
                                     font-size: 26px;
                                     margin-bottom: 0px;
@@ -310,6 +316,7 @@
                     }
                     .partnership-model-business-content-bottom{
                         display: flex;
+                        justify-content: center;
                         margin: 0 50px;
                         .partnership-model-business-content-bg{
                             margin-top: 60px;
@@ -375,6 +382,7 @@
                                 padding: 20px;
                                 border-radius: 15px;
                                 margin-top: 10px;
+                                width: 710px;
                                 h4{
                                     font-size: 26px;
                                     margin-bottom: 0px;

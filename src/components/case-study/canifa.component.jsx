@@ -83,7 +83,7 @@ const CanifaComponent = () => {
                             <div className="case-study-background-nav">
                                 <div className="case-study-background-nav-title">
                                     <ul>
-                                        <li><a  onClick={() => handleClickToHome()}>Trang chu</a></li>
+                                        <li><a  onClick={() => handleClickToHome()}>Trang chủ</a></li>
                                         <li><a onClick={handleClickToCaseStudyPage2}>Dịch vụ quà tặng doanh nghiệp</a></li>
                                         <li><a onClick={handleClickToCaseStudyPage3}>Các dự án hợp tác</a></li>
                                     </ul>
@@ -171,11 +171,11 @@ const CanifaComponent = () => {
                             </p>
 
                             <div className="box-item">
-                                <div className="box-item-box"  style={{margin: '0 30px 0 0'}}>
-                                    <img src="/img/tohe/case-study/canifa/v366_1509.png" alt="" className='box-item-img'/>
+                                <div className="box-item-box-canifa"  style={{margin: '0 30px 0 0'}}>
+                                    <img src="/img/tohe/case-study/canifa/v366_1509.png" alt="" className='box-item-img-canifa'/>
                                     <p>Tranh của Sae Hae</p>
                                 </div>
-                                <div className="box-item-title">
+                                <div className="box-item-title-canifa">
                                     <p className='text-top'>Sae Hae</p>
                                     <p>
                                         Cậu bé Sae Hae 14 tuổi mắc chứng tự kỷ có khả năng ghi nhớ và tưởng tượng đáng ngưỡng mộ cùng nét vẽ tròn trịa nắn nót bằng tay trái, với cái nhìn tươi sáng đầy tích cực.
@@ -184,24 +184,24 @@ const CanifaComponent = () => {
                             </div>
 
                             <div className="box-item">
-                                <div className="box-item-title">
+                                <div className="box-item-title-canifa">
                                     <p className='text-top' style={{textAlign: "right"}}>Văn Minh Đức</p>
                                     <p>
                                         Với Văn Minh Đức, tình yêu và niềm đam mê với hội họa đã tiếp sức cho cậu ngồi hàng giờ cạnh giá vẽ, thử thách bản thân với nhiều chất liệu màu. Không ai có thể nhận ra một cậu bé với ánh mắt linh động, đôi tay thoăn thoắt đầy đam mê lại đang song hành cùng căn bệnh tự kỷ bẩm sinh.
                                     </p>
                                 </div>
-                                <div className="box-item-box"  style={{margin: '0 0 0 30px'}}>
-                                    <img src="/img/tohe/case-study/canifa/v366_1517.png" alt="" className='box-item-img'/>
+                                <div className="box-item-box-canifa"  style={{margin: '0 0 0 30px'}}>
+                                    <img src="/img/tohe/case-study/canifa/v366_1517.png" alt="" className='box-item-img-canifa'/>
                                     <p>Tranh của Minh Đức</p>
                                 </div>
                             </div>
 
                             <div className="box-item">
-                                <div className="box-item-box"  style={{margin: '0 30px 0 0'}}>
-                                    <img src="/img/tohe/case-study/canifa/v366_1564.png" alt="" className='box-item-img'/>
+                                <div className="box-item-box-canifa"  style={{margin: '0 30px 0 0'}}>
+                                    <img src="/img/tohe/case-study/canifa/v366_1564.png" alt="" className='box-item-img-canifa'/>
                                     <p>Tranh của Tuệ Giang:</p>
                                 </div>
-                                <div className="box-item-title">
+                                <div className="box-item-title-canifa">
                                     <p className='text-top'>Tuệ Giang</p>
                                     <p>
                                         Giang được biết đến như một “phù thủy biến hình” với khả năng liên tưởng phong phú. Những hình ảnh quen thuộc dưới góc nhìn của em luôn được biến đổi thành các câu chuyện đầy màu sắc và trí tưởng tượng.
@@ -210,14 +210,14 @@ const CanifaComponent = () => {
                             </div>
 
                             <div className="box-item">
-                                <div className="box-item-title" >
+                                <div className="box-item-title-canifa" >
                                     <p className='text-top' style={{textAlign: "right"}}>Mai Khanh</p>
                                     <p>
                                         Cô bé Mai Khanh lớn lên cùng chứng chậm phát triển. Em thích những con vật ngộ nghĩnh xinh xắn và thể hiện chúng theo góc nhìn yêu thương của riêng mình. Nghệ thuật cũng là cách để em tự tin hơn trong việc thể hiện bản thân.
                                     </p>
                                 </div>
-                                <div className="box-item-box" style={{margin: '0 0 0 30px'}}>
-                                    <img src="/img/tohe/case-study/canifa/v366_1571.png" alt="" className='box-item-img'/>
+                                <div className="box-item-box-canifa" style={{margin: '0 0 0 30px'}}>
+                                    <img src="/img/tohe/case-study/canifa/v366_1571.png" alt="" className='box-item-img-canifa'/>
                                     <p>Tranh của Mai Khanh</p>
                                 </div>
                             </div>

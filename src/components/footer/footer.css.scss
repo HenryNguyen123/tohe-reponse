@@ -69,8 +69,11 @@
             .title-ft1{
                 width: 400px;
                 .footer-box-text{
-                    // font-size: 26px;
+                    // font-size: 13px;
                     font-family: "UVN Van B";
+                }
+                .footer-box-text-desc {
+                    font-size: 15px;
                 }
             }
             .box_item-flex{
@@ -86,7 +89,15 @@
                             }
                         }
                         li{
+                            .footer-box-text{
+                                color: #000;
+                                &:hover{
+                                    border-bottom: none;
+                                    cursor: pointer;
+                                }
+                            }
                             p{
+                                color: #0000005d;
                                 &:hover{
                                     border-bottom: 2px solid #61dafb;
                                     cursor: pointer;

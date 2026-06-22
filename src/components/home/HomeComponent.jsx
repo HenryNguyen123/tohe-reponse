@@ -77,7 +77,7 @@ const HomeComponent = () => {
         navigate('/case-study')
     }
     useEffect(() => {
-        document.title = 'Trang Chủ';
+        document.title = 'Trang chủ̉';
     }, [])
     return (
         <>

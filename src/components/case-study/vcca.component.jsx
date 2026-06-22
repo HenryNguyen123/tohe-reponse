@@ -83,7 +83,7 @@ const VCCAComponent = () => {
                             <div className="case-study-background-nav">
                                 <div className="case-study-background-nav-title">
                                     <ul>
-                                        <li><a  onClick={() => handleClickToHome()}>Trang chu</a></li>
+                                        <li><a  onClick={() => handleClickToHome()}>Trang chủ</a></li>
                                         <li><a onClick={handleClickToCaseStudyPage2}>Dịch vụ quà tặng doanh nghiệp</a></li>
                                         <li><a onClick={handleClickToCaseStudyPage3}>Các dự án hợp tác</a></li>
                                     </ul>

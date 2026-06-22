@@ -120,12 +120,13 @@
                 .box-item{
                     display: flex;
                     margin-top: 15px;
-                    .box-item-box{
-                        .box-item-img{
+                    .box-item-box-canifa{
+                        // background-color: aqua;
+                        .box-item-img-canifa{
                             width: 400px;
                             height: 520px;
                             border-radius: 25px;
-                            box-shadow: 3px 3px 3px 3px rgba(9, 0, 0, 0.229);
+                            // box-shadow: 3px 3px 3px 3px rgba(9, 0, 0, 0.229);
                         }
                         p{
                             text-align: center;
@@ -133,11 +134,11 @@
                             color: #0000007a;
                         }
                     }
-                    .box-item-title{
+                    .box-item-title-canifa{
                         margin-top: 60px;
                         // margin-left: 30px;
                         .text-top{
-                            font-size: 36px;
+                            font-size: 40px !important;
                             margin-bottom: 30px;
                         }
                     }

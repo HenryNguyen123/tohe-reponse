@@ -44,7 +44,7 @@ const FooterComponent = () => {
                             </div>
                             <div className='title-ft1'>
                                 <p className='footer-box-text'>Công Ty Cổ Phần Tòhe</p>
-                                <p>Tòhe là doanh nghiệp xã hội tiên phong trong lĩnh vực sáng tạo vì trẻ em đặc biệt tại Việt Nam, kết nối nghệ thuật, giáo dục và cộng đồng để tạo nên những giá trị nhân văn bền vững.</p>
+                                <p className='footer-box-text-desc'>Tòhe là doanh nghiệp xã hội tiên phong trong lĩnh vực sáng tạo vì trẻ em đặc biệt tại Việt Nam, kết nối nghệ thuật, giáo dục và cộng đồng để tạo nên những giá trị nhân văn bền vững.</p>
                             </div>
                             <div className="footer-logo-ft1">
                                     <img src="/img/tohe/trang-chu/v478_1229.png"

@@ -292,44 +292,53 @@
                         text-align: center;
                         font-size: 60px;
                     }
-                    .partership-model-bg-top-content-item{
+                    .partership-model-bg-top-content-item-box{
                         display: flex;
+                        // flex-direction: row-reverse;
                         img{
                             width: 400px;
+                            height: 350px;
                             border-radius: 15px;
                         }
                         .partership-model-bg-top-content-item-list{
                             .content-list{
                                 // display: flex;
-                                .content-list-item-top{
-
-                                margin-left: 10px;
-                                display: flex;
-                                justify-content: space-between;
-                                width: 700px;
-                                background-color: #fff;
-                                padding: 5px 25px 10px 15px;
-                                // border-bottom: 1px solid #000;
                                 box-shadow: 0 4px 10px rgba(0, 0, 0, 0.849);
-                                p{
-                                    margin-bottom: -5px;
-                                }
-                                p{
-                                    .icon-arrow-bottom{
-                                        font-size: 20px;
+                                .content-list-item-top{
+                                    padding: 5px 25px 10px 15px;
+                                    background-color: #fff;
+
+                                    margin-left: 10px;
+                                    display: flex;
+                                    justify-content: space-between;
+                                    width: 700px;
+                                    p{
+                                        margin-bottom: -5px;
+                                    }
+                                    p{
+                                        .icon-arrow-bottom{
+                                            font-size: 20px;
+                                        }
                                     }
                                 }
-                                &:first-child {
+                                .border-top {
                                     border-radius: 10px 10px 0 0;
                                 }
-                                &:last-child {
+                                .border-bottom {
                                     border-radius: 0 0 10px 10px;
                                     border-bottom: none;
                                 }
-                                }
 
                                 .content-list-item-bottom{
-                                    // display: none;
+                                    display: none;
+                                    margin-left: 10px;
+                                    width: 700px;
+                                    background-color: #fff;
+                                    padding: 5px 25px 10px 15px;
+                                    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.849);
+                                }
+                                .content-list-item-bottom-click-here{
+                                    display: block;
                                     margin-left: 10px;
                                     width: 700px;
                                     background-color: #fff;
@@ -522,36 +531,58 @@
                         text-align: center;
                         font-size: 60px;
                     }
-                    .partership-model-bg-top-content-item{
+                    .partership-model-bg-top-content-item-box{
                         display: flex;
                         img{
                             width: 400px;
+                            height: 350px;
                             border-radius: 15px;
                         }
                         .partership-model-bg-top-content-item-list{
                             .content-list{
-                                margin-right: 10px;
-                                display: flex;
-                                justify-content: space-between;
-                                width: 700px;
-                                background-color: #fff;
-                                padding: 5px 25px 10px 15px;
-                                // border-bottom: 1px solid #000;
                                 box-shadow: 0 4px 10px rgba(0, 0, 0, 0.849);
-                                p{
-                                    margin-bottom: -5px;
-                                }
-                                p{
-                                    .icon-arrow-bottom{
-                                        font-size: 20px;
+                                .content-list-item-top{
+                                    padding: 5px 25px 10px 15px;
+
+                                    margin-right: 10px;
+                                    display: flex;
+                                    justify-content: space-between;
+                                    width: 700px;
+                                    background-color: #fff;
+                                    // border-bottom: 1px solid #000;
+                                    p{
+                                        margin-bottom: -5px;
+                                    }
+                                    p{
+                                        .icon-arrow-bottom{
+                                            font-size: 20px;
+                                        }
                                     }
                                 }
-                                &:first-child {
+
+                                .border-top {
                                     border-radius: 10px 10px 0 0;
                                 }
-                                &:last-child {
+                                .border-bottom {
                                     border-radius: 0 0 10px 10px;
                                     border-bottom: none;
+                                }
+
+                                .content-list-item-bottom{
+                                    display: none;
+                                    // margin-left: 10px;
+                                    width: 700px;
+                                    background-color: #fff;
+                                    padding: 5px 25px 10px 15px;
+                                    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.849);
+                                }
+                                .content-list-item-bottom-click-here{
+                                    display: block;
+                                    // margin-left: 10px;
+                                    width: 700px;
+                                    background-color: #fff;
+                                    padding: 5px 25px 10px 15px;
+                                    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.849);
                                 }
                             }
                         }

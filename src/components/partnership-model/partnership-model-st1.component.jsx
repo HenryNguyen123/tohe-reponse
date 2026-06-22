@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import './p-n-st1.css.scss';
 import ButtonArrowRight from '../../camoms/button/button-arrow-right.camon copy';
 import { FiGift  } from "react-icons/fi";
@@ -12,13 +12,22 @@ import { useNavigate } from 'react-router-dom';
 
 const PartnerShipModelSt1 = () => {
     const navigate = useNavigate()
+
+    const [activeStep, setActiveStep] = useState(null);
+    // const [isActiveBox, setIsActiveBox] = useState(false)
+
     const handleToPage = () => {
         navigate(`/case-study`)
     }
-
     const handleToPageContact = () => {
         navigate('/contact')
     }
+
+    const handleCheckClickBox = (step) => {
+        setActiveStep(activeStep === step ? 'none' : step);
+    };
+
+
     useEffect(() => {
         document.title = 'Hình thức đồng hành';
     }, [])
@@ -232,69 +241,70 @@ const PartnerShipModelSt1 = () => {
                         <div className="partership-model-bg-top-content">
                             <div className="partership-model-bg-top-content-item">
                                 <h1>QUY TRÌNH TƯ VẤN</h1>
-                                <div className="partership-model-bg-top-content-item">
+                                <div className="partership-model-bg-top-content-item-box">
                                     <img src="/img/tohe/hinh-thuc-dong-hanh/st1/v310_5000.png" alt="" />
                                     <div className="partership-model-bg-top-content-item-list">
                                         <div className="content-list">
-                                            <div className="content-list-item-top">
+                                            <div className="content-list-item-top border-top" onClick={() => handleCheckClickBox(1)}>
                                                 <p>Bước 1: Tiếp nhận yêu cầu ban đầu</p>
                                                 <p><IoIosArrowDown className='icon-arrow-bottom font-uvn-b'/></p>
                                             </div>
-                                            <div className="content-list-item-bottom">
+                                            <div className={activeStep === 1 ? "content-list-item-bottom-click-here" : "content-list-item-bottom"}>
                                                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime non adipisci ex quae. Unde hic quo natus sapiente quia adipisci voluptatibus, alias voluptatem deserunt quas debitis molestiae quis maiores necessitatibus!</p>
                                             </div>
                                         </div>
                                         <div className="content-list">
-                                            <div className="content-list-item-top">
+                                            <div className="content-list-item-top" onClick={() => handleCheckClickBox(2)}>
                                                 <p>Bước 2: Phân tích bài toán thương hiệu</p>
                                                 <p><IoIosArrowDown className='icon-arrow-bottom font-uvn-b'/></p>
                                             </div>
-                                            <div className="content-list-item-bottom">
+                                            <div className={activeStep === 2 ? "content-list-item-bottom-click-here" : "content-list-item-bottom"}>
                                                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime non adipisci ex quae. Unde hic quo natus sapiente quia adipisci voluptatibus, alias voluptatem deserunt quas debitis molestiae quis maiores necessitatibus!</p>
                                             </div>
                                         </div>
                                         <div className="content-list">
-                                            <div className="content-list-item-top">
+                                            <div className="content-list-item-top" onClick={() => handleCheckClickBox(3)}>
                                                 <p>Bước 3: Khảo sát và lựa chọn tư liệu mỹ thuật độc quyền</p>
                                                 <p><IoIosArrowDown className='icon-arrow-bottom font-uvn-b'/></p>
                                             </div>
-                                            <div className="content-list-item-bottom">
+                                            <div className={activeStep === 3 ? "content-list-item-bottom-click-here" : "content-list-item-bottom"}>
                                                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime non adipisci ex quae. Unde hic quo natus sapiente quia adipisci voluptatibus, alias voluptatem deserunt quas debitis molestiae quis maiores necessitatibus!</p>
                                             </div>
                                         </div>
                                         <div className="content-list">
-                                            <div className="content-list-item-top">
+                                            <div className="content-list-item-top" onClick={() => handleCheckClickBox(4)}>
                                                 <p>Bước 4: Thiết kế giải pháp sơ bộ </p>
                                                 <p><IoIosArrowDown className='icon-arrow-bottom font-uvn-b'/></p>
                                             </div>
-                                            <div className="content-list-item-bottom">
+                                            <div className={activeStep === 4 ? "content-list-item-bottom-click-here" : "content-list-item-bottom"}>
                                                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime non adipisci ex quae. Unde hic quo natus sapiente quia adipisci voluptatibus, alias voluptatem deserunt quas debitis molestiae quis maiores necessitatibus!</p>
                                             </div>
                                         </div>
                                         <div className="content-list">
-                                            <div className="content-list-item-top">
+                                            <div className="content-list-item-top" onClick={() => handleCheckClickBox(5)}>
+                                                
                                                 <p>Bước 5: Thuyết trình phương án và lấy ý kiến phản hồi</p>
                                                 <p><IoIosArrowDown className='icon-arrow-bottom font-uvn-b'/></p>
                                             </div>
-                                            <div className="content-list-item-bottom">
+                                            <div className={activeStep === 5 ? "content-list-item-bottom-click-here" : "content-list-item-bottom"}>
                                                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime non adipisci ex quae. Unde hic quo natus sapiente quia adipisci voluptatibus, alias voluptatem deserunt quas debitis molestiae quis maiores necessitatibus!</p>
                                             </div>
                                         </div>
                                         <div className="content-list">
-                                            <div className="content-list-item-top">
+                                            <div className="content-list-item-top" onClick={() => handleCheckClickBox(6)}>
                                                 <p>Bước 6: Xây dựng cấu trúc giá linh hoạt cho đối tác/đại lý</p>
                                                 <p><IoIosArrowDown className='icon-arrow-bottom font-uvn-b'/></p>
                                             </div>
-                                            <div className="content-list-item-bottom">
+                                            <div className={activeStep === 6 ? "content-list-item-bottom-click-here" : "content-list-item-bottom"}>
                                                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime non adipisci ex quae. Unde hic quo natus sapiente quia adipisci voluptatibus, alias voluptatem deserunt quas debitis molestiae quis maiores necessitatibus!</p>
                                             </div>
                                         </div>
                                         <div className="content-list">
-                                            <div className="content-list-item-top">
+                                            <div className={activeStep === 7 ? 'content-list-item-top' : 'content-list-item-top border-bottom'} onClick={() => handleCheckClickBox(7)}>
                                                 <p>Bước 7: Hoàn thiện bảng báo giá chi tiết</p>
                                                 <p><IoIosArrowDown className='icon-arrow-bottom font-uvn-b'/></p>
                                             </div>
-                                            <div className="content-list-item-bottom">
+                                            <div className={activeStep === 7 ? "content-list-item-bottom-click-here border-bottom" : "content-list-item-bottom"}>
                                                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime non adipisci ex quae. Unde hic quo natus sapiente quia adipisci voluptatibus, alias voluptatem deserunt quas debitis molestiae quis maiores necessitatibus!</p>
                                             </div>
                                         </div>
@@ -309,35 +319,70 @@ const PartnerShipModelSt1 = () => {
                         <div className="partership-model-bg-top-content">
                             <div className="partership-model-bg-top-content-item">
                                 <h1>QUY TRÌNH TƯ VẤN</h1>
-                                <div className="partership-model-bg-top-content-item">
+                                <div className="partership-model-bg-top-content-item-box">
                                     <div className="partership-model-bg-top-content-item-list">
                                         <div className="content-list">
-                                            <p>Bước 1: Tiếp nhận yêu cầu ban đầu</p>
-                                            <p><IoIosArrowDown className='icon-arrow-bottom font-uvn-b'/></p>
+                                            <div className="content-list-item-top border-top" onClick={() => handleCheckClickBox(11)}>
+                                                <p>Bước 1: Tiếp nhận yêu cầu ban đầu</p>
+                                                <p><IoIosArrowDown className='icon-arrow-bottom font-uvn-b'/></p>
+                                            </div>
+                                            <div className={activeStep === 11 ? "content-list-item-bottom-click-here" : "content-list-item-bottom"}>
+                                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime non adipisci ex quae. Unde hic quo natus sapiente quia adipisci voluptatibus, alias voluptatem deserunt quas debitis molestiae quis maiores necessitatibus!</p>
+                                            </div>
                                         </div>
                                         <div className="content-list">
-                                            <p>Bước 2: Phân tích bài toán thương hiệu</p>
-                                            <p><IoIosArrowDown className='icon-arrow-bottom font-uvn-b'/></p>
+                                            <div className="content-list-item-top" onClick={() => handleCheckClickBox(12)}>
+                                                <p>Bước 2: Phân tích bài toán thương hiệu</p>
+                                                <p><IoIosArrowDown className='icon-arrow-bottom font-uvn-b'/></p>
+                                            </div>
+                                            <div className={activeStep === 12 ? "content-list-item-bottom-click-here" : "content-list-item-bottom"}>
+                                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime non adipisci ex quae. Unde hic quo natus sapiente quia adipisci voluptatibus, alias voluptatem deserunt quas debitis molestiae quis maiores necessitatibus!</p>
+                                            </div>
                                         </div>
                                         <div className="content-list">
-                                            <p>Bước 3: Khảo sát và lựa chọn tư liệu mỹ thuật độc quyền</p>
-                                            <p><IoIosArrowDown className='icon-arrow-bottom font-uvn-b'/></p>
+                                            <div className="content-list-item-top" onClick={() => handleCheckClickBox(13)}>
+                                                <p>Bước 3: Khảo sát và lựa chọn tư liệu mỹ thuật độc quyền</p>
+                                                <p><IoIosArrowDown className='icon-arrow-bottom font-uvn-b'/></p>
+                                            </div>
+                                            <div className={activeStep === 13 ? "content-list-item-bottom-click-here" : "content-list-item-bottom"}>
+                                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime non adipisci ex quae. Unde hic quo natus sapiente quia adipisci voluptatibus, alias voluptatem deserunt quas debitis molestiae quis maiores necessitatibus!</p>
+                                            </div>
                                         </div>
                                         <div className="content-list">
-                                            <p>Bước 4: Thiết kế giải pháp sơ bộ </p>
-                                            <p><IoIosArrowDown className='icon-arrow-bottom font-uvn-b'/></p>
+                                            <div className="content-list-item-top" onClick={() => handleCheckClickBox(14)}>
+                                                <p>Bước 4: Thiết kế giải pháp sơ bộ </p>
+                                                <p><IoIosArrowDown className='icon-arrow-bottom font-uvn-b'/></p>
+                                            </div>
+                                            <div className={activeStep === 14 ? "content-list-item-bottom-click-here" : "content-list-item-bottom"}>
+                                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime non adipisci ex quae. Unde hic quo natus sapiente quia adipisci voluptatibus, alias voluptatem deserunt quas debitis molestiae quis maiores necessitatibus!</p>
+                                            </div>
                                         </div>
                                         <div className="content-list">
-                                            <p>Bước 5: Thuyết trình phương án và lấy ý kiến phản hồi</p>
-                                            <p><IoIosArrowDown className='icon-arrow-bottom font-uvn-b'/></p>
+                                            <div className="content-list-item-top" onClick={() => handleCheckClickBox(15)}>
+                                                <p>Bước 5: Thuyết trình phương án và lấy ý kiến phản hồi</p>
+                                                <p><IoIosArrowDown className='icon-arrow-bottom font-uvn-b'/></p>
+                                            </div>
+                                            <div className={activeStep === 15 ? "content-list-item-bottom-click-here" : "content-list-item-bottom"}>
+                                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime non adipisci ex quae. Unde hic quo natus sapiente quia adipisci voluptatibus, alias voluptatem deserunt quas debitis molestiae quis maiores necessitatibus!</p>
+                                            </div>
                                         </div>
                                         <div className="content-list">
-                                            <p>Bước 6: Xây dựng cấu trúc giá linh hoạt cho đối tác/đại lý</p>
-                                            <p><IoIosArrowDown className='icon-arrow-bottom font-uvn-b'/></p>
+                                            <div className="content-list-item-top" onClick={() => handleCheckClickBox(16)}>
+                                                <p>Bước 6: Xây dựng cấu trúc giá linh hoạt cho đối tác/đại lý</p>
+                                                <p><IoIosArrowDown className='icon-arrow-bottom font-uvn-b'/></p>
+                                            </div>
+                                            <div className={activeStep === 16 ? "content-list-item-bottom-click-here" : "content-list-item-bottom"}>
+                                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime non adipisci ex quae. Unde hic quo natus sapiente quia adipisci voluptatibus, alias voluptatem deserunt quas debitis molestiae quis maiores necessitatibus!</p>
+                                            </div>
                                         </div>
                                         <div className="content-list">
-                                            <p>Bước 7: Hoàn thiện bảng báo giá chi tiết</p>
-                                            <p><IoIosArrowDown className='icon-arrow-bottom font-uvn-b'/></p>
+                                            <div className={activeStep === 17 ? 'content-list-item-top' : 'content-list-item-top border-bottom'} onClick={() => handleCheckClickBox(17)}>
+                                                <p>Bước 7: Hoàn thiện bảng báo giá chi tiết</p>
+                                                <p><IoIosArrowDown className='icon-arrow-bottom font-uvn-b'/></p>
+                                            </div>
+                                            <div className={activeStep === 17 ? "content-list-item-bottom-click-here border-bottom" : "content-list-item-bottom"}>
+                                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime non adipisci ex quae. Unde hic quo natus sapiente quia adipisci voluptatibus, alias voluptatem deserunt quas debitis molestiae quis maiores necessitatibus!</p>
+                                            </div>
                                         </div>
                                         
                                     </div>

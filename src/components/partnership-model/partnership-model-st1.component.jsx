@@ -250,7 +250,7 @@ const PartnerShipModelSt1 = () => {
                                                 <p><IoIosArrowDown className='icon-arrow-bottom font-uvn-b'/></p>
                                             </div>
                                             <div className={activeStep === 1 ? "content-list-item-bottom-click-here" : "content-list-item-bottom"}>
-                                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime non adipisci ex quae. Unde hic quo natus sapiente quia adipisci voluptatibus, alias voluptatem deserunt quas debitis molestiae quis maiores necessitatibus!</p>
+                                                <p>Tòhe thiết lập ban điều phối dự án, lên bảng tiến độ công việc (Timeline) chi tiết đến từng ngày, phân định rõ trách nhiệm của bộ phận sản xuất, bộ phận chuyên môn nghệ thuật và bộ phận logistics.</p>
                                             </div>
                                         </div>
                                         <div className="content-list">
@@ -259,7 +259,7 @@ const PartnerShipModelSt1 = () => {
                                                 <p><IoIosArrowDown className='icon-arrow-bottom font-uvn-b'/></p>
                                             </div>
                                             <div className={activeStep === 2 ? "content-list-item-bottom-click-here" : "content-list-item-bottom"}>
-                                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime non adipisci ex quae. Unde hic quo natus sapiente quia adipisci voluptatibus, alias voluptatem deserunt quas debitis molestiae quis maiores necessitatibus!</p>
+                                                <p>Đối với mảng sản xuất quà tặng, Tòhe tiến hành kiểm tra nghiêm ngặt chất lượng nguyên liệu thô trước khi đưa vào dây chuyền sản xuất. Đối với mảng sự kiện, giáo dục, Tòhe tiến hành chuẩn bị các giáo trình, dụng cụ họa phẩm an toàn cho người tham gia.</p>
                                             </div>
                                         </div>
                                         <div className="content-list">
@@ -268,7 +268,7 @@ const PartnerShipModelSt1 = () => {
                                                 <p><IoIosArrowDown className='icon-arrow-bottom font-uvn-b'/></p>
                                             </div>
                                             <div className={activeStep === 3 ? "content-list-item-bottom-click-here" : "content-list-item-bottom"}>
-                                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime non adipisci ex quae. Unde hic quo natus sapiente quia adipisci voluptatibus, alias voluptatem deserunt quas debitis molestiae quis maiores necessitatibus!</p>
+                                                <p>Kiểm soát chặt chẽ chất lượng bán thành phẩm tại xưởng (đối với mảng quà tặng); hoặc trực tiếp điều phối mạng lưới nghệ sĩ thị giác, chuyên gia và cộng tác viên để chạy thử các chương trình, lớp học (đối với mảng giáo dục, dự án).</p>
                                             </div>
                                         </div>
                                         <div className="content-list">
@@ -277,7 +277,7 @@ const PartnerShipModelSt1 = () => {
                                                 <p><IoIosArrowDown className='icon-arrow-bottom font-uvn-b'/></p>
                                             </div>
                                             <div className={activeStep === 4 ? "content-list-item-bottom-click-here" : "content-list-item-bottom"}>
-                                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime non adipisci ex quae. Unde hic quo natus sapiente quia adipisci voluptatibus, alias voluptatem deserunt quas debitis molestiae quis maiores necessitatibus!</p>
+                                                <p>Tiến hành rà soát lỗi sản phẩm cuối cùng, đóng gói theo đúng quy chuẩn thương mại và yêu cầu nhận diện thương hiệu của doanh nghiệp trước khi xuất kho.</p>
                                             </div>
                                         </div>
                                         <div className="content-list">
@@ -287,7 +287,7 @@ const PartnerShipModelSt1 = () => {
                                                 <p><IoIosArrowDown className='icon-arrow-bottom font-uvn-b'/></p>
                                             </div>
                                             <div className={activeStep === 5 ? "content-list-item-bottom-click-here" : "content-list-item-bottom"}>
-                                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime non adipisci ex quae. Unde hic quo natus sapiente quia adipisci voluptatibus, alias voluptatem deserunt quas debitis molestiae quis maiores necessitatibus!</p>
+                                                <p>Tòhe tiến hành bàn giao sản phẩm quà tặng đến hệ thống kho bãi của doanh nghiệp đúng tiến độ kèm đầy đủ chứng từ; hoặc hoàn thành thực hiện thực địa các hạng mục chiến dịch cộng đồng, bàn giao kho dữ liệu hình ảnh, thước phim tư liệu để doanh nghiệp làm truyền thông. </p>
                                             </div>
                                         </div>
                                         <div className="content-list">
@@ -296,7 +296,7 @@ const PartnerShipModelSt1 = () => {
                                                 <p><IoIosArrowDown className='icon-arrow-bottom font-uvn-b'/></p>
                                             </div>
                                             <div className={activeStep === 6 ? "content-list-item-bottom-click-here" : "content-list-item-bottom"}>
-                                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime non adipisci ex quae. Unde hic quo natus sapiente quia adipisci voluptatibus, alias voluptatem deserunt quas debitis molestiae quis maiores necessitatibus!</p>
+                                                <p>Hai bên tiến hành ký biên bản nghiệm thu tổng thể dự án. Tòhe hoàn thiện các thủ tục quyết toán tài chính, xuất hóa đơn VAT theo đúng quy định pháp luật.</p>
                                             </div>
                                         </div>
                                         <div className="content-list">
@@ -305,7 +305,7 @@ const PartnerShipModelSt1 = () => {
                                                 <p><IoIosArrowDown className='icon-arrow-bottom font-uvn-b'/></p>
                                             </div>
                                             <div className={activeStep === 7 ? "content-list-item-bottom-click-here border-bottom" : "content-list-item-bottom"}>
-                                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime non adipisci ex quae. Unde hic quo natus sapiente quia adipisci voluptatibus, alias voluptatem deserunt quas debitis molestiae quis maiores necessitatibus!</p>
+                                                <p>Tòhe gửi doanh nghiệp báo cáo tổng kết với các số liệu định lượng chính xác, chân thực (Số tiền bản quyền thực tế đã trao tận tay gia đình các nghệ sĩ nhí, số lượng trẻ đặc biệt được tiếp cận lớp học, số địa điểm được chuyển giao công nghệ sân chơi...). Doanh nghiệp nghiệm thu báo cáo để làm minh chứng hoàn tất trách nhiệm xã hội và phục vụ truyền thông.</p>
                                             </div>
                                         </div>
                                         
@@ -327,7 +327,7 @@ const PartnerShipModelSt1 = () => {
                                                 <p><IoIosArrowDown className='icon-arrow-bottom font-uvn-b'/></p>
                                             </div>
                                             <div className={activeStep === 11 ? "content-list-item-bottom-click-here" : "content-list-item-bottom"}>
-                                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime non adipisci ex quae. Unde hic quo natus sapiente quia adipisci voluptatibus, alias voluptatem deserunt quas debitis molestiae quis maiores necessitatibus!</p>
+                                                <p>Doanh nghiệp gửi đề xuất hợp tác, cung cấp thông tin về hình thức đồng hành mong muốn, mục tiêu chiến dịch, đối tượng hướng đến và ngân sách dự kiến.</p>
                                             </div>
                                         </div>
                                         <div className="content-list">
@@ -336,7 +336,7 @@ const PartnerShipModelSt1 = () => {
                                                 <p><IoIosArrowDown className='icon-arrow-bottom font-uvn-b'/></p>
                                             </div>
                                             <div className={activeStep === 12 ? "content-list-item-bottom-click-here" : "content-list-item-bottom"}>
-                                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime non adipisci ex quae. Unde hic quo natus sapiente quia adipisci voluptatibus, alias voluptatem deserunt quas debitis molestiae quis maiores necessitatibus!</p>
+                                                <p> Đội ngũ dự án của Tòhe tiến hành phân tích sâu về đặc điểm thương hiệu, tính cách sản phẩm và thông điệp truyền thông của doanh nghiệp để tìm ra điểm chạm phù hợp với giá trị xã hội của Tòhe.</p>
                                             </div>
                                         </div>
                                         <div className="content-list">
@@ -345,7 +345,7 @@ const PartnerShipModelSt1 = () => {
                                                 <p><IoIosArrowDown className='icon-arrow-bottom font-uvn-b'/></p>
                                             </div>
                                             <div className={activeStep === 13 ? "content-list-item-bottom-click-here" : "content-list-item-bottom"}>
-                                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime non adipisci ex quae. Unde hic quo natus sapiente quia adipisci voluptatibus, alias voluptatem deserunt quas debitis molestiae quis maiores necessitatibus!</p>
+                                                <p>Tòhe tiến hành rà soát, lựa chọn và đề xuất các tác phẩm nghệ thuật phù hợp từ kho dữ liệu ngân hàng tranh của nhóm trẻ em đặc biệt để làm chất liệu thiết kế độc bản cho doanh nghiệp.</p>
                                             </div>
                                         </div>
                                         <div className="content-list">
@@ -354,7 +354,7 @@ const PartnerShipModelSt1 = () => {
                                                 <p><IoIosArrowDown className='icon-arrow-bottom font-uvn-b'/></p>
                                             </div>
                                             <div className={activeStep === 14 ? "content-list-item-bottom-click-here" : "content-list-item-bottom"}>
-                                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime non adipisci ex quae. Unde hic quo natus sapiente quia adipisci voluptatibus, alias voluptatem deserunt quas debitis molestiae quis maiores necessitatibus!</p>
+                                                <p>Tòhe lên ý tưởng, phác thảo thiết kế dòng sản phẩm quà tặng (đối với mảng quà tặng) hoặc lên khung nội dung chương trình, kịch bản trải nghiệm thực địa (đối với mảng sự kiện, giáo dục).</p>
                                             </div>
                                         </div>
                                         <div className="content-list">
@@ -363,7 +363,7 @@ const PartnerShipModelSt1 = () => {
                                                 <p><IoIosArrowDown className='icon-arrow-bottom font-uvn-b'/></p>
                                             </div>
                                             <div className={activeStep === 15 ? "content-list-item-bottom-click-here" : "content-list-item-bottom"}>
-                                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime non adipisci ex quae. Unde hic quo natus sapiente quia adipisci voluptatibus, alias voluptatem deserunt quas debitis molestiae quis maiores necessitatibus!</p>
+                                                <p>Tòhe tổ chức buổi làm việc trực tiếp hoặc trực tuyến để trình bày chi tiết về ý tưởng thiết kế, giải pháp kỹ thuật, câu chuyện nhân văn đi kèm và tiếp nhận các ý kiến đóng góp, chỉnh sửa từ phía doanh nghiệp.</p>
                                             </div>
                                         </div>
                                         <div className="content-list">
@@ -372,7 +372,7 @@ const PartnerShipModelSt1 = () => {
                                                 <p><IoIosArrowDown className='icon-arrow-bottom font-uvn-b'/></p>
                                             </div>
                                             <div className={activeStep === 16 ? "content-list-item-bottom-click-here" : "content-list-item-bottom"}>
-                                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime non adipisci ex quae. Unde hic quo natus sapiente quia adipisci voluptatibus, alias voluptatem deserunt quas debitis molestiae quis maiores necessitatibus!</p>
+                                                <p>Tòhe áp dụng hệ thống báo giá tùy chỉnh linh hoạt theo số lượng sản phẩm cam kết hoặc mức độ đối ứng chi phí dài hạn. Chính sách chiết khấu thương mại được tối ưu hóa riêng cho các đơn vị trung gian, đại lý để đảm bảo biên lợi nhuận tốt nhất.</p>
                                             </div>
                                         </div>
                                         <div className="content-list">
@@ -381,7 +381,7 @@ const PartnerShipModelSt1 = () => {
                                                 <p><IoIosArrowDown className='icon-arrow-bottom font-uvn-b'/></p>
                                             </div>
                                             <div className={activeStep === 17 ? "content-list-item-bottom-click-here border-bottom" : "content-list-item-bottom"}>
-                                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime non adipisci ex quae. Unde hic quo natus sapiente quia adipisci voluptatibus, alias voluptatem deserunt quas debitis molestiae quis maiores necessitatibus!</p>
+                                                <p>Lập bảng báo giá cuối cùng, bóc tách chi tiết theo từng hạng mục công việc, số lượng, chất liệu và thời gian hoàn thành dựa trên phương án đã được doanh nghiệp đồng ý, làm cơ sở để chuyển sang giai đoạn ký kết.</p>
                                             </div>
                                         </div>
                                         

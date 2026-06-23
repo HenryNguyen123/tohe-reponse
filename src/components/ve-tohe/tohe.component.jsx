@@ -12,11 +12,15 @@ const ToheComponent = () => {
     const images = [
         {
             left: "/img/tohe/ve-tohe/ceo-one.png",
-            right: "/img/tohe/ve-tohe/ceo-two.png"
+            right: "/img/tohe/ve-tohe/ceo-two.png",
+            title: 'CEO: Nguyễn Đình Nguyên',
+            desc: 'Nguyễn Đình Nguyên là đồng sáng lập kiêm CEO của Tòhe - doanh nghiệp xã hội tiên phong trong lĩnh vực giáo dục sáng tạo dành cho trẻ em đặc biệt tại Việt Nam. Anh theo đuổi mô hình kết hợp nghệ thuật, kinh doanh và tác động xã hội nhằm lan tỏa các giá trị sáng tạo và phát triển bền vững cho cộng đồng.',
         },
         {
             left: "/img/tohe/ve-tohe/ceo-two.png",
-            right: "/img/tohe/ve-tohe/ceo-one.png"
+            right: "/img/tohe/ve-tohe/ceo-one.png",
+            title: 'Đồng sáng lập: Phạm Thị Ngân',
+            desc: 'hạm Thị Ngân là đồng sáng lập Tòhe, phụ trách phát triển chiến lược, truyền thông và các dự án tác động xã hội của tổ chức. Chị là một trong những gương mặt tiêu biểu trong lĩnh vực doanh nghiệp xã hội tại Việt Nam và từng được Diễn đàn Kinh tế Thế giới (WEF) vinh danh nhờ những đóng góp trong việc kết nối nghệ thuật, giáo dục và phát triển cộng đồng thông qua mô hình của Tòhe.',
         }
     ];
 
@@ -117,10 +121,10 @@ const ToheComponent = () => {
                                     </div>
                                     <div className="tohe-model-item-left-bottom">
                                         <p className='tohe-model-item-left-bottom-p-top'>
-                                            CEO: Nguyễn Đình Nguyên
+                                            {images[index].title}
                                         </p>
                                         <p className='tohe-model-item-left-bottom-p-bottom'>
-                                            Nguyễn Đình Nguyên là đồng sáng lập kiêm CEO của Tòhe - doanh nghiệp xã hội tiên phong trong lĩnh vực giáo dục sáng tạo dành cho trẻ em đặc biệt tại Việt Nam. Anh theo đuổi mô hình kết hợp nghệ thuật, kinh doanh và tác động xã hội nhằm lan tỏa các giá trị sáng tạo và phát triển bền vững cho cộng đồng.
+                                            {images[index].desc}
                                         </p>
                                     </div>
                                 </div>

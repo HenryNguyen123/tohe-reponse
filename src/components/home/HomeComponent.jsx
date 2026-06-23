@@ -21,13 +21,13 @@ const HomeComponent = () => {
         {
             img: "/img/tohe/trang-chu/v74_3.png",
             branch: "/img/tohe/trang-chu/v76_3.png",
-            title: "Xem thêm",
+            title: "Xem Chi tiết",
             page: 'unicef'
         },
         {
             img: "/img/tohe/trang-chu/v74_4.png",
             branch: "/img/tohe/trang-chu/v76_4.png",
-            title: "Mua ngay",
+            title: "Xem Chi tiết",
             page: 'tokio-marine'
         }
     ];
@@ -101,7 +101,7 @@ const HomeComponent = () => {
                     </div>
                     <div className="home-context_box_item-box-hm1">
                         <div className="box-content-box-left-hm1">
-                            <img src="/img/tohe/trang-chu/v41_3.png" alt="" className='home-img-two-hm1'/>
+                            <img src="/img/tohe/trang-chu/v41_3.png" alt="" className='home-img-two-hm1' />
                             <p>Tòhe là doanh nghiệp xã hội thành lập năm 2006 với sứ mệnh đem đến cơ hội giáo dục sáng tạo bình đẳng cho mọi trẻ em thông qua các sân chơi sáng tạo, các lớp học và dự án cộng đồng. <br/>
                                 Trên hành trình đó, Tòhe kết nối và đồng hành cùng doanh nghiệp, tổ chức và các đối tác xã hội để mở rộng thêm nhiều không gian sáng tạo ý nghĩa cho trẻ em đặc biệt thông qua các dự án cộng đồng, giáo dục và hoạt động hợp tác, phát triển quà tặng bền vững.
                                 Tòhe dành 5% doanh số bán sản phẩm để tạo thu nhập cho các nghệ sĩ đặc biệt có tranh được sử dụng.
@@ -110,7 +110,7 @@ const HomeComponent = () => {
                                 <a onClick={handleToPageContact}><ButtonOne title={'LIÊN HỆ NGAY'}/></a>
                             </div>
                         </div>
-                        <div className="box-img-box-right-hm1">
+                        <div className="box-img-box-right-hm1" style={{margin: '0 15px'}}   >
                             <img src="/img/tohe/trang-chu/v74_2.png" alt="" className='home-img-box'/>
                         </div>
                     </div>

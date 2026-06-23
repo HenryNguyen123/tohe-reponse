@@ -353,32 +353,32 @@ const TokioMarineComponent = () => {
                             </p>
                          
                             <ul style={{listStyle: 'decimal'}}>
-                                <li><a style={{color: '#000'}} href='https://www.facebook.com/'>
+                                <li><a style={{color: '#000'}} target="_blank"  href='https://www.facebook.com/share/p/1Eo8j2z2SE/'>
                                     <p>
                                         Facebook.com. (2026a). Tohe Fun. [online]                                    
                                     </p></a>
                                 </li>
-                                <li><a style={{color: '#000'}} href='https://www.facebook.com/'>
+                                <li><a style={{color: '#000'}} target="_blank"  href='https://tokiomarine.com.vn/vi/vi/du-an-xa-hoi-yeu-tron-niem-vui-%E2%80%93-hanh-trinh-gieo-vui-cua-tokio-marine.html'>
                                     <p>
                                         Administrator (2025). DỰ ÁN XÃ HỘI ‘YÊU TRỌN NIỀM VUI’ – HÀNH TRÌNH GIEO VUI CỦA TOKIO MARINE. [online] 
                                     </p></a>
                                 </li>
-                                <li><a style={{color: '#000'}} href='https://www.facebook.com/'>
+                                <li><a style={{color: '#000'}} target="_blank"  href='https://vietnamnet.vn/tokio-marine-dong-hanh-cung-du-an-giao-duc-nghe-thuat-cho-tre-tu-ky-2475934.html'>
                                     <p>
                                         News, V. (2025). Tokio Marine đồng hành cùng dự án giáo dục nghệ thuật cho trẻ tự kỷ. [online] VietNamNet News.
                                     </p></a>
                                 </li>
-                                <li><a style={{color: '#000'}} href='https://www.facebook.com/'>
+                                <li><a style={{color: '#000'}} target="_blank"  href='https://vir.com.vn/tokio-marine-vietnam-supports-children-with-autism-through-art-education-project-143696.html?fbclid=IwY2xjawSRjnNleHRuA2FlbQIxMABicmlkETFCbzR4MFFkSmtYeW9pRHNuc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHm9h1xQASTgkYbii3geZHQspOAtmId5LV5TcSgzp8dknjpKnXppfK8WKG3C9_aem_JbJ6Zkijp9dKoap9kB2_ag'>
                                     <p>
                                         Van, T. (2025) Tokio Marine Vietnam supports children with autism through art education project. [online]Vietnam Investment Review 
                                     </p></a>
                                 </li>
-                                <li><a style={{color: '#000'}} href='https://www.facebook.com/'>
+                                <li><a style={{color: '#000'}} target="_blank"  href='https://www.facebook.com/tokiomarine.vn/posts/pfbid02aEnwvg1TUdauX7kLf1qSM1rNwPKe7rMyTufZFrLhqGFE6t517L68ncSXqCYqAXofl'>
                                     <p>
                                         Facebook.com. (2026d). Tokio Marine. [online] 
                                     </p></a>
                                 </li>
-                                <li><a style={{color: '#000'}} href='https://www.facebook.com/'>
+                                <li><a style={{color: '#000'}} target="_blank"  href='https://benhviennhitrunguong.gov.vn/ngay-the-gioi-nhan-thuc-ve-tu-ky-2-4-can-yeu-thuong-thau-hieu-tre-tu-ky-va-ho-tro-tam-ly-doi-voi-cha-me-tre-tu-ky.html'>
                                     <p>
                                         Hoàng Thạch (2023). Ngày Thế giới nhận thức về tự kỷ (2-4): Cần yêu thương, thấu hiểu trẻ tự kỷ và hỗ trợ tâm lý đối với cha mẹ trẻ tự kỷ | Bệnh viện Nhi Trung ương. [online]                                      
                                     </p></a>

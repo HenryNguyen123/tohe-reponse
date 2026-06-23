@@ -295,27 +295,27 @@ const VCCAComponent = () => {
                             </p>
 
                             <ul style={{listStyle: 'decimal'}}>
-                                <li><a style={{color: '#000'}} href='https://www.facebook.com/'>
+                                <li><a style={{color: '#000'}} target="_blank"  href='https://drive.google.com/file/d/1MwuGgCYKKHbrw_DeTOBEE1PMfCIZIs98/view'>
                                     <p>
                                         2-Tohe Play_Introduction.pdf (2019). 2-Tohe Play_Introduction.pdf. [online] Google Docs.
                                     </p></a>
                                 </li>
-                                <li><a style={{color: '#000'}} href='https://www.facebook.com/'>
+                                <li><a style={{color: '#000'}} target="_blank"  href='https://www.tohe.vn/blogs/du-an-tieu-bieu/du-an-1'>
                                     <p>
                                         Công ty CP Tòhe. (2022g). Triễn lãm HÀNH TINH NHỰA. [online]
                                     </p></a>
                                 </li>
-                                <li><a style={{color: '#000'}} href='https://www.facebook.com/'>
+                                <li><a style={{color: '#000'}} target="_blank"  href='https://nhandan.vn/no-luc-giam-o-nhiem-moi-truong-tu-rac-thai-nhua-post862587.html'>
                                     <p>
                                         TRUNG (2025). Nỗ lực giảm ô nhiễm môi trường từ rác thải nhựa. [online] Báo Nhân Dân điện tử. 
                                     </p></a>
                                 </li>
-                                <li><a style={{color: '#000'}} href='https://www.facebook.com/'>
+                                <li><a style={{color: '#000'}} target="_blank"  href='https://cand.vn/trien-lam-hanh-tinh-nhua-truyen-di-thong-diep-su-dung-do-nhua-co-y-thuc-post525771.html'>
                                     <p>
                                         P.Sơn - B.Châu (Ảnh (2019). Triển lãm ‘Hành tinh nhựa’ truyền đi thông điệp sử dụng đồ nhựa có ý thức. [online] Công an Nhân dân - Hệ sinh thái truyền thông đa nền tảng.
                                     </p></a>
                                 </li>
-                                <li><a style={{color: '#000'}} href='https://www.facebook.com/'>
+                                <li><a style={{color: '#000'}} target="_blank"  href='https://vnexpress.net/trien-lam-tac-pham-nghe-thuat-lam-tu-nhua-da-qua-su-dung-3941313.html'>
                                     <p>
                                         VnExpress (2019). Triển lãm tác phẩm nghệ thuật làm từ nhựa đã qua sử dụng. [online] vnexpress.net.
                                     </p></a>

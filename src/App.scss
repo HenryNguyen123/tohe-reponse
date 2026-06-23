@@ -80,7 +80,9 @@ p{
 ul {
     list-style: none;
 }
-
+a{
+    target: "_blank"
+}
 .loading-container {
     min-height: 100vh;
     display: flex;

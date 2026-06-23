@@ -308,17 +308,17 @@ const UnicefComponent = () => {
 
 
                             <ul style={{listStyle: 'decimal'}}>
-                                <li><a style={{color: '#000'}} href='https://www.facebook.com/'>
+                                <li><a style={{color: '#000'}} target="_blank" href='https://vietnamnews.vn/life-style/538512/families-can-go-green-at-weekend-festival.html'>
                                     <p>
                                         Unicef.org. (2019). Cool Down the Earth. [online].
                                     </p></a>
                                 </li>
-                                <li><a style={{color: '#000'}} href='https://www.facebook.com/'>
+                                <li><a style={{color: '#000'}} target="_blank" href='https://www.unicef.org/eap/sites/unicef.org.eap/files/2018-06/Promising_Practices_V7_0.pdf'>
                                     <p>
                                         Báo cáo của UNICEF East Asia and Pacific Regional Office (EAPRO) (2018)                                     
                                     </p></a>
                                 </li>
-                                <li><a style={{color: '#000'}} href='https://www.facebook.com/'>
+                                <li><a style={{color: '#000'}} target="_blank" href='https://drive.google.com/file/d/1MwuGgCYKKHbrw_DeTOBEE1PMfCIZIs98/view'>
                                     <p>
                                         2-Tohe Play_Introduction.pdf (2019). 2-Tohe Play_Introduction.pdf. [online] Google Docs. 
                                     </p></a>

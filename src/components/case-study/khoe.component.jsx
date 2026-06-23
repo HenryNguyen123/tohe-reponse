@@ -322,37 +322,38 @@ const KhoeComponent = () => {
                                 NGUỒN THAM KHẢO
                             </p>
                             <ul style={{listStyle: 'decimal'}}>
-                                <li><a style={{color: '#000'}} href='https://www.facebook.com/'>
-                                    <p>
-                                        Vietnam+ (VietnamPlus (2019). Hàng loạt các hoạt động thú vị tại KHOE Creative Festival 2019. [online] Vietnam+ (VietnamPlus).
-                                    </p></a>
+                                <li><a style={{color: '#000'}} target="_blank"  href='https://www.vietnamplus.vn/hang-loat-cac-hoat-dong-thu-vi-tai-khoe-creative-festival-2019-post607926.vnp?fbclid=IwY2xjawSSLiBleHRuA2FlbQIxMQBzcnRjBmFwcF9pZBAyMjIwMzkxNzg4MjAwODkyAAEeCSQh964rS68BhFHlCtpRbGHFjUX_grbknDNAHVK7C4wdSbFxt4MwPLmpKw0_aem_LNtf817yLPxUJE1fOtAKQw'>
+                                        <p>
+                                            Vietnam+ (VietnamPlus (2019). Hàng loạt các hoạt động thú vị tại KHOE Creative Festival 2019. [online] Vietnam+ (VietnamPlus).
+                                        </p>
+                                    </a>
                                 </li>
-                                <li><a style={{color: '#000'}} href='https://www.facebook.com/'>
+                                <li><a style={{color: '#000'}} target="_blank"  href='https://drive.google.com/file/d/1MwuGgCYKKHbrw_DeTOBEE1PMfCIZIs98/view'>
                                     <p>
                                         2-Tohe Play_Introduction.pdf (2019). 2-Tohe Play_Introduction.pdf. [online] Google Docs. 
                                     </p></a>
                                 </li>
-                                <li><a style={{color: '#000'}} href='https://www.facebook.com/'>
+                                <li><a style={{color: '#000'}} target="_blank"  href='https://hanoitourist.com.vn/khoe-creative-festival-2018-epr24.html'>
                                     <p>
                                         Hanoi Tourist (2018) KHOE Creative Festival 2018. [online]
                                     </p></a>
                                 </li>
-                                <li><a style={{color: '#000'}} href='https://www.facebook.com/'>
+                                <li><a style={{color: '#000'}} target="_blank"  href='https://www.facebook.com/KHOEcreativefestival'>
                                     <p>
                                         Facebook.com. (2026a). KHOE Creative Festival. [online] 
                                     </p></a>
                                 </li>
-                                <li><a style={{color: '#000'}} href='https://www.facebook.com/'>
+                                <li><a style={{color: '#000'}} target="_blank"  href='https://toquoc.vn/video/thoa-suc-song-xanh-song-sach-tai-khoe-creative-festival-99250617.htm?fbclid=IwY2xjawSSMRJleHRuA2FlbQIxMQBzcnRjBmFwcF9pZBAyMjIwMzkxNzg4MjAwODkyAAEeg_snbI2ZtsIgHt_VEvu3LlxoBv1nscn-no1kwHWZ2gzHgdZI2qqlkepyOx0_aem_5rGFssD4XcRL-4zJM86hqQ'>
                                     <p>
                                         toquoc.vn (2019). Thỏa sức sống xanh, sống sạch tại Khoe Creative Festival. [online] toquoc.vn. 
                                     </p></a>
                                 </li>
-                                <li><a style={{color: '#000'}} href='https://www.facebook.com/'>
+                                <li><a style={{color: '#000'}} target="_blank"  href='https://hanoigrapevine.com/vi/2019/10/khoe-creative-festival-2019/'>
                                     <p>
                                         Trang thông tin nghệ thuật Hanoi Grapevine
                                     </p></a>
                                 </li>
-                                <li><a style={{color: '#000'}} href='https://www.facebook.com/'>
+                                <li><a style={{color: '#000'}} target="_blank"  href='https://vietnamnews.vn/life-style/538512/families-can-go-green-at-weekend-festival.html'>
                                     <p>
                                         vietnamnews.vn. (2026). Families can go ’green’ at weekend festival. [online] 
                                     </p></a>

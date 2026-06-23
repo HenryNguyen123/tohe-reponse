@@ -20,7 +20,7 @@ const ToheComponent = () => {
             left: "/img/tohe/ve-tohe/ceo-two.png",
             right: "/img/tohe/ve-tohe/ceo-one.png",
             title: 'Đồng sáng lập: Phạm Thị Ngân',
-            desc: 'hạm Thị Ngân là đồng sáng lập Tòhe, phụ trách phát triển chiến lược, truyền thông và các dự án tác động xã hội của tổ chức. Chị là một trong những gương mặt tiêu biểu trong lĩnh vực doanh nghiệp xã hội tại Việt Nam và từng được Diễn đàn Kinh tế Thế giới (WEF) vinh danh nhờ những đóng góp trong việc kết nối nghệ thuật, giáo dục và phát triển cộng đồng thông qua mô hình của Tòhe.',
+            desc: 'Phạm Thị Ngân là đồng sáng lập Tòhe, phụ trách phát triển chiến lược, truyền thông và các dự án tác động xã hội của tổ chức. Chị là một trong những gương mặt tiêu biểu trong lĩnh vực doanh nghiệp xã hội tại Việt Nam và từng được Diễn đàn Kinh tế Thế giới (WEF) vinh danh nhờ những đóng góp trong việc kết nối nghệ thuật, giáo dục và phát triển cộng đồng thông qua mô hình của Tòhe.',
         }
     ];
 

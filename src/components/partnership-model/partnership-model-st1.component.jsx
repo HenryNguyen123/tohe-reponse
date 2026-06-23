@@ -90,7 +90,7 @@ const PartnerShipModelSt1 = () => {
                                 </div>
                             </div>
                             <div className="box-img-box-right-hm1">
-                                <img src="/img/tohe/hinh-thuc-dong-hanh/st1/v310_4846.png" alt="" className='home-img-box'/>
+                                <img src="/img/tohe/hinh-thuc-dong-hanh/st1/v310_4846.png" style={{zIndex: '99999999'}} alt="" className='home-img-box'/>
                             </div>
                         </div>
                         <div className="partership-model-box-item-st1">
@@ -102,7 +102,7 @@ const PartnerShipModelSt1 = () => {
                                         ĐỒNG HÀNH CÙNG DOANH NGHIỆP KIẾN TẠO<br/> 
                                         GIÁ TRỊ XÃ HỘI BỀN VỮNG
                                     </p>
-                                    <img src="/img/tohe/hinh-thuc-dong-hanh/st1/v310_4854.png" alt="" />
+                                    <img src="/img/tohe/hinh-thuc-dong-hanh/st1/pd-m1.png" alt="" />
                                 </div>
                                 <div className="partership-model-box-item_item-right-st1">
                                     <ul>

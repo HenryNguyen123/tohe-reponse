@@ -171,26 +171,49 @@
                         position: relative;
                         .tohe-model-item-right-bg{
                             display: flex;
-                            .tohe-model-item-right-bg-left{
-                                width: 376px;
-                                height: 497px;
+                            .tohe-model-item-right-bg-left-box{
                                 position: absolute;
-                                display: block;
-                                left: 0;
-                                bottom: -40px;
-                                border-radius: 15px;
-                                box-shadow: 0 10px 30px rgba(6, 1, 1, 0.408);
+                                width: 376px;
+                                // left: 0;
+                                // top: 0;
+                                height: 497px;
+                                .tohe-model-item-right-bg-left{
+                                    width: 100px;
+                                    position: absolute;
+                                    display: block;
+                                    background-size: cover;
+                                    background-position: center;
+                                    background-repeat: no-repeat;
+                                    width: 100%;
+                                    height: 500px;
+                                    left: 0;
+                                    bottom: -40px;
+                                    border-radius: 15px;
+                                    box-shadow: 0 10px 30px rgba(6, 1, 1, 0.408);
+                                    z-index: 9999;
+                                }
+
                             }
-                            .tohe-model-item-right-bg-right{
+                            .tohe-model-item-right-bg-right-box{
+                                position: absolute;
                                 width: 220px;
                                 height: 292px;
-                                position: absolute;
-                                display: block;
-                                bottom: -40px;
-                                right: -20px;
-                                border-radius: 15px;
-                                box-shadow: 0 10px 30px rgba(133, 132, 132, 0.633);
-                                z-index: 1;
+                                bottom: 0;
+                                right: 0;
+                                .tohe-model-item-right-bg-right{
+                                    width: 220px;
+                                    height: 292px;
+                                    position: absolute;
+                                    display: block;
+                                    background-size: cover;
+                                    background-position: center;
+                                    background-repeat: no-repeat;
+                                    bottom: -40px;
+                                    right: -20px;
+                                    border-radius: 15px;
+                                    box-shadow: 0 10px 30px rgba(133, 132, 132, 0.633);
+                                    z-index: 1;
+                                }
                             }
                             &::before {
                                 content: "";

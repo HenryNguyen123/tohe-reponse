@@ -176,7 +176,7 @@ const PartnerShipModelTh4 = () => {
                                     <div className="partnership-model-business-content-bg">
                                         <div className="background-content"></div>
                                         <div className="partnership-model-business-content-bg-item">
-                                            <img src="/img/tohe/hinh-thuc-dong-hanh/th4/v356_628.png" alt="" />
+                                            <img src="/img/tohe/hinh-thuc-dong-hanh/th4/bg-pd-5.png" alt="" />
                                         </div>
                                     </div>
                                     <div className="partnership-model-business-content-text">
@@ -241,7 +241,7 @@ const PartnerShipModelTh4 = () => {
                                     <div className="partnership-model-business-content-bg">
                                         <div className="background-content"></div>
                                         <div className="partnership-model-business-content-bg-item">
-                                            <img src="/img/tohe/hinh-thuc-dong-hanh/th4/v356_632.png" alt="" />
+                                            <img src="/img/tohe/hinh-thuc-dong-hanh/th4/bg-pd-6.png" alt="" />
                                         </div>
                                     </div>
                                 </div>

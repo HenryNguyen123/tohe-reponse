@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import './tohe.css.scss'
 import ButtonArrowRight from '../../camoms/button/button-arrow-right.camon copy';
 import { useNavigate } from 'react-router-dom';
@@ -8,8 +8,27 @@ const ToheComponent = () => {
     const handleToPage = () => {
         navigate(`/partnership-model`)
     }
+
+    const images = [
+        {
+            left: "/img/tohe/ve-tohe/ceo-one.png",
+            right: "/img/tohe/ve-tohe/ceo-two.png"
+        },
+        {
+            left: "/img/tohe/ve-tohe/ceo-two.png",
+            right: "/img/tohe/ve-tohe/ceo-one.png"
+        }
+    ];
+
+    const [index, setIndex] = useState(0);
     useEffect(() => {
         document.title = 'Về TòHe';
+
+        const interval = setInterval(() => {
+            setIndex((prev) => (prev + 1) % images.length);
+        }, 2000);
+
+        return () => clearInterval(interval);
     }, [])
     return(
         <>
@@ -107,8 +126,12 @@ const ToheComponent = () => {
                                 </div>
                                 <div className="tohe-model-item-right">
                                     <div className="tohe-model-item-right-bg">
-                                        <img src="/img/tohe/ve-tohe/ceo-one.png" alt=""  className='tohe-model-item-right-bg-left'/>
-                                        <img src="/img/tohe/ve-tohe/ceo-two.png" alt=""  className='tohe-model-item-right-bg-right'/>
+                                        <div className="tohe-model-item-right-bg-left-box">
+                                            <div className="tohe-model-item-right-bg-left " style={{ backgroundImage: `url(${images[index].left})` }}></div>
+                                        </div>
+                                        <div className="tohe-model-item-right-bg-right-box">
+                                            <div className="tohe-model-item-right-bg-right " style={{ backgroundImage: `url(${images[index].right})` }}></div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>

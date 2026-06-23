@@ -39,12 +39,28 @@
                     }
                 }
                 .box-img-box-right-hm1{
+                    position: relative;
                     .home-img-box{
                         width: 650px;
                         height: 400px;
-                        margin-left: -120px;
-                        // margin-top: 46px;
-                        // border-radius: 21px;
+                        // margin-left: -120px;
+                    }
+                    &::before {
+                        content: "";
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 30%;
+                        height: 100%;
+                        background: linear-gradient(
+                            to right,
+                            rgba(212, 212, 212, 0.986),
+                            rgba(244, 244, 244, 0)
+                        );
+                        z-index: 99;
+                    }
+                    &.no-before::before {
+                        display: none;
                     }
                 }
             }

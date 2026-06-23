@@ -49,7 +49,7 @@ const PartnerShipModelNd2 = () => {
                                     <ButtonArrowRight title={'LIÊN HỆ NGAY'}/>
                                 </div> */}
                             </div>
-                            <div className="box-img-box-right-hm1">
+                            <div className="box-img-box-right-hm1 no-before">
                                 <img src="/img/tohe/hinh-thuc-dong-hanh/nd2/v342_687.png" alt="" className='home-img-box'/>
                             </div>
                         </div>
@@ -177,7 +177,7 @@ const PartnerShipModelNd2 = () => {
                                     <div className="partnership-model-business-content-bg">
                                         <div className="background-content"></div>
                                         <div className="partnership-model-business-content-bg-item">
-                                            <img src="/img/tohe/hinh-thuc-dong-hanh/nd2/v342_851.png" alt="" />
+                                            <img src="/img/tohe/hinh-thuc-dong-hanh/nd2/bg-pd-1.png" alt="" />
                                         </div>
                                     </div>
                                     <div className="partnership-model-business-content-text">
@@ -242,7 +242,7 @@ const PartnerShipModelNd2 = () => {
                                     <div className="partnership-model-business-content-bg">
                                         <div className="background-content"></div>
                                         <div className="partnership-model-business-content-bg-item">
-                                            <img src="/img/tohe/hinh-thuc-dong-hanh/nd2/v342_905.png" alt="" />
+                                            <img src="/img/tohe/hinh-thuc-dong-hanh/nd2/bg-pd-2.png" alt="" />
                                         </div>
                                     </div>
                                 </div>

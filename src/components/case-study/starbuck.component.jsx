@@ -295,30 +295,37 @@ const StarBuckComponent = () => {
                          
                             <ul style={{listStyle: 'decimal'}}>
                                 <li>
-                                    <a style={{color: '#000'}} target="_blank"  href='https://dantri.com.vn/kinh-doanh/canifa-ket-hop-tohe-ra-mat-du-an-cong-dong-yeu-thuong-co-tat-20250124095414061.htm'>
+                                    <a style={{color: '#000'}} target="_blank"  href='https://en.vietnamplus.vn/vietnams-fb-market-focuses-on-sustainable-growth-post311854.vnp'>
                                     <p>
-                                        Trường Thịnh (2025). Canifa kết hợp Tòhe ra mắt dự án cộng đồng ‘“Yêu thương có tất”’. [online] Báo điện tử Dân trí.
+                                        Vietnam+ (2025). Vietnam’s F&B Market focuses on sustainable growth.
                                     </p>
                                     </a>
                                 </li>
                                 <li>
-                                    <a style={{color: '#000'}} target="_blank"  href='https://afamily.vn/chuyen-chua-ke-ve-su-ra-doi-cua-mot-bo-san-pham-dac-biet-nghe-ten-da-thay-yeu-thuong-20250820163922723.chn'>
+                                    <a style={{color: '#000'}} target="_blank"  href='https://stories.starbucks.com/asia/stories/2023/starbucks-celebrates-10-years-in-vietnam/'>
                                     <p>
-                                        Thùy Anh (2025). Ra mắt bộ sản phẩm Yêu thương có tất kết hợp Canifa và Tòhe vì cộng đồng. [online] afamily.
+                                        Starbucks (2023). Starbucks celebrates 10 years in Vietnam. Starbucks Stories Asia. 
                                     </p>
                                     </a>
                                 </li>
                                 <li>
-                                    <a style={{color: '#000'}} target="_blank"  href='https://markettimes.vn/chuyen-chua-ke-ve-su-ra-doi-cua-mot-bo-san-pham-dac-biet-nghe-ten-da-thay-yeu-thuong-88957.html'>
+                                    <a style={{color: '#000'}} target="_blank"  href='https://vtcnews.vn/starbucks-viet-nam-hop-tac-voi-tohe-ar478010.html'>
                                     <p>
-                                        Thùy Anh (2025a). Chuyện chưa kể về sự ra đời của một bộ sản phẩm đặc biệt, nghe tên đã thấy ‘yêu thương’. [online] Báo Markettimes.
+                                        Ngọc An (2019). Starbucks Việt Nam hợp tác với Tòhe. Báo điện tử VTC News. 
                                     </p>
                                     </a>
                                 </li>
                                 <li>
-                                    <a style={{color: '#000'}} target="_blank"  href='https://www.facebook.com/'>
+                                    <a style={{color: '#000'}} target="_blank"  href='https://www.facebook.com/tohestyle/posts/-t%C3%B2he-starbucks-vi%E1%BB%87t-nam-h%C3%A0nh-tr%C3%ACnh-gieo-vui-nh%E1%BB%AFng-n%E1%BB%A5-c%C6%B0%E1%BB%9Ditrong-6-n%C4%83m-qua-t%C3%B2he-%C4%91/1052926540196129/'>
                                     <p>
-                                        Facebook.com. (2026). Tohe Social Enterprise. [online].
+                                        Tòhe Style (2026). Tòhe & Starbucks Việt Nam: Hành trình gieo vui những nụ cười trong 6 năm qua. Facebook.
+                                    </p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a style={{color: '#000'}} target="_blank"  href='https://www.tohe.vn/blogs/the-gioi-hon-nhien/tohe-starbucks-viet-nam-qua-tang-doanh-nghiep-nam-thu-6'>
+                                    <p>
+                                        Công ty CP Tòhe. (2022). Tòhe & Starbucks Việt Nam - Quà Tặng Doanh Nghiệp Năm Thứ 6. 
                                     </p>
                                     </a>
                                 </li>

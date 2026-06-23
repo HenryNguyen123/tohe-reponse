@@ -338,28 +338,28 @@ const CanifaComponent = () => {
                          
                             <ul style={{listStyle: 'decimal'}}>
                                 <li>
-                                    <a style={{color: '#000'}} href='https://dantri.com.vn/kinh-doanh/canifa-ket-hop-tohe-ra-mat-du-an-cong-dong-yeu-thuong-co-tat-20250124095414061.htm'>
+                                    <a style={{color: '#000'}} target="_blank"  href='https://dantri.com.vn/kinh-doanh/canifa-ket-hop-tohe-ra-mat-du-an-cong-dong-yeu-thuong-co-tat-20250124095414061.htm'>
                                     <p>
                                         Trường Thịnh (2025). Canifa kết hợp Tòhe ra mắt dự án cộng đồng ‘“Yêu thương có tất”’. [online] Báo điện tử Dân trí.
                                     </p>
                                     </a>
                                 </li>
                                 <li>
-                                    <a style={{color: '#000'}} href='https://afamily.vn/chuyen-chua-ke-ve-su-ra-doi-cua-mot-bo-san-pham-dac-biet-nghe-ten-da-thay-yeu-thuong-20250820163922723.chn'>
+                                    <a style={{color: '#000'}} target="_blank"  href='https://afamily.vn/chuyen-chua-ke-ve-su-ra-doi-cua-mot-bo-san-pham-dac-biet-nghe-ten-da-thay-yeu-thuong-20250820163922723.chn'>
                                     <p>
                                         Thùy Anh (2025). Ra mắt bộ sản phẩm Yêu thương có tất kết hợp Canifa và Tòhe vì cộng đồng. [online] afamily.
                                     </p>
                                     </a>
                                 </li>
                                 <li>
-                                    <a style={{color: '#000'}} href='https://markettimes.vn/chuyen-chua-ke-ve-su-ra-doi-cua-mot-bo-san-pham-dac-biet-nghe-ten-da-thay-yeu-thuong-88957.html'>
+                                    <a style={{color: '#000'}} target="_blank"  href='https://markettimes.vn/chuyen-chua-ke-ve-su-ra-doi-cua-mot-bo-san-pham-dac-biet-nghe-ten-da-thay-yeu-thuong-88957.html'>
                                     <p>
                                         Thùy Anh (2025a). Chuyện chưa kể về sự ra đời của một bộ sản phẩm đặc biệt, nghe tên đã thấy ‘yêu thương’. [online] Báo Markettimes.
                                     </p>
                                     </a>
                                 </li>
                                 <li>
-                                    <a style={{color: '#000'}} href='https://www.facebook.com/'>
+                                    <a style={{color: '#000'}} target="_blank"  href='https://www.facebook.com/'>
                                     <p>
                                         Facebook.com. (2026). Tohe Social Enterprise. [online]. 
                                     </p>

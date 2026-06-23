@@ -26,7 +26,7 @@ const HomeComponent = () => {
         },
         {
             img: "/img/tohe/trang-chu/v74_4.png",
-            branch: "/img/tohe/trang-chu/v76_4.png",
+            branch: "/img/tohe/trang-chu/icon-tokio.png",
             title: "Xem Chi tiết",
             page: 'tokio-marine'
         }

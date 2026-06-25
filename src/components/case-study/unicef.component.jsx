@@ -308,7 +308,7 @@ const UnicefComponent = () => {
 
 
                             <ul style={{listStyle: 'decimal'}}>
-                                <li><a style={{color: '#000'}} target="_blank" href='https://vietnamnews.vn/life-style/538512/families-can-go-green-at-weekend-festival.html'>
+                                <li><a style={{color: '#000'}} target="_blank" href='https://www.unicef.org/vietnam/stories/cool-down-earth'>
                                     <p>
                                         Unicef.org. (2019). Cool Down the Earth. [online].
                                     </p></a>

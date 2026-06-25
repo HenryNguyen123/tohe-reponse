@@ -49,7 +49,7 @@ const PartnerShipModelSt1 = () => {
                 Icon: BsBook ,
                 title: "Đồng hành giáo dục và sân chơi sáng tạo",
                 description:
-                    "CDoanh nghiệp/Tổ chức đồng hành cùng Tòhe với vai trò tài trợ, đồng tổ chức hoặc đối tác đối ứng chi phí cho các mô hình giáo dục sáng tạo dành cho trẻ em đặc biệt và gia đình.",
+                    "Doanh nghiệp/Tổ chức đồng hành cùng Tòhe với vai trò tài trợ, đồng tổ chức hoặc đối tác đối ứng chi phí cho các mô hình giáo dục sáng tạo dành cho trẻ em đặc biệt và gia đình.",
                 items: [
                     "Đồng hành tổ chức sự kiện, sân chơi và hoạt động trải nghiệm nghệ thuật cho trẻ em và gia đình",
                     "Tài trợ, hỗ trợ lớp học, trại hè và sân chơi nghệ thuật cho trẻ em đặc biệt",
@@ -318,12 +318,12 @@ const PartnerShipModelSt1 = () => {
                         <div className="background-content"></div>
                         <div className="partership-model-bg-top-content">
                             <div className="partership-model-bg-top-content-item">
-                                <h1>QUY TRÌNH TƯ VẤN</h1>
+                                <h1>QUY TRÌNH TRIỂN KHAI</h1>
                                 <div className="partership-model-bg-top-content-item-box">
                                     <div className="partership-model-bg-top-content-item-list">
                                         <div className="content-list">
                                             <div className="content-list-item-top border-top" onClick={() => handleCheckClickBox(11)}>
-                                                <p>Bước 1: Tiếp nhận yêu cầu ban đầu</p>
+                                                <p>Bước 1: Lập kế hoạch vận hành chi tiết</p>
                                                 <p><IoIosArrowDown className='icon-arrow-bottom font-uvn-b'/></p>
                                             </div>
                                             <div className={activeStep === 11 ? "content-list-item-bottom-click-here" : "content-list-item-bottom"}>
@@ -332,7 +332,7 @@ const PartnerShipModelSt1 = () => {
                                         </div>
                                         <div className="content-list">
                                             <div className="content-list-item-top" onClick={() => handleCheckClickBox(12)}>
-                                                <p>Bước 2: Phân tích bài toán thương hiệu</p>
+                                                <p>Bước 2: Kiểm duyệt chất lượng nguyên liệu đầu vào</p>
                                                 <p><IoIosArrowDown className='icon-arrow-bottom font-uvn-b'/></p>
                                             </div>
                                             <div className={activeStep === 12 ? "content-list-item-bottom-click-here" : "content-list-item-bottom"}>
@@ -341,7 +341,7 @@ const PartnerShipModelSt1 = () => {
                                         </div>
                                         <div className="content-list">
                                             <div className="content-list-item-top" onClick={() => handleCheckClickBox(13)}>
-                                                <p>Bước 3: Khảo sát và lựa chọn tư liệu mỹ thuật độc quyền</p>
+                                                <p>Bước 3: Giám sát quy trình sản xuất và vận hành thực địa</p>
                                                 <p><IoIosArrowDown className='icon-arrow-bottom font-uvn-b'/></p>
                                             </div>
                                             <div className={activeStep === 13 ? "content-list-item-bottom-click-here" : "content-list-item-bottom"}>
@@ -350,7 +350,7 @@ const PartnerShipModelSt1 = () => {
                                         </div>
                                         <div className="content-list">
                                             <div className="content-list-item-top" onClick={() => handleCheckClickBox(14)}>
-                                                <p>Bước 4: Thiết kế giải pháp sơ bộ </p>
+                                                <p>Bước 4: Đóng gói thành phẩm và kiểm định cuối cùng</p>
                                                 <p><IoIosArrowDown className='icon-arrow-bottom font-uvn-b'/></p>
                                             </div>
                                             <div className={activeStep === 14 ? "content-list-item-bottom-click-here" : "content-list-item-bottom"}>
@@ -359,7 +359,7 @@ const PartnerShipModelSt1 = () => {
                                         </div>
                                         <div className="content-list">
                                             <div className="content-list-item-top" onClick={() => handleCheckClickBox(15)}>
-                                                <p>Bước 5: Thuyết trình phương án và lấy ý kiến phản hồi</p>
+                                                <p>Bước 5: Vận chuyển và bàn giao hạng mục</p>
                                                 <p><IoIosArrowDown className='icon-arrow-bottom font-uvn-b'/></p>
                                             </div>
                                             <div className={activeStep === 15 ? "content-list-item-bottom-click-here" : "content-list-item-bottom"}>
@@ -368,7 +368,7 @@ const PartnerShipModelSt1 = () => {
                                         </div>
                                         <div className="content-list">
                                             <div className="content-list-item-top" onClick={() => handleCheckClickBox(16)}>
-                                                <p>Bước 6: Xây dựng cấu trúc giá linh hoạt cho đối tác/đại lý</p>
+                                                <p>Bước 6: Nghiệm thu và quyết toán tài chính</p>
                                                 <p><IoIosArrowDown className='icon-arrow-bottom font-uvn-b'/></p>
                                             </div>
                                             <div className={activeStep === 16 ? "content-list-item-bottom-click-here" : "content-list-item-bottom"}>
@@ -377,7 +377,7 @@ const PartnerShipModelSt1 = () => {
                                         </div>
                                         <div className="content-list">
                                             <div className={activeStep === 17 ? 'content-list-item-top' : 'content-list-item-top border-bottom'} onClick={() => handleCheckClickBox(17)}>
-                                                <p>Bước 7: Hoàn thiện bảng báo giá chi tiết</p>
+                                                <p>Bước 7: Gửi báo cáo tác động xã hội</p>
                                                 <p><IoIosArrowDown className='icon-arrow-bottom font-uvn-b'/></p>
                                             </div>
                                             <div className={activeStep === 17 ? "content-list-item-bottom-click-here border-bottom" : "content-list-item-bottom"}>

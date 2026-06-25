@@ -359,7 +359,7 @@ const CanifaComponent = () => {
                                     </a>
                                 </li>
                                 <li>
-                                    <a style={{color: '#000'}} target="_blank"  href='https://www.facebook.com/'>
+                                    <a style={{color: '#000'}} target="_blank"  href='https://www.facebook.com/share/p/1Cz7rS9aoe/'>
                                     <p>
                                         Facebook.com. (2026). Tohe Social Enterprise. [online]. 
                                     </p>

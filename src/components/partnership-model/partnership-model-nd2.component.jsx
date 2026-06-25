@@ -50,7 +50,7 @@ const PartnerShipModelNd2 = () => {
                                 </div> */}
                             </div>
                             <div className="box-img-box-right-hm1 no-before">
-                                <img src="/img/tohe/hinh-thuc-dong-hanh/nd2/v342_687.png" alt="" className='home-img-box'/>
+                                <img src="/img/tohe/hinh-thuc-dong-hanh/nd2/bg-dh2.png" alt="" className='home-img-box'/>
                             </div>
                         </div>
 

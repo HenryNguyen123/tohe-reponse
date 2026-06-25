@@ -20,7 +20,7 @@ const BoxTitle = ({ Icon, title, description, items, page }) => {
                     </p>
                 </div>
 
-                <p>
+                <p className='text-desc'>
                     {description}
                 </p>
 
@@ -28,7 +28,7 @@ const BoxTitle = ({ Icon, title, description, items, page }) => {
                     {
                         items.map((item, index) => (
                             <li key={index}>
-                                {item}
+                                <p>{item}</p>
                             </li>
                         ))
                     }
